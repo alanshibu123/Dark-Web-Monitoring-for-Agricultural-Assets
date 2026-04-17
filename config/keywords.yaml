@@ -1,0 +1,44 @@
+# Dark Web Monitoring Keywords for Agriculture Assets
+# You can edit this file without restarting the application
+
+domains:
+  - "agrifarm.com"
+  - "harvestdata.co"
+  - "cropmonitor.org"
+  - "smartirrigation.io"
+
+proprietary_terms:
+  - "YieldPredict v2"
+  - "SoilSense Algorithm"
+  - "CropHealth API"
+  - "HarvestForecast Model"
+
+sensitive_data_types:
+  - "passport"
+  - "ssn"
+  - "credit card"
+  - "bank account"
+  - "passwords"
+  - "database dump"
+
+agriculture_terms:
+  - "crop yield data"
+  - "soil composition"
+  - "irrigation schedule"
+  - "fertilizer formula"
+  - "pesticide mixture"
+  - "harvest forecast"
+  - "livestock database"
+  - "supply chain manifest"
+  - "grain inventory"
+  - "livestock health records"
+
+credential_patterns:
+  - "password:"
+  - "login:"
+  - "username:"
+  - "api_key:"
+  - "secret:"
+  - "token:"
+  - "@gmail.com"
+  - "@agrifarm.com"

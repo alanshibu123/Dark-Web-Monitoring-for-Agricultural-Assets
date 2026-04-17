@@ -1,0 +1,1043 @@
+2026-04-13 09:43:30,766 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 09:43:35,607 - config.settings - INFO - Configuration validation passed
+2026-04-13 09:43:35,608 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-13 09:43:35,608 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-13 09:43:37,614 - tor_network.tor_manager - INFO - Starting Tor process...
+2026-04-13 09:43:38,453 - tor_network.tor_manager - ERROR - Failed to start Tor process: You cannot launch tor with a timeout on Windows
+2026-04-13 09:43:38,455 - tor_network.tor_manager - ERROR -  Failed to setup Tor connection: You cannot launch tor with a timeout on Windows
+2026-04-13 09:56:01,376 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 09:59:09,350 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 10:09:28,537 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 10:09:32,255 - config.settings - INFO - Configuration validation passed
+2026-04-13 10:09:32,256 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-13 10:09:32,256 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-13 10:09:32,271 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-13 10:09:32,307 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-13 10:09:32,308 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-13 10:09:32,309 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:09:32,310 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-13 10:09:32,324 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-13 10:09:35,915 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 36
+2026-04-13 10:09:35,917 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:09:35,918 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-13 10:09:35,919 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:09:35,921 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:09:37,445 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-13 10:09:37,446 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:09:37,447 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 107.189.10.175
+2026-04-13 10:09:37,490 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-13 10:09:37,505 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-13 10:09:37,506 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:09:37,507 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:09:37,510 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:09:50,861 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion', port=
+2026-04-13 10:09:58,895 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:09:59,563 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-13 10:09:59,564 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:09:59,565 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 107.189.10.175 -> New IP: 107.189.10.175
+2026-04-13 10:09:59,566 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-13 10:09:59,566 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:09:59,567 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:09:59,569 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:10:15,239 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion', port=
+2026-04-13 10:10:23,284 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:10:23,287 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:10:24,041 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-13 10:10:24,078 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:10:24,179 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 107.189.10.175 -> New IP: 185.220.101.5
+2026-04-13 10:10:24,279 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-13 10:10:24,418 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:10:24,448 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:10:24,497 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:10:36,632 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion', port=
+2026-04-13 10:10:36,633 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion after 3 attempts
+2026-04-13 10:10:36,634 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:10:41,635 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-13 10:10:41,635 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:10:41,639 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-13 10:10:41,642 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:10:49,672 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:10:49,675 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:10:50,764 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-13 10:10:50,765 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:10:50,766 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.5 -> New IP: 51.38.225.46
+2026-04-13 10:10:50,767 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-13 10:10:50,768 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:10:50,768 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:10:50,771 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-13 10:10:50,777 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:10:58,781 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:10:58,784 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:11:01,211 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-13 10:11:01,212 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:11:01,213 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 51.38.225.46 -> New IP: 45.84.107.33
+2026-04-13 10:11:01,213 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-13 10:11:01,214 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:11:01,215 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:11:01,216 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-13 10:11:01,218 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:11:01,220 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-13 10:11:01,220 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-13 10:11:06,223 - crawler.web_crawler - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-13 10:11:06,231 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-13 10:11:06,235 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-13 10:11:06,236 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-13 10:13:25,230 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 10:13:26,890 - config.settings - INFO - Configuration validation passed
+2026-04-13 10:13:26,893 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-13 10:13:26,894 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-13 10:13:26,896 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-13 10:13:26,929 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0012)
+2026-04-13 10:13:26,933 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-13 10:13:26,934 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:13:26,934 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-13 10:13:26,978 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-13 10:13:28,696 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 34
+2026-04-13 10:13:28,697 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:13:28,698 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-13 10:13:28,699 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:13:28,702 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:13:29,483 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-13 10:13:29,484 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:13:29,485 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 45.84.107.33
+2026-04-13 10:13:29,502 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-13 10:13:29,514 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-13 10:13:29,515 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:13:29,518 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:13:29,521 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:13:40,647 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-13 10:13:41,055 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:13:41,066 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-13 10:13:41,067 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 10:13:41,071 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 10:13:41,188 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 10:13:41,188 - crawler.web_crawler - INFO - Processed: 0 emails,0 credentials
+2026-04-13 10:13:46,189 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-13 10:13:46,189 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:13:46,191 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-13 10:13:46,194 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:13:54,225 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:13:54,673 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-13 10:13:54,675 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:13:54,675 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.84.107.33 -> New IP: 45.84.107.33
+2026-04-13 10:13:54,676 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-13 10:13:54,677 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:13:54,678 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:13:54,681 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-13 10:13:54,714 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:14:02,719 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:14:02,725 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:14:04,197 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-13 10:14:04,197 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:14:04,198 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.84.107.33 -> New IP: 185.220.101.181
+2026-04-13 10:14:04,198 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-13 10:14:04,199 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:14:04,199 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:14:04,206 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-13 10:14:04,213 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:14:04,225 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-13 10:14:04,227 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-13 10:14:09,232 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:14:09,233 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:14:09,236 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:14:19,457 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-13 10:14:19,823 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:14:19,830 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-13 10:14:19,830 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 10:14:19,833 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 10:14:29,491 - filelock - DEBUG - Attempting to acquire lock 2559137692176 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:14:29,497 - filelock - DEBUG - Lock 2559137692176 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:14:29,551 - filelock - DEBUG - Attempting to release lock 2559137692176 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:14:29,554 - filelock - DEBUG - Lock 2559137692176 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:14:29,622 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:14:29,623 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:14:29,625 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 10:14:29,627 - crawler.web_crawler - INFO - Processed: 1 emails,2 credentials
+2026-04-13 10:14:34,628 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:34,629 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:34,635 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:14:36,714 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-13 10:14:37,067 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:14:37,079 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-13 10:14:37,080 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-13 10:14:37,092 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-13 10:14:37,101 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,101 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,105 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,109 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,110 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,110 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,111 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,111 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,111 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,115 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,118 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,128 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,130 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,134 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,140 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,142 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,143 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,144 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,145 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,146 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,146 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,147 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,147 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,147 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,147 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,148 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,149 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,149 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,150 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,150 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,150 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,150 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,151 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,151 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,151 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,151 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,151 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:14:37,160 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-13 10:14:37,163 - crawler.web_crawler - INFO - Processed: 0 emails,5 credentials
+2026-04-13 10:14:42,166 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:14:42,167 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:14:42,802 - tor_network.tor_manager - WARNING - Connection error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-13 10:14:50,846 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:14:50,850 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:14:51,812 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-13 10:14:51,813 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:14:51,814 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.181 -> New IP: 45.141.215.238
+2026-04-13 10:14:51,814 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-13 10:14:51,815 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:14:51,816 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:14:51,818 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:15:03,103 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 10:15:03,107 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 10:15:03,108 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:15:03,896 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 10:15:03,897 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 10:15:03,899 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-13 10:15:03,901 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:15:08,903 - crawler.web_crawler - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-13 10:15:08,905 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 10:15:08,906 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 10:15:08,909 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 10:15:08,910 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 10:15:08,911 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 10:15:18,029 - filelock - DEBUG - Attempting to acquire lock 2559138335632 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:15:18,033 - filelock - DEBUG - Lock 2559138335632 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:15:18,040 - filelock - DEBUG - Attempting to release lock 2559138335632 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:15:18,044 - filelock - DEBUG - Lock 2559138335632 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:15:18,120 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:15:18,121 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:15:18,123 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 10:15:18,124 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-13 10:15:18,126 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-13 10:15:18,137 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,137 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,138 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,138 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,140 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,140 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,141 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,141 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,141 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,142 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,142 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,143 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,146 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,147 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,149 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,156 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,157 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,158 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,159 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,160 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,160 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,161 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,162 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,163 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,163 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,164 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,165 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,165 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,166 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,166 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,171 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,172 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,172 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,173 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,174 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,174 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,175 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:15:18,181 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-13 10:15:18,197 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-13 10:15:18,203 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10058] A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call"
+2026-04-13 10:15:18,205 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-13 10:55:28,269 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 10:55:29,574 - preprocessor.data_cleaner - INFO - Processing document from http://darkweb.onion/agrifarm_leak (845 chars)
+2026-04-13 10:55:29,575 - preprocessor.data_cleaner - DEBUG - Cleaned text: 845 -> 609 chars
+2026-04-13 10:57:26,010 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 10:57:27,276 - config.settings - INFO - Configuration validation passed
+2026-04-13 10:57:27,277 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-13 10:57:27,279 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-13 10:57:27,281 - detector.keyword_detector - INFO - Compiled patterns for 5 categories
+2026-04-13 10:57:27,282 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-13 10:57:27,283 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-13 10:57:27,307 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0009)
+2026-04-13 10:57:27,308 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-13 10:57:27,308 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:57:27,308 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-13 10:57:27,313 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-13 10:57:29,462 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-13 10:57:29,464 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:57:29,464 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-13 10:57:29,465 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:57:29,468 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:57:31,095 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-13 10:57:31,097 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:57:31,097 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 45.80.158.143
+2026-04-13 10:57:31,099 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-13 10:57:31,100 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:57:31,100 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:57:31,104 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:57:41,031 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-13 10:57:42,158 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:57:42,170 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-13 10:57:42,171 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 10:57:42,175 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 10:57:42,239 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 10:57:42,240 - crawler.web_crawler - INFO - Processed: 0 emails,0 credentials
+2026-04-13 10:57:47,241 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-13 10:57:47,241 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:57:47,243 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-13 10:57:47,247 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:57:55,281 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:57:56,286 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-13 10:57:56,287 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:57:56,288 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.80.158.143 -> New IP: 45.80.158.143
+2026-04-13 10:57:56,289 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-13 10:57:56,291 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:57:56,291 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:57:56,294 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-13 10:57:56,297 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:58:04,302 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 10:58:04,305 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 10:58:05,605 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-13 10:58:05,914 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:58:05,915 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.80.158.143 -> New IP: 192.42.116.106
+2026-04-13 10:58:05,916 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-13 10:58:05,917 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 10:58:05,917 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-13 10:58:05,920 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-13 10:58:05,925 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 10:58:05,925 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-13 10:58:05,926 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-13 10:58:10,928 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:58:10,929 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:58:10,932 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 10:58:20,761 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-13 10:58:21,579 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:58:21,584 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-13 10:58:21,584 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 10:58:21,586 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 10:58:30,183 - filelock - DEBUG - Attempting to acquire lock 1470707377760 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:58:30,188 - filelock - DEBUG - Lock 1470707377760 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:58:30,197 - filelock - DEBUG - Attempting to release lock 1470707377760 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:58:30,201 - filelock - DEBUG - Lock 1470707377760 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:58:30,254 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:58:30,255 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:58:30,256 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 10:58:30,256 - crawler.web_crawler - INFO - Processed: 1 emails,2 credentials
+2026-04-13 10:58:35,257 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:35,258 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:35,260 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:58:38,170 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-13 10:58:40,114 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 10:58:40,123 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-13 10:58:40,126 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-13 10:58:40,132 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-13 10:58:40,145 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,146 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,146 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,148 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,148 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,149 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,150 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,150 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,151 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,152 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,157 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,158 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,159 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,160 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,160 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,161 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,161 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,162 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,162 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,163 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,163 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,164 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,165 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,165 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,166 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,166 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,167 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,167 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,167 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,168 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,168 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,171 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,171 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,172 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,173 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,173 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,173 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:58:40,177 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-13 10:58:40,178 - crawler.web_crawler - INFO - Processed: 0 emails,5 credentials
+2026-04-13 10:58:45,179 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:58:45,180 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:58:45,183 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:58:46,461 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 10:58:46,462 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 10:58:46,463 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:58:47,691 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 10:58:47,693 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 10:58:47,693 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:58:48,306 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 10:58:48,308 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 10:58:48,308 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-13 10:58:48,309 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 10:58:53,310 - crawler.web_crawler - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-13 10:58:53,311 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 10:58:53,312 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 10:58:53,314 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 10:58:53,315 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 10:58:53,354 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.73 -> 0.88
+2026-04-13 10:58:53,355 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.68 -> 0.83
+2026-04-13 10:58:53,355 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.66 -> 0.81
+2026-04-13 10:58:53,355 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.62 -> 0.77
+2026-04-13 10:58:53,355 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 10:58:53,356 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 10:58:53,356 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:58:53,356 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:58:53,356 - detector.keyword_detector - INFO - Found 9 matches (High: 5, Risk score: 76.1)
+2026-04-13 10:58:53,356 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 10:58:53,357 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 10:59:01,721 - filelock - DEBUG - Attempting to acquire lock 1470707959120 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:59:01,727 - filelock - DEBUG - Lock 1470707959120 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:59:01,733 - filelock - DEBUG - Attempting to release lock 1470707959120 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:59:01,735 - filelock - DEBUG - Lock 1470707959120 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 10:59:01,780 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:59:01,781 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:59:01,783 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 10:59:01,783 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 10:59:01,953 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 10:59:01,953 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 10:59:01,954 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 1.00
+2026-04-13 10:59:01,954 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.80
+2026-04-13 10:59:01,954 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 10:59:01,955 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 10:59:01,955 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 10:59:01,955 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.90
+2026-04-13 10:59:01,955 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.85
+2026-04-13 10:59:01,956 - detector.keyword_detector - INFO - Found 10 matches (High: 6, Risk score: 97.9)
+2026-04-13 10:59:01,956 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-13 10:59:01,958 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-13 10:59:01,964 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,965 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,966 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,966 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,966 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,967 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,967 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,967 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,968 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,968 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,968 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,969 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,969 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,969 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,969 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,970 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,971 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,971 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,971 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,972 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,972 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,972 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,972 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,972 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,973 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,973 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,973 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,973 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,973 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,974 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,974 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,974 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,974 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,975 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,976 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,977 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,977 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:01,979 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-13 10:59:01,980 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 10:59:02,269 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 10:59:02,269 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.73 -> 0.78
+2026-04-13 10:59:02,269 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.68 -> 0.73
+2026-04-13 10:59:02,269 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.70 -> 0.85
+2026-04-13 10:59:02,269 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.66 -> 0.81
+2026-04-13 10:59:02,270 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.62 -> 0.77
+2026-04-13 10:59:02,270 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.62 -> 0.82
+2026-04-13 10:59:02,270 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.61 -> 0.66
+2026-04-13 10:59:02,270 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.71 -> 0.81
+2026-04-13 10:59:02,270 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.67 -> 0.77
+2026-04-13 10:59:02,271 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.90 -> 0.85
+2026-04-13 10:59:02,271 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 10:59:02,271 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,271 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,271 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,272 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,272 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,272 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,272 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,272 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,273 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,273 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,273 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,273 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,273 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,273 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,274 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 10:59:02,274 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 10:59:02,274 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 10:59:02,276 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 10:59:02,278 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,279 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,279 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,279 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 10:59:02,280 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.95
+2026-04-13 10:59:02,280 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.95
+2026-04-13 10:59:02,280 - detector.keyword_detector - INFO - Found 46 matches (High: 16, Risk score: 90.9)
+2026-04-13 10:59:02,290 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-13 10:59:02,291 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-13 10:59:02,292 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-13 11:52:24,820 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 11:52:26,955 - config.settings - INFO - Configuration validation passed
+2026-04-13 11:52:26,956 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-13 11:52:26,961 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-13 11:52:26,963 - detector.keyword_detector - INFO - Compiled patterns for 5 categories
+2026-04-13 11:52:26,964 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-13 11:52:26,967 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-13 11:52:27,000 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-04-13 11:52:27,001 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-13 11:52:27,002 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 11:52:27,002 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-13 11:52:27,009 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-13 11:52:29,298 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 34
+2026-04-13 11:52:29,300 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:52:29,302 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-13 11:52:29,303 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 11:52:29,306 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 11:52:33,024 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-13 11:52:33,026 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:52:33,028 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 45.9.156.106
+2026-04-13 11:52:33,029 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-13 11:52:33,030 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 11:52:33,030 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 11:52:33,034 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 11:52:40,564 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-13 11:52:40,869 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:52:40,883 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-13 11:52:40,883 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 11:52:40,887 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 11:52:40,966 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 11:52:40,966 - crawler.web_crawler - INFO - Processed: 0 emails,0 credentials
+2026-04-13 11:52:45,968 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-13 11:52:45,969 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-13 11:52:45,970 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-13 11:52:45,975 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 11:52:54,018 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 11:52:54,692 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-13 11:52:54,694 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:52:54,695 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.9.156.106 -> New IP: 45.9.156.106
+2026-04-13 11:52:54,696 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-13 11:52:54,696 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 11:52:54,697 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-13 11:52:54,699 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-13 11:52:54,704 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 11:53:02,707 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 11:53:02,710 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 11:53:04,525 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-13 11:53:04,527 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:53:04,527 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.9.156.106 -> New IP: 185.243.218.232
+2026-04-13 11:53:04,528 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-13 11:53:04,529 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 11:53:04,530 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-13 11:53:04,531 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-13 11:53:04,545 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 11:53:04,546 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-13 11:53:04,547 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-13 11:53:09,548 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 11:53:09,549 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 11:53:09,552 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 11:53:16,915 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-13 11:53:17,194 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:53:17,202 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-13 11:53:17,203 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 11:53:17,205 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 11:53:25,848 - filelock - DEBUG - Attempting to acquire lock 1809098450864 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:53:25,851 - filelock - DEBUG - Lock 1809098450864 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:53:25,857 - filelock - DEBUG - Attempting to release lock 1809098450864 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:53:25,858 - filelock - DEBUG - Lock 1809098450864 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:53:25,897 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 11:53:25,897 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 11:53:25,898 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 11:53:25,898 - crawler.web_crawler - INFO - Processed: 1 emails,2 credentials
+2026-04-13 11:53:30,899 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:30,900 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:30,903 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 11:53:33,664 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-13 11:53:34,089 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:53:34,093 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-13 11:53:34,093 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-13 11:53:34,095 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-13 11:53:34,102 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,102 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,103 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,103 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,103 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,104 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,104 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,104 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,104 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,105 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,106 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,106 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,106 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,107 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,107 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,108 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,108 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,109 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,109 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,110 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,110 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,110 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,110 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,111 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,111 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,111 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,112 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,112 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,112 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,113 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,113 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,113 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,113 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,114 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,114 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,115 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,115 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:53:34,118 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-13 11:53:34,119 - crawler.web_crawler - INFO - Processed: 0 emails,5 credentials
+2026-04-13 11:53:39,120 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 11:53:39,121 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 11:53:39,284 - tor_network.tor_manager - WARNING - Connection error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-13 11:53:47,325 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 11:53:47,328 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 11:53:48,248 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-13 11:53:48,249 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 11:53:48,250 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.243.218.232 -> New IP: 109.70.100.8
+2026-04-13 11:53:48,250 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-13 11:53:48,251 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 11:53:48,251 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 11:53:48,254 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 11:53:55,006 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 11:53:55,008 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 11:53:55,009 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 11:53:56,235 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 11:53:56,237 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 11:53:56,238 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-13 11:53:56,239 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 11:54:01,240 - crawler.web_crawler - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-13 11:54:01,242 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 11:54:01,244 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 11:54:01,248 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 11:54:01,249 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 11:54:01,358 - detector.keyword_detector - INFO - After deduplication: 15 matches
+2026-04-13 11:54:01,358 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 11:54:01,359 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:01,359 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 11:54:01,359 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 11:54:01,360 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:01,360 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.57 -> 0.77
+2026-04-13 11:54:01,360 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.73 -> 0.88
+2026-04-13 11:54:01,361 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.66 -> 0.81
+2026-04-13 11:54:01,361 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.58 -> 0.78
+2026-04-13 11:54:01,361 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.57 -> 0.72
+2026-04-13 11:54:01,362 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 11:54:01,362 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 11:54:01,362 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 11:54:01,363 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:01,363 - detector.keyword_detector - INFO - Found 15 matches (High: 6, Risk score: 75.2)
+2026-04-13 11:54:01,364 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 11:54:01,366 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 11:54:15,795 - filelock - DEBUG - Attempting to acquire lock 1809099034128 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:54:15,798 - filelock - DEBUG - Lock 1809099034128 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:54:15,804 - filelock - DEBUG - Attempting to release lock 1809099034128 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:54:15,807 - filelock - DEBUG - Lock 1809099034128 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 11:54:15,876 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 11:54:15,877 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 11:54:15,880 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 11:54:15,881 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 11:54:16,110 - detector.keyword_detector - INFO - After deduplication: 26 matches
+2026-04-13 11:54:16,111 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 11:54:16,111 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 11:54:16,112 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 1.00
+2026-04-13 11:54:16,112 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 11:54:16,113 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 11:54:16,113 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 11:54:16,114 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 11:54:16,114 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,115 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,115 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 11:54:16,116 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 11:54:16,116 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,117 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.58 -> 0.73
+2026-04-13 11:54:16,118 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.56 -> 0.61
+2026-04-13 11:54:16,118 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.72
+2026-04-13 11:54:16,119 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 11:54:16,119 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.80
+2026-04-13 11:54:16,120 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 11:54:16,121 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,121 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,123 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.90
+2026-04-13 11:54:16,124 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.85
+2026-04-13 11:54:16,124 - detector.keyword_detector - INFO - Found 26 matches (High: 7, Risk score: 88.3)
+2026-04-13 11:54:16,126 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-13 11:54:16,129 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-13 11:54:16,140 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,141 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,141 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,142 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,143 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,143 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,144 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,144 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,145 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,146 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,148 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,148 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,149 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,150 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,151 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,154 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,154 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,155 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,156 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,157 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,158 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,159 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,160 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,160 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,161 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,161 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,162 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,163 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,165 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,168 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,170 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,171 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,172 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,173 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,174 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,174 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,175 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,183 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-13 11:54:16,185 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 11:54:16,539 - detector.keyword_detector - INFO - After deduplication: 76 matches
+2026-04-13 11:54:16,539 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 11:54:16,539 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,540 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,540 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,540 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 11:54:16,540 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,540 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,541 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 11:54:16,541 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,541 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,542 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,542 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 11:54:16,542 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,543 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,543 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.57 -> 0.72
+2026-04-13 11:54:16,543 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.73 -> 0.78
+2026-04-13 11:54:16,543 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.70 -> 0.85
+2026-04-13 11:54:16,543 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 11:54:16,543 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.54 -> 0.74
+2026-04-13 11:54:16,544 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.62 -> 0.77
+2026-04-13 11:54:16,544 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.62 -> 0.82
+2026-04-13 11:54:16,544 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.57 -> 0.77
+2026-04-13 11:54:16,545 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.56 -> 0.61
+2026-04-13 11:54:16,545 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.58 -> 0.63
+2026-04-13 11:54:16,545 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.54 -> 0.69
+2026-04-13 11:54:16,546 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.72
+2026-04-13 11:54:16,546 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.58 -> 0.73
+2026-04-13 11:54:16,546 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.61 -> 0.66
+2026-04-13 11:54:16,547 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.54 -> 0.69
+2026-04-13 11:54:16,547 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.56 -> 0.76
+2026-04-13 11:54:16,547 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.57
+2026-04-13 11:54:16,548 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.55 -> 0.60
+2026-04-13 11:54:16,548 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.54 -> 0.59
+2026-04-13 11:54:16,548 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 11:54:16,549 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.58 -> 0.63
+2026-04-13 11:54:16,549 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.54 -> 0.59
+2026-04-13 11:54:16,549 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.71 -> 0.81
+2026-04-13 11:54:16,549 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.67 -> 0.77
+2026-04-13 11:54:16,550 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.90 -> 0.85
+2026-04-13 11:54:16,550 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,550 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,550 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,551 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,551 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,551 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,551 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,551 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,552 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,552 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,552 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,552 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,553 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,553 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,553 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,553 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,554 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,554 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 11:54:16,554 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 11:54:16,554 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,555 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,555 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,555 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 11:54:16,555 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.95
+2026-04-13 11:54:16,555 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.95
+2026-04-13 11:54:16,556 - detector.keyword_detector - INFO - Found 76 matches (High: 16, Risk score: 88.1)
+2026-04-13 11:54:16,567 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-13 11:54:16,568 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-13 11:54:16,570 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-13 15:35:03,375 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-13 15:35:18,406 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-13 15:35:30,976 - config.settings - INFO - Configuration validation passed
+2026-04-13 15:35:30,977 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-13 15:35:30,993 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-13 15:35:31,000 - detector.keyword_detector - INFO - Compiled patterns for 5 categories
+2026-04-13 15:35:31,017 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-13 15:35:31,020 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-13 15:35:31,073 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-13 15:35:31,073 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-13 15:35:31,074 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 15:35:31,074 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-13 15:35:31,083 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-13 15:35:33,188 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-13 15:35:33,189 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 15:35:33,190 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-13 15:35:33,191 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 15:35:33,193 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 15:35:34,826 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-13 15:35:34,828 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 15:35:34,829 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 192.121.44.34
+2026-04-13 15:35:34,830 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-13 15:35:34,831 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:35:34,832 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:35:34,835 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 15:35:56,126 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-13 15:35:56,432 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 15:35:56,455 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-13 15:35:56,456 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 15:35:56,464 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 15:35:56,553 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 15:35:56,555 - crawler.web_crawler - INFO - Processed: 0 emails,0 credentials
+2026-04-13 15:36:01,557 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-13 15:36:01,557 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-13 15:36:01,560 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-13 15:36:01,566 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 15:36:09,610 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 15:36:10,154 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-13 15:36:10,155 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 15:36:10,156 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 192.121.44.34 -> New IP: 192.121.44.34
+2026-04-13 15:36:10,157 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-13 15:36:10,158 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 15:36:10,158 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-13 15:36:10,162 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-13 15:36:10,166 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 15:36:18,171 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-13 15:36:18,174 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-13 15:36:19,881 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-13 15:36:19,883 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 15:36:19,884 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 192.121.44.34 -> New IP: 45.141.215.169
+2026-04-13 15:36:19,885 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-13 15:36:19,886 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-13 15:36:19,888 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-13 15:36:19,892 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-13 15:36:19,897 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-13 15:36:19,899 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-13 15:36:19,902 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-13 15:36:24,903 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:36:24,903 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:36:24,905 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 15:36:54,922 - tor_network.tor_manager - WARNING - Timeout on attempt 1 for http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:36:56,924 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:36:56,925 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-13 15:37:15,894 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-13 15:37:15,895 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 15:37:15,898 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-13 15:37:15,898 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 15:37:15,899 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 15:37:31,361 - filelock - DEBUG - Attempting to acquire lock 2138592851488 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:37:31,367 - filelock - DEBUG - Lock 2138592851488 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:37:31,409 - filelock - DEBUG - Attempting to release lock 2138592851488 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:37:31,411 - filelock - DEBUG - Lock 2138592851488 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:37:31,463 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:37:31,463 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:37:31,465 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 15:37:31,465 - crawler.web_crawler - INFO - Processed: 1 emails,2 credentials
+2026-04-13 15:37:36,466 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:36,466 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:36,468 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:37:38,937 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-13 15:37:40,575 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-13 15:37:40,585 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-13 15:37:40,587 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-13 15:37:40,592 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-13 15:37:40,610 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,611 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,614 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,614 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,615 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,616 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,617 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,618 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,620 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,621 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,621 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,622 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,623 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,628 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,629 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,630 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,631 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,632 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,634 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,635 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,636 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,637 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,637 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,638 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,638 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,638 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,639 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,639 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,640 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,640 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,643 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,643 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,644 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,644 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,645 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,646 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,646 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-13 15:37:40,651 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-13 15:37:40,652 - crawler.web_crawler - INFO - Processed: 0 emails,5 credentials
+2026-04-13 15:37:45,653 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 15:37:45,655 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 15:37:45,658 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:37:47,536 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 15:37:47,537 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 15:37:47,537 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 15:37:48,562 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 15:37:48,563 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 15:37:48,564 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 15:37:49,789 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-13 15:37:49,791 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-13 15:37:49,791 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-13 15:37:49,792 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-13 15:37:54,793 - crawler.web_crawler - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-13 15:37:54,798 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-13 15:37:54,800 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-13 15:37:54,804 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-13 15:37:54,805 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:37:54,891 - detector.keyword_detector - INFO - After deduplication: 15 matches
+2026-04-13 15:37:54,892 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 15:37:54,893 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 15:37:54,893 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 15:37:54,893 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 15:37:54,894 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 15:37:54,895 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.57 -> 0.77
+2026-04-13 15:37:54,895 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.73 -> 0.88
+2026-04-13 15:37:54,896 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.66 -> 0.81
+2026-04-13 15:37:54,896 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.58 -> 0.78
+2026-04-13 15:37:54,897 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.57 -> 0.72
+2026-04-13 15:37:54,897 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 15:37:54,898 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 15:37:54,898 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 15:37:54,898 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 15:37:54,899 - detector.keyword_detector - INFO - Found 15 matches (High: 6, Risk score: 75.2)
+2026-04-13 15:37:54,899 - nlp_analysis.analyzer - INFO - Performing NLP analysis on http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:37:54,899 - nlp_analysis.analyzer - DEBUG - Extracting named entities from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:37:54,971 - nlp_analysis.analyzer - INFO - Found 11 named entities in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-13 15:37:54,971 - nlp_analysis.analyzer - DEBUG - Extracting relationships from text
+2026-04-13 15:37:55,009 - nlp_analysis.analyzer - INFO - Extracted 0 relationships
+2026-04-13 15:37:55,091 - nlp_analysis.analyzer - DEBUG - Sentiment: neutral (polarity=0.01)
+2026-04-13 15:37:55,132 - nlp_analysis.analyzer - INFO - NLP analysis complete: 11 entities, 0 relationships, Threat score: 70.0
+2026-04-13 15:37:55,133 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-13 15:37:55,134 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-13 15:38:09,758 - filelock - DEBUG - Attempting to acquire lock 2138639368272 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:38:09,762 - filelock - DEBUG - Lock 2138639368272 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:38:09,769 - filelock - DEBUG - Attempting to release lock 2138639368272 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:38:09,772 - filelock - DEBUG - Lock 2138639368272 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-13 15:38:09,828 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:38:09,829 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:38:09,832 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-13 15:38:09,832 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:38:09,980 - detector.keyword_detector - INFO - After deduplication: 26 matches
+2026-04-13 15:38:09,981 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 15:38:09,981 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.90
+2026-04-13 15:38:09,981 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 1.00
+2026-04-13 15:38:09,981 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 15:38:09,982 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 15:38:09,982 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 15:38:09,982 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.80
+2026-04-13 15:38:09,982 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.65
+2026-04-13 15:38:09,982 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 15:38:09,983 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 15:38:09,983 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.70
+2026-04-13 15:38:09,983 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 15:38:09,983 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.58 -> 0.73
+2026-04-13 15:38:09,983 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.56 -> 0.61
+2026-04-13 15:38:09,984 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.72
+2026-04-13 15:38:09,984 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.52 -> 0.67
+2026-04-13 15:38:09,984 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.85 -> 0.80
+2026-04-13 15:38:09,984 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.55
+2026-04-13 15:38:09,984 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 15:38:09,985 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.60 -> 0.75
+2026-04-13 15:38:09,985 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.90
+2026-04-13 15:38:09,985 - detector.keyword_detector - DEBUG - Adjusted confidence: 0.80 -> 0.85
+2026-04-13 15:38:09,985 - detector.keyword_detector - INFO - Found 26 matches (High: 7, Risk score: 88.3)
+2026-04-13 15:38:09,986 - nlp_analysis.analyzer - INFO - Performing NLP analysis on http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:38:09,986 - nlp_analysis.analyzer - DEBUG - Extracting named entities from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:38:10,029 - nlp_analysis.analyzer - INFO - Found 22 named entities in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-13 15:38:10,030 - nlp_analysis.analyzer - DEBUG - Extracting relationships from text
+2026-04-13 15:38:10,070 - nlp_analysis.analyzer - INFO - Extracted 0 relationships
+2026-04-13 15:38:10,071 - nlp_analysis.analyzer - DEBUG - Sentiment: neutral (polarity=0.08)
+2026-04-13 15:38:10,071 - nlp_analysis.analyzer - INFO - Training LDA model on 1 documents
+2026-04-13 15:38:10,072 - gensim.corpora.dictionary - INFO - adding document #0 to Dictionary<0 unique tokens: []>
+2026-04-13 15:38:10,072 - gensim.corpora.dictionary - INFO - built Dictionary<94 unique tokens: ['access', 'account', 'acct', 'across', 'active']...> from 1 documents (total 132 corpus positions)
+2026-04-13 15:38:10,274 - gensim.utils - DEBUG - starting a new internal lifecycle event log for Dictionary
+2026-04-13 15:38:10,275 - gensim.utils - INFO - Dictionary lifecycle event {'msg': "built Dictionary<94 unique tokens: ['access', 'account', 'acct', 'across', 'active']...> from 1 documents (total 132 corpus positions)", 'datetime': '2026-04-13T15:38:10.072947', 'gensim': '4.4.0', 'python': '3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]', 'platform': 'Windows-11-10.0.26200-SP0', 'event': 'created'}
+2026-04-13 15:38:10,275 - gensim.corpora.dictionary - INFO - discarding 94 tokens: [('access', 1), ('account', 1), ('acct', 1), ('across', 1), ('active', 1), ('admin', 1), ('agri', 1), ('agricultural', 1), ('agriculture', 1), ('also', 1)]...
+2026-04-13 15:38:10,276 - gensim.corpora.dictionary - INFO - keeping 0 tokens which were in no less than 2 and no more than 0 (=50.0%) documents
+2026-04-13 15:38:10,276 - gensim.corpora.dictionary - DEBUG - rebuilding dictionary, shrinking gaps
+2026-04-13 15:38:10,276 - gensim.corpora.dictionary - INFO - resulting dictionary: Dictionary<0 unique tokens: []>

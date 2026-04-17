@@ -1,0 +1,753 @@
+2026-04-11 10:58:44,013 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 10:58:44,018 - config.settings - INFO - Configuration validation passed
+2026-04-11 11:38:00,030 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 11:38:00,031 - __main__ - INFO - Tor Manager initialized
+2026-04-11 11:38:00,032 - __main__ - INFO - Setting up Tor connection...
+2026-04-11 11:38:02,037 - __main__ - INFO - Starting Tor process...
+2026-04-11 11:38:02,385 - __main__ - ERROR - Failed to start Tor process: You cannot launch tor with a timeout on Windows
+2026-04-11 11:38:29,876 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 11:38:30,337 - config.settings - INFO - Configuration validation passed
+2026-04-11 11:38:30,338 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 11:38:30,338 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 11:38:32,348 - tor_network.tor_manager - INFO - Starting Tor process...
+2026-04-11 11:38:32,460 - tor_network.tor_manager - ERROR - Failed to start Tor process: You cannot launch tor with a timeout on Windows
+2026-04-11 11:48:45,466 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 11:48:45,468 - __main__ - INFO - Tor Manager initialized
+2026-04-11 11:48:45,470 - __main__ - INFO - Setting up Tor connection...
+2026-04-11 11:48:45,471 - __main__ - INFO - Tor service is already running
+2026-04-11 11:48:45,535 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-11 11:48:45,535 - __main__ - INFO - Connected to Tor controller
+2026-04-11 11:48:45,536 - __main__ - DEBUG - Request attempt 1/3: http://check.torproject.org/
+2026-04-11 11:48:45,558 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): check.torproject.org:80
+2026-04-11 11:48:46,592 - urllib3.connectionpool - DEBUG - http://check.torproject.org:80 "GET / HTTP/1.1" 301 347
+2026-04-11 11:48:46,594 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 11:48:47,361 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET / HTTP/1.1" 200 2663
+2026-04-11 11:48:47,366 - __main__ - DEBUG - Response status: 200
+2026-04-11 11:48:47,366 - __main__ - WARNING - Tor test page didn't show expected content
+2026-04-11 11:53:45,234 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 11:53:45,235 - __main__ - INFO - Tor Manager initialized
+2026-04-11 11:53:45,236 - __main__ - INFO - Setting up Tor connection...
+2026-04-11 11:53:45,247 - __main__ - INFO - Tor service is already running
+2026-04-11 11:53:45,276 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-04-11 11:53:45,277 - __main__ - INFO - Connected to Tor controller
+2026-04-11 11:53:45,277 - __main__ - DEBUG - Request attempt 1/3: http://check.torproject.org/
+2026-04-11 11:53:45,286 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): check.torproject.org:80
+2026-04-11 11:53:45,683 - urllib3.connectionpool - DEBUG - http://check.torproject.org:80 "GET / HTTP/1.1" 301 347
+2026-04-11 11:53:45,687 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 11:53:46,574 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET / HTTP/1.1" 200 2663
+2026-04-11 11:53:46,576 - __main__ - DEBUG - Response status: 200
+2026-04-11 11:53:46,576 - __main__ - WARNING - Tor test page didn't show expected content
+2026-04-11 11:53:46,579 - __main__ - ERROR -  Tor connection test failed
+2026-04-11 12:12:41,284 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 12:12:41,285 - __main__ - INFO - Tor Manager initialized
+2026-04-11 12:12:41,285 - __main__ - INFO - Setting up Tor connection...
+2026-04-11 12:12:41,297 - __main__ - INFO - Tor service is already running
+2026-04-11 12:12:41,314 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-11 12:12:41,314 - __main__ - INFO - Connected to Tor controller
+2026-04-11 12:12:41,315 - __main__ - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 12:12:41,323 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 12:12:42,033 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 36
+2026-04-11 12:12:42,034 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:12:42,036 - __main__ - WARNING - Traffic is NOT going through Tor
+2026-04-11 12:12:42,038 - __main__ - ERROR -  Tor connection test failed
+2026-04-11 12:22:44,480 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 12:22:44,481 - __main__ - INFO - Tor Manager initialized
+2026-04-11 12:22:44,482 - __main__ - INFO - Setting up Tor connection...
+2026-04-11 12:22:44,483 - __main__ - INFO - Tor service is already running
+2026-04-11 12:22:44,504 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-11 12:22:44,505 - __main__ - INFO - Connected to Tor controller
+2026-04-11 12:22:44,508 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:22:44,508 - __main__ - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 12:22:44,513 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 12:22:45,992 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-11 12:22:45,994 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:22:45,994 - __main__ - INFO - Tor connection verified successfully
+2026-04-11 12:22:45,995 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:22:45,998 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:22:47,508 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:22:47,509 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:22:47,510 - __main__ - INFO -  Tor connected successfully! Exit IP: 171.25.193.77
+2026-04-11 12:22:47,512 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0015)
+2026-04-11 12:22:47,513 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 25 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$21364937861CD7ED22BF1D08A9EB55F2743E03D8~nonamerap,$498F3A02DC55C213ACD7EABD25E08C6146D75F52~DFRI15 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T06:00:07.063980 CONFLUX_ID=514242F3A2C1ECC922FB6FFB0EBED611 CONFLUX_RTT=878204'
+2026-04-11 12:22:47,518 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 32 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$B9F69F144DF5BE2FD92DDBF9E67C659ECC5E539B~Vanbo,$B93652C4E4FF388C931359DCE82EF2DA32AC4D68~Square BUILD_FLAGS=IS_INTERNAL,NEED_CAPACITY,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-11T06:12:17.860100'
+2026-04-11 12:22:47,520 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 34 EXTENDED $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$D95A2DF17815BA92E4EA49D2D46EBAEB1DCEBABC~0x90 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-11T06:52:45.413173 CONFLUX_ID=B1F105D57C88166035283E41567E3D4B'
+2026-04-11 12:22:47,524 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:22:48,243 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:22:48,522 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:22:48,525 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:22:49,063 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:22:49,066 - __main__ - WARNING - URL doesn't appear to be a .onion site: http://torlinksge6enqcy.onion/
+2026-04-11 12:22:49,067 - __main__ - INFO -  Fetching onion site: http://torlinksge6enqcy.onion/
+2026-04-11 12:22:49,067 - __main__ - DEBUG - Request attempt 1/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:22:49,069 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): torlinksge6enqcy.onion:80
+2026-04-11 12:22:49,084 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:22:57,119 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:22:57,636 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:22:57,640 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:22:57,641 - __main__ - INFO -  Identity rotated! Old IP: 171.25.193.77 -> New IP: 171.25.193.77
+2026-04-11 12:22:57,642 - __main__ - INFO - Total rotations: 1
+2026-04-11 12:22:57,642 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:22:57,643 - __main__ - DEBUG - Request attempt 2/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:22:57,645 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): torlinksge6enqcy.onion:80
+2026-04-11 12:22:57,647 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:23:05,650 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:23:05,653 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:23:06,774 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:23:06,775 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:23:06,775 - __main__ - INFO -  Identity rotated! Old IP: 171.25.193.77 -> New IP: 185.220.101.7
+2026-04-11 12:23:06,776 - __main__ - INFO - Total rotations: 2
+2026-04-11 12:23:06,776 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:23:06,776 - __main__ - DEBUG - Request attempt 3/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:23:06,777 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): torlinksge6enqcy.onion:80
+2026-04-11 12:23:06,781 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:23:06,783 - __main__ - ERROR - Failed to fetch http://torlinksge6enqcy.onion/ after 3 attempts
+2026-04-11 12:23:06,783 - __main__ - ERROR -  Failed to fetch http://torlinksge6enqcy.onion/
+2026-04-11 12:23:11,785 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:23:11,788 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:23:12,517 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-11 12:23:12,519 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:23:12,519 - __main__ - INFO -  Identity rotated! Old IP: 185.220.101.7 -> New IP: 109.70.100.2
+2026-04-11 12:23:12,520 - __main__ - INFO - Total rotations: 3
+2026-04-11 12:23:12,521 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:23:12,527 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0032)
+2026-04-11 12:23:12,531 - __main__ - INFO - Closing Tor connection...
+2026-04-11 12:23:12,534 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 12:23:12,535 - __main__ - INFO - Tor connection closed
+2026-04-11 12:28:37,211 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 12:28:37,212 - __main__ - INFO - Tor Manager initialized
+2026-04-11 12:28:37,213 - __main__ - INFO - Setting up Tor connection...
+2026-04-11 12:28:37,214 - __main__ - INFO - Tor service is already running
+2026-04-11 12:28:37,226 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-11 12:28:37,226 - __main__ - INFO - Connected to Tor controller
+2026-04-11 12:28:37,226 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:28:37,227 - __main__ - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 12:28:37,231 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 12:28:38,502 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 37
+2026-04-11 12:28:38,504 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:28:38,506 - __main__ - INFO - Tor connection verified successfully
+2026-04-11 12:28:38,506 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:28:38,510 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:28:39,316 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 12:28:39,317 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:28:39,319 - __main__ - INFO -  Tor connected successfully! Exit IP: 185.220.101.163
+2026-04-11 12:28:39,323 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0018)
+2026-04-11 12:28:39,324 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 50 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$7DEBE8BE0539DC96A66EB73C7AFEC6CC7A6FB2E1~ForPrivacyNET,$8B9F7EE7D856C3A94D041ECB24ECE059BCF717CB~r0cket13i4 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T06:53:34.891790 CONFLUX_ID=67DECB18D9F305C95361AA5B34A1B0DF CONFLUX_RTT=307386'
+2026-04-11 12:28:39,326 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 37 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$1C75E1F02A0A7CBB70E72D194298B3DA3A622CDF~TonyI,$5EEE760B789E9840C3A5BB6C6A1A1F5D3721EB1D~r0cket08i0 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-11T06:52:48.434862 CONFLUX_ID=B1F105D57C88166035283E41567E3D4B'
+2026-04-11 12:28:39,330 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:28:39,944 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 12:28:39,946 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:28:39,948 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:28:41,361 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:28:41,364 - __main__ - WARNING - URL doesn't appear to be a .onion site: http://torlinksge6enqcy.onion/
+2026-04-11 12:28:41,365 - __main__ - INFO -  Fetching onion site: http://torlinksge6enqcy.onion/
+2026-04-11 12:28:41,366 - __main__ - DEBUG - Request attempt 1/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:28:41,370 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): torlinksge6enqcy.onion:80
+2026-04-11 12:28:41,374 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:28:49,420 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:28:49,842 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 12:28:49,845 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:28:49,846 - __main__ - INFO -  Identity rotated! Old IP: 185.220.101.163 -> New IP: 185.220.101.163
+2026-04-11 12:28:49,846 - __main__ - INFO - Total rotations: 1
+2026-04-11 12:28:49,847 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:28:49,848 - __main__ - DEBUG - Request attempt 2/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:28:49,850 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): torlinksge6enqcy.onion:80
+2026-04-11 12:28:49,853 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:28:57,856 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:28:57,859 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:28:59,572 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:28:59,573 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:28:59,573 - __main__ - INFO -  Identity rotated! Old IP: 185.220.101.163 -> New IP: 91.132.144.59
+2026-04-11 12:28:59,573 - __main__ - INFO - Total rotations: 2
+2026-04-11 12:28:59,574 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:28:59,574 - __main__ - DEBUG - Request attempt 3/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:28:59,575 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): torlinksge6enqcy.onion:80
+2026-04-11 12:28:59,577 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:28:59,577 - __main__ - ERROR - Failed to fetch http://torlinksge6enqcy.onion/ after 3 attempts
+2026-04-11 12:28:59,578 - __main__ - ERROR -  Failed to fetch http://torlinksge6enqcy.onion/
+2026-04-11 12:29:04,580 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:29:04,585 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:29:05,318 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:29:05,319 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:29:05,320 - __main__ - INFO -  Identity rotated! Old IP: 91.132.144.59 -> New IP: 192.42.116.18
+2026-04-11 12:29:05,322 - __main__ - INFO - Total rotations: 3
+2026-04-11 12:29:05,324 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:29:05,333 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0020)
+2026-04-11 12:29:05,349 - __main__ - INFO - Closing Tor connection...
+2026-04-11 12:29:05,352 - __main__ - DEBUG - Controller close issue: 'Controller' object has no attribute 'is_alvie'
+2026-04-11 12:29:05,358 - __main__ - INFO - Tor connection closed
+2026-04-11 12:29:50,151 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 12:29:50,152 - __main__ - INFO - Tor Manager initialized
+2026-04-11 12:29:50,153 - __main__ - INFO - Setting up Tor connection...
+2026-04-11 12:29:50,154 - __main__ - INFO - Tor service is already running
+2026-04-11 12:29:50,167 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-11 12:29:50,167 - __main__ - INFO - Connected to Tor controller
+2026-04-11 12:29:50,167 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:29:50,168 - __main__ - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 12:29:50,177 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 12:29:51,604 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-11 12:29:51,606 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:29:51,607 - __main__ - INFO - Tor connection verified successfully
+2026-04-11 12:29:51,607 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:29:51,610 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:29:52,768 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:29:52,780 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:29:52,783 - __main__ - INFO -  Tor connected successfully! Exit IP: 45.84.107.172
+2026-04-11 12:29:52,800 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0013)
+2026-04-11 12:29:52,815 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 50 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$7DEBE8BE0539DC96A66EB73C7AFEC6CC7A6FB2E1~ForPrivacyNET,$8B9F7EE7D856C3A94D041ECB24ECE059BCF717CB~r0cket13i4 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T06:53:34.891790 CONFLUX_ID=67DECB18D9F305C95361AA5B34A1B0DF CONFLUX_RTT=307386'
+2026-04-11 12:29:52,832 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 37 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$1C75E1F02A0A7CBB70E72D194298B3DA3A622CDF~TonyI,$5EEE760B789E9840C3A5BB6C6A1A1F5D3721EB1D~r0cket08i0 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-11T06:52:48.434862 CONFLUX_ID=B1F105D57C88166035283E41567E3D4B'
+2026-04-11 12:29:52,897 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:29:53,364 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:29:53,365 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:29:53,369 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:29:53,932 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:29:53,936 - __main__ - WARNING - URL doesn't appear to be a .onion site: http://torlinksge6enqcy.onion/
+2026-04-11 12:29:53,937 - __main__ - INFO -  Fetching onion site: http://torlinksge6enqcy.onion/
+2026-04-11 12:29:53,938 - __main__ - DEBUG - Request attempt 1/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:29:53,941 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): torlinksge6enqcy.onion:80
+2026-04-11 12:29:53,957 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:30:02,027 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:30:04,254 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:30:04,256 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:30:04,257 - __main__ - INFO -  Identity rotated! Old IP: 45.84.107.172 -> New IP: 45.84.107.172
+2026-04-11 12:30:04,258 - __main__ - INFO - Total rotations: 1
+2026-04-11 12:30:04,258 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:30:04,259 - __main__ - DEBUG - Request attempt 2/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:30:04,261 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): torlinksge6enqcy.onion:80
+2026-04-11 12:30:04,266 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:30:12,305 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:30:12,309 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:30:13,992 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:30:13,994 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:30:13,994 - __main__ - INFO -  Identity rotated! Old IP: 45.84.107.172 -> New IP: 45.154.98.153
+2026-04-11 12:30:13,995 - __main__ - INFO - Total rotations: 2
+2026-04-11 12:30:13,996 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:30:13,998 - __main__ - DEBUG - Request attempt 3/3: http://torlinksge6enqcy.onion/
+2026-04-11 12:30:14,002 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): torlinksge6enqcy.onion:80
+2026-04-11 12:30:14,006 - __main__ - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 12:30:14,008 - __main__ - ERROR - Failed to fetch http://torlinksge6enqcy.onion/ after 3 attempts
+2026-04-11 12:30:14,009 - __main__ - ERROR -  Failed to fetch http://torlinksge6enqcy.onion/
+2026-04-11 12:30:19,013 - __main__ - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:30:19,016 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:30:20,251 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 12:30:20,253 - __main__ - DEBUG - Response status: 200
+2026-04-11 12:30:20,253 - __main__ - INFO -  Identity rotated! Old IP: 45.154.98.153 -> New IP: 185.220.101.173
+2026-04-11 12:30:20,254 - __main__ - INFO - Total rotations: 3
+2026-04-11 12:30:20,255 - __main__ - INFO - Session configured with Tor proxy
+2026-04-11 12:30:20,258 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0020)
+2026-04-11 12:30:20,265 - __main__ - INFO - Closing Tor connection...
+2026-04-11 12:30:20,268 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 12:30:20,270 - __main__ - INFO - Tor connection closed
+2026-04-11 12:33:05,431 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 12:33:05,955 - config.settings - INFO - Configuration validation passed
+2026-04-11 12:33:05,955 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 12:33:05,955 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 12:33:05,956 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-11 12:33:05,970 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-11 12:33:05,970 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-11 12:33:05,970 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 12:33:05,971 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 12:33:05,980 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 12:33:07,646 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 37
+2026-04-11 12:33:07,648 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 12:33:07,649 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-11 12:33:07,649 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:33:07,653 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:33:08,364 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 12:33:08,369 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 12:33:08,370 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 185.220.101.173
+2026-04-11 12:33:08,373 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0022)
+2026-04-11 12:33:08,374 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 50 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$7DEBE8BE0539DC96A66EB73C7AFEC6CC7A6FB2E1~ForPrivacyNET,$8B9F7EE7D856C3A94D041ECB24ECE059BCF717CB~r0cket13i4 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T06:53:34.891790 CONFLUX_ID=67DECB18D9F305C95361AA5B34A1B0DF CONFLUX_RTT=307386'
+2026-04-11 12:33:08,375 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 37 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$1C75E1F02A0A7CBB70E72D194298B3DA3A622CDF~TonyI,$5EEE760B789E9840C3A5BB6C6A1A1F5D3721EB1D~r0cket08i0 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-11T06:52:48.434862 CONFLUX_ID=B1F105D57C88166035283E41567E3D4B'
+2026-04-11 12:33:08,381 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 12:33:09,523 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 12:33:09,524 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 12:33:09,526 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 12:33:10,112 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 12:33:31,048 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-11 12:33:31,049 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 12:33:31,050 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-11 13:21:04,161 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 13:21:04,854 - config.settings - INFO - Configuration validation passed
+2026-04-11 13:21:04,854 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 13:21:04,854 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 13:21:04,879 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-11 13:21:04,904 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0006)
+2026-04-11 13:21:04,905 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-11 13:21:04,906 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 13:21:04,906 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 13:21:04,911 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 13:21:08,471 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-11 13:21:08,473 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 13:21:08,473 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-11 13:21:08,474 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 13:21:08,477 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 13:21:10,696 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-11 13:21:10,697 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 13:21:10,697 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 31.133.0.235
+2026-04-11 13:21:10,698 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0007)
+2026-04-11 13:21:10,699 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 76 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$1D648492E463B95B3B44712A717EF5513A2A978D~plo,$196C05BF08CC248EE563B49D36CAC89793AFBC5E~marcuse9 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T07:51:05.272131 CONFLUX_ID=A185AD6E578F02322834F7A87A8A5619 CONFLUX_RTT=374611'
+2026-04-11 13:21:10,700 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 86 EXTENDED $6520532F204357136DE139A29459A27A498AC13D~Starfleet BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-11T07:51:09.825682 CONFLUX_ID=C034195F26BC237566A3271183739198'
+2026-04-11 13:21:10,701 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 13:21:11,184 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-11 13:21:11,184 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 13:21:11,186 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 13:21:11,689 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 13:21:11,691 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-11 13:22:17,534 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-11 13:22:17,535 - crawler.web_crawler - INFO - Crawling [0/3]: http://torlinksge6enqcy.onion
+2026-04-11 13:22:17,535 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://torlinksge6enqcy.onion
+2026-04-11 13:22:17,536 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): torlinksge6enqcy.onion:80
+2026-04-11 13:22:17,539 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 13:22:25,573 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 13:22:25,578 - urllib3.connectionpool - DEBUG - Resetting dropped connection: httpbin.org
+2026-04-11 13:22:26,488 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 13:22:26,489 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 13:22:26,489 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 31.133.0.235 -> New IP: 185.220.101.2
+2026-04-11 13:22:26,491 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-11 13:22:26,492 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 13:22:26,492 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://torlinksge6enqcy.onion
+2026-04-11 13:22:26,494 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): torlinksge6enqcy.onion:80
+2026-04-11 13:22:26,497 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 13:22:34,504 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 13:22:34,515 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 13:22:36,962 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 13:22:36,964 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 13:22:36,964 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.2 -> New IP: 45.141.215.97
+2026-04-11 13:22:36,965 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-11 13:22:36,967 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 13:22:36,967 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://torlinksge6enqcy.onion
+2026-04-11 13:22:36,970 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): torlinksge6enqcy.onion:80
+2026-04-11 13:22:36,986 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 13:22:36,988 - tor_network.tor_manager - ERROR - Failed to fetch http://torlinksge6enqcy.onion after 3 attempts
+2026-04-11 13:22:42,011 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-11 13:22:42,012 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-11 13:22:42,015 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-11 13:22:42,033 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 13:22:50,068 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 13:22:50,070 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 13:22:50,955 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 13:22:50,956 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 13:22:50,957 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.141.215.97 -> New IP: 193.189.100.199
+2026-04-11 13:22:50,958 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-11 13:22:50,959 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 13:22:50,959 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-11 13:22:50,961 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-11 13:22:50,965 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 13:22:58,968 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 13:22:58,971 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 13:22:59,928 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 13:22:59,929 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 13:22:59,929 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 193.189.100.199 -> New IP: 192.42.116.47
+2026-04-11 13:22:59,929 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-11 13:22:59,930 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 13:22:59,930 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-11 13:22:59,932 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-11 13:22:59,950 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 13:22:59,950 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-11 13:23:04,955 - crawler.web_crawler - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-11 13:23:04,955 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-11 13:23:04,956 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 13:23:04,957 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-11 14:24:21,591 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 14:24:22,736 - config.settings - INFO - Configuration validation passed
+2026-04-11 14:24:22,737 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 14:24:22,737 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 14:24:22,750 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-11 14:24:22,777 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-04-11 14:24:22,777 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-11 14:24:22,777 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:24:22,778 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 14:24:22,797 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 14:24:24,466 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 36
+2026-04-11 14:24:24,468 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:24:24,468 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-11 14:24:24,469 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:24:24,471 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:24:25,280 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-11 14:24:25,281 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:24:25,281 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 185.220.101.25
+2026-04-11 14:24:25,284 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0028)
+2026-04-11 14:24:25,284 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 1 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$0E83A8347254C0572CF2A93D1D34674AC19798A8~ididnteditheconfig,$9B2A6CEDA8CAE94A78E49E8EEAD29F92F5C73D86~relayon0157 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T08:52:08.273894 CONFLUX_ID=11F6E70D421662DDC963940E7DBEE6EC CONFLUX_RTT=368489'
+2026-04-11 14:24:25,285 - stem - INFO - CIRC event had an unrecognized purpose (HS_SERVICE_HSDIR). Maybe a new addition to the control protocol? Full Event: 'CIRC 50 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$8B9D7678AA95122665C64161D70C28924ADD41FD~critic4lx,$255515606979150ED8A9590E9BD33D44BF862A3C~fmbdz,$2A6E7ABF43F9796AD4A13DF2B2047F90E7291A5F~ZankleRotaryEngine BUILD_FLAGS=IS_INTERNAL,NEED_CAPACITY PURPOSE=HS_SERVICE_HSDIR HS_STATE=HSSI_CONNECTING TIME_CREATED=2026-04-11T08:52:19.008940'
+2026-04-11 14:24:25,286 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 34 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$8B9D7678AA95122665C64161D70C28924ADD41FD~critic4lx,$2BCA0A8B5759DBD764BF9FA5D1B3AEE9D74D2B68~Waeswynn,$C26AF1347BCBB31E20089FBF9C338B0843FC171D~Esquie BUILD_FLAGS=IS_INTERNAL,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-11T08:52:15.050815'
+2026-04-11 14:24:25,288 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:24:25,690 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-11 14:24:25,691 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:24:25,694 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:24:26,342 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:24:26,346 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-11 14:24:30,175 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-11 14:24:30,175 - crawler.web_crawler - INFO - Crawling [0/3]: http://torlinksge6enqcy.onion
+2026-04-11 14:24:30,175 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://torlinksge6enqcy.onion
+2026-04-11 14:24:30,176 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): torlinksge6enqcy.onion:80
+2026-04-11 14:24:30,180 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:24:38,212 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:24:38,900 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-11 14:24:39,207 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:24:39,208 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.25 -> New IP: 185.220.101.25
+2026-04-11 14:24:39,208 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-11 14:24:39,209 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:24:39,210 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://torlinksge6enqcy.onion
+2026-04-11 14:24:39,212 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): torlinksge6enqcy.onion:80
+2026-04-11 14:24:39,215 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:24:47,255 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:24:47,258 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:24:48,348 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:24:48,348 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:24:48,349 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.25 -> New IP: 45.154.98.153
+2026-04-11 14:24:48,349 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-11 14:24:48,350 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:24:48,350 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://torlinksge6enqcy.onion
+2026-04-11 14:24:48,352 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): torlinksge6enqcy.onion:80
+2026-04-11 14:24:48,354 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:24:48,354 - tor_network.tor_manager - ERROR - Failed to fetch http://torlinksge6enqcy.onion after 3 attempts
+2026-04-11 14:24:48,355 - crawler.web_crawler - WARNING -  Failed to crawl: http://torlinksge6enqcy.onion
+2026-04-11 14:24:53,355 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-11 14:24:53,356 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:24:53,359 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-11 14:24:53,385 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:25:01,418 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:25:01,419 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:25:07,366 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:25:07,367 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:25:07,367 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.154.98.153 -> New IP: 171.25.193.82
+2026-04-11 14:25:07,367 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-11 14:25:07,368 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:25:07,368 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:25:07,369 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-11 14:25:07,384 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:25:15,449 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:25:15,450 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:25:16,378 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-11 14:25:16,685 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:25:16,686 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 171.25.193.82 -> New IP: 109.70.100.2
+2026-04-11 14:25:16,686 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-11 14:25:16,687 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:25:16,688 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:25:16,690 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-11 14:25:16,694 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:25:16,695 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-11 14:25:16,696 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-11 14:25:21,697 - crawler.web_crawler - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-11 14:25:21,699 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-11 14:25:21,700 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 14:25:21,704 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-11 14:28:55,337 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 14:28:55,805 - config.settings - INFO - Configuration validation passed
+2026-04-11 14:28:55,806 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 14:28:55,806 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 14:28:55,807 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-11 14:28:55,822 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-11 14:28:55,823 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-11 14:28:55,823 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:28:55,823 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 14:28:55,827 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 14:28:57,666 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-11 14:28:57,667 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:28:57,668 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-11 14:28:57,668 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:28:57,669 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:28:58,793 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:28:58,794 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:28:58,795 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 107.189.6.124
+2026-04-11 14:28:58,800 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0044)
+2026-04-11 14:28:58,802 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 1 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$0E83A8347254C0572CF2A93D1D34674AC19798A8~ididnteditheconfig,$9B2A6CEDA8CAE94A78E49E8EEAD29F92F5C73D86~relayon0157 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T08:52:08.273894 CONFLUX_ID=11F6E70D421662DDC963940E7DBEE6EC CONFLUX_RTT=368489'
+2026-04-11 14:28:58,805 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 34 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$8B9D7678AA95122665C64161D70C28924ADD41FD~critic4lx,$2BCA0A8B5759DBD764BF9FA5D1B3AEE9D74D2B68~Waeswynn,$C26AF1347BCBB31E20089FBF9C338B0843FC171D~Esquie BUILD_FLAGS=IS_INTERNAL,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-11T08:52:15.050815'
+2026-04-11 14:28:58,809 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 74 EXTENDED $6520532F204357136DE139A29459A27A498AC13D~Starfleet BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-11T08:58:58.540215 CONFLUX_ID=3D41960D905A7568882AA07095183104'
+2026-04-11 14:28:58,816 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:28:59,512 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:28:59,513 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:28:59,516 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:29:00,942 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:29:00,944 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-11 14:29:04,688 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-11 14:29:04,688 - crawler.web_crawler - INFO - Crawling [0/3]: ://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:29:04,689 - tor_network.tor_manager - DEBUG - Request attempt 1/3: ://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:29:04,689 - tor_network.tor_manager - ERROR - Unexpected error: No connection adapters were found for '://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion'
+2026-04-11 14:29:06,690 - tor_network.tor_manager - DEBUG - Request attempt 2/3: ://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:29:06,692 - tor_network.tor_manager - ERROR - Unexpected error: No connection adapters were found for '://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion'
+2026-04-11 14:29:08,693 - tor_network.tor_manager - DEBUG - Request attempt 3/3: ://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:29:08,695 - tor_network.tor_manager - ERROR - Unexpected error: No connection adapters were found for '://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion'
+2026-04-11 14:29:08,696 - tor_network.tor_manager - ERROR - Failed to fetch ://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion after 3 attempts
+2026-04-11 14:29:08,696 - crawler.web_crawler - WARNING -  Failed to crawl: ://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:29:13,697 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-11 14:29:13,698 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:29:13,701 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-11 14:29:13,705 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:29:21,764 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:29:22,343 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:29:22,345 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:29:22,345 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 107.189.6.124 -> New IP: 107.189.6.124
+2026-04-11 14:29:22,345 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-11 14:29:22,346 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:29:22,346 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:29:22,349 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-11 14:29:22,369 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:29:30,372 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:29:30,375 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:29:31,463 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 14:29:31,465 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:29:31,467 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 107.189.6.124 -> New IP: 193.189.100.197
+2026-04-11 14:29:31,470 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-11 14:29:31,473 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:29:31,474 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:29:31,477 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-11 14:29:31,482 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:29:31,487 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-11 14:29:31,490 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-11 14:29:36,492 - crawler.web_crawler - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-11 14:29:36,494 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-11 14:29:36,495 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 14:29:36,497 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-11 14:31:07,774 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 14:31:08,302 - config.settings - INFO - Configuration validation passed
+2026-04-11 14:31:08,302 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 14:31:08,303 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 14:31:08,304 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-11 14:31:08,315 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-11 14:31:08,315 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-11 14:31:08,316 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:31:08,316 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 14:31:08,320 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 14:31:09,873 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 37
+2026-04-11 14:31:09,874 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:31:09,874 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-11 14:31:09,874 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:31:09,876 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:31:10,785 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 14:31:10,786 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:31:10,786 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 193.189.100.197
+2026-04-11 14:31:10,792 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0047)
+2026-04-11 14:31:10,793 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 1 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$0E83A8347254C0572CF2A93D1D34674AC19798A8~ididnteditheconfig,$9B2A6CEDA8CAE94A78E49E8EEAD29F92F5C73D86~relayon0157 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T08:52:08.273894 CONFLUX_ID=11F6E70D421662DDC963940E7DBEE6EC CONFLUX_RTT=368489'
+2026-04-11 14:31:10,800 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 34 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$8B9D7678AA95122665C64161D70C28924ADD41FD~critic4lx,$2BCA0A8B5759DBD764BF9FA5D1B3AEE9D74D2B68~Waeswynn,$C26AF1347BCBB31E20089FBF9C338B0843FC171D~Esquie BUILD_FLAGS=IS_INTERNAL,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-11T08:52:15.050815'
+2026-04-11 14:31:10,815 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:31:11,298 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 14:31:11,299 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:31:11,302 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:31:11,341 - tor_network.tor_manager - ERROR - Anonymity check failed: HTTPConnectionPool(host='httpbin.org', port=80): Max retries exceeded with url: /ip (Caused by NameResolutionError("HTTPConnection(host='httpbin.org', port=80): Failed to resolve 'httpbin.org' ([Errno 11001] getaddrinfo failed)"))
+2026-04-11 14:31:11,343 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-11 14:31:14,897 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-11 14:31:14,898 - crawler.web_crawler - INFO - Crawling [0/3]: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:31:14,898 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:31:14,900 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion:80
+2026-04-11 14:31:24,885 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion', port=
+2026-04-11 14:31:32,924 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:31:33,314 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 14:31:33,315 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:31:33,316 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 193.189.100.197 -> New IP: 193.189.100.197
+2026-04-11 14:31:33,316 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-11 14:31:33,317 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:31:33,318 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:31:33,320 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion:80
+2026-04-11 14:31:44,430 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion', port=
+2026-04-11 14:31:52,462 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:31:52,465 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:31:54,639 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-11 14:31:54,640 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:31:54,640 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 193.189.100.197 -> New IP: 45.154.98.19
+2026-04-11 14:31:54,641 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-11 14:31:54,641 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:31:54,642 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:31:54,643 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion:80
+2026-04-11 14:32:02,796 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion', port=
+2026-04-11 14:32:02,797 - tor_network.tor_manager - ERROR - Failed to fetch http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion after 3 attempts
+2026-04-11 14:32:02,798 - crawler.web_crawler - WARNING -  Failed to crawl: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:32:07,799 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-11 14:32:07,800 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:32:07,803 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-11 14:32:07,819 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:32:15,855 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:32:15,858 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:32:18,839 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-11 14:32:18,841 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:32:18,841 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.154.98.19 -> New IP: 185.246.188.73
+2026-04-11 14:32:18,842 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-11 14:32:18,842 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:32:18,843 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:32:18,845 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-11 14:32:18,851 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:32:26,909 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:32:26,911 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:32:28,432 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-11 14:32:28,434 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:32:28,434 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.246.188.73 -> New IP: 195.176.3.23
+2026-04-11 14:32:28,435 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-11 14:32:28,436 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:32:28,437 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:32:28,440 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-11 14:32:28,445 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:32:28,448 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-11 14:32:28,449 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-11 14:32:33,450 - crawler.web_crawler - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-11 14:32:33,452 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-11 14:32:33,454 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 14:32:33,456 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-11 14:37:39,185 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 14:37:39,765 - config.settings - INFO - Configuration validation passed
+2026-04-11 14:37:39,765 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 14:37:39,766 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 14:37:39,767 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-11 14:37:39,787 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-11 14:37:39,793 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-11 14:37:39,796 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:37:39,805 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 14:37:39,815 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 14:37:41,512 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-11 14:37:41,514 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:37:41,514 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-11 14:37:41,515 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:37:41,517 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:37:42,369 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:37:42,369 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:37:42,370 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 185.220.101.4
+2026-04-11 14:37:42,373 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0027)
+2026-04-11 14:37:42,373 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 1 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$485463A9B192A7E38DDB7D2280BD91098B490C3D~GermanCraft23,$24A04061669B89317B2CD235B0C556BAA96FD28E~PRQseTORexit3 BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T09:06:45.656263 CONFLUX_ID=783EE79BB5BA21358A504C31C54BABF7 CONFLUX_RTT=818817'
+2026-04-11 14:37:42,374 - stem - INFO - CIRC event had an unrecognized purpose (HS_SERVICE_HSDIR). Maybe a new addition to the control protocol? Full Event: 'CIRC 23 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$27A80F0A969793C47EACAF260397387BDE9DD288~youngbuck,$FB0E2A3B78AC95537834BDE43AB9958F5D782386~zgato,$DE85FE246ED482EA07BCDCF5D769B0ED649817F7~VrijHeid2 BUILD_FLAGS=IS_INTERNAL,NEED_CAPACITY,NEED_UPTIME PURPOSE=HS_SERVICE_HSDIR HS_STATE=HSSI_CONNECTING TIME_CREATED=2026-04-11T09:06:49.684344'
+2026-04-11 14:37:42,375 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 13 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$27A80F0A969793C47EACAF260397387BDE9DD288~youngbuck,$83A83106CF70808C479B73D9141B03B7042F4605~itsamazing,$6CB2C00C8374D6968698A57940245249FC5B1769~code BUILD_FLAGS=IS_INTERNAL,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-11T09:06:47.962746'
+2026-04-11 14:37:42,379 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 43 BUILT $0439AB73BB2B8730FCB15B18252928FC0C2EDF91~johnsrelay,$F8F2B6BF6B2C2205CE0C110E23716F6A31D993D7~desolate,$D9BE4EE032E43CA43413F8E6715EBD7CE08D65FE~weizen BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-11T09:07:40.134091 CONFLUX_ID=468F0FE04BF3A937F9C8C2EA09C48FDF'
+2026-04-11 14:37:42,381 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:37:43,035 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:37:43,036 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:37:43,038 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:37:43,063 - tor_network.tor_manager - ERROR - Anonymity check failed: HTTPConnectionPool(host='httpbin.org', port=80): Max retries exceeded with url: /ip (Caused by NameResolutionError("HTTPConnection(host='httpbin.org', port=80): Failed to resolve 'httpbin.org' ([Errno 11001] getaddrinfo failed)"))
+2026-04-11 14:37:43,065 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-11 14:37:46,202 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-11 14:37:46,202 - crawler.web_crawler - INFO - Crawling [0/3]: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:37:46,203 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:37:46,204 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion:80
+2026-04-11 14:37:55,921 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion', port=
+2026-04-11 14:38:03,971 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:38:04,793 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:38:04,794 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:38:04,794 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.4 -> New IP: 185.220.101.4
+2026-04-11 14:38:04,794 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-11 14:38:04,795 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:38:04,795 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:38:04,796 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion:80
+2026-04-11 14:38:16,844 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion', port=
+2026-04-11 14:38:24,877 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:38:24,880 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:38:27,323 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 29
+2026-04-11 14:38:27,326 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:38:27,327 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.4 -> New IP: 88.80.26.4
+2026-04-11 14:38:27,328 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-11 14:38:27,330 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:38:27,341 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:38:27,345 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion:80
+2026-04-11 14:38:36,619 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion', port=
+2026-04-11 14:38:36,621 - tor_network.tor_manager - ERROR - Failed to fetch http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion after 3 attempts
+2026-04-11 14:38:36,622 - crawler.web_crawler - WARNING -  Failed to crawl: http://qcnhdhc2rgkhq6nzqtdnffutxywibg6jmzgfpzno3lnwobmbblyfagyd.onion
+2026-04-11 14:38:41,623 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-11 14:38:41,624 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:38:41,627 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-11 14:38:41,650 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:38:49,683 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:38:49,686 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:38:50,584 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:38:50,586 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:38:50,587 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 88.80.26.4 -> New IP: 192.42.116.51
+2026-04-11 14:38:50,587 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-11 14:38:50,589 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:38:50,589 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:38:50,593 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-11 14:38:50,622 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:38:58,628 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:38:58,631 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:38:59,689 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-11 14:38:59,691 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:38:59,691 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 192.42.116.51 -> New IP: 107.189.3.94
+2026-04-11 14:38:59,692 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-11 14:38:59,693 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:38:59,693 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:38:59,695 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-11 14:38:59,718 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:38:59,719 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-11 14:38:59,720 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-11 14:39:04,720 - crawler.web_crawler - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-11 14:39:04,722 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-11 14:39:04,723 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10058] A request to send or receive data was disallowed because the socket had already been shut down in that direction with a previous shutdown call"
+2026-04-11 14:39:04,724 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-11 14:43:13,709 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-11 14:43:14,110 - config.settings - INFO - Configuration validation passed
+2026-04-11 14:43:14,111 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-11 14:43:14,111 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-11 14:43:14,112 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-11 14:43:14,125 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-11 14:43:14,125 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-11 14:43:14,126 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:43:14,126 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-11 14:43:14,132 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-11 14:43:15,714 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 37
+2026-04-11 14:43:15,715 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:43:15,715 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-11 14:43:15,715 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:43:15,716 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:43:17,389 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 14:43:17,390 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:43:17,391 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 185.243.218.233
+2026-04-11 14:43:17,400 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0085)
+2026-04-11 14:43:17,401 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 1 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$F375B9D76078C17B65BE4B65D3C492F11FCC54CE~eggplant,$C520B551D503E2694E1F32C8AED3D716FCC22BFA~bauruine BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-11T09:12:34.311766 CONFLUX_ID=16DBC87FFA39AC27B1A5EC3C4DD67ABD CONFLUX_RTT=612270'
+2026-04-11 14:43:17,403 - stem - INFO - CIRC event had an unrecognized purpose (HS_SERVICE_HSDIR). Maybe a new addition to the control protocol? Full Event: 'CIRC 54 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$ED627717BF2F8396066CA7C5741B6F3C603A7C68~hugin,$B0DC874C634483E4796ABC8A1648312FB0B16EB2~ken,$18D804D04378BF0E395F39D2C957F456026B14A3~operaTor BUILD_FLAGS=IS_INTERNAL,NEED_CAPACITY PURPOSE=HS_SERVICE_HSDIR HS_STATE=HSSI_CONNECTING TIME_CREATED=2026-04-11T09:12:43.818139'
+2026-04-11 14:43:17,407 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 59 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$ED627717BF2F8396066CA7C5741B6F3C603A7C68~hugin,$2975ECC1963579D5C9413D82B106729BB52D78EC~marsmellow2,$BD2BC415D5D8AE3C34430E70EC82CF3B0C61BDDF~blix BUILD_FLAGS=IS_INTERNAL,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-11T09:12:45.799171'
+2026-04-11 14:43:17,420 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:43:17,844 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 14:43:17,845 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:43:17,850 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:43:17,884 - tor_network.tor_manager - ERROR - Anonymity check failed: HTTPConnectionPool(host='httpbin.org', port=80): Max retries exceeded with url: /ip (Caused by NameResolutionError("HTTPConnection(host='httpbin.org', port=80): Failed to resolve 'httpbin.org' ([Errno 11001] getaddrinfo failed)"))
+2026-04-11 14:43:17,885 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-11 14:43:20,680 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-11 14:43:20,681 - crawler.web_crawler - INFO - Crawling [0/3]: http://eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion
+2026-04-11 14:43:20,681 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion
+2026-04-11 14:43:20,682 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion:80
+2026-04-11 14:43:29,462 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion', port=
+2026-04-11 14:43:37,505 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:43:42,260 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-11 14:43:42,261 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:43:42,262 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.243.218.233 -> New IP: 185.243.218.233
+2026-04-11 14:43:42,262 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-11 14:43:42,263 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:43:42,263 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion
+2026-04-11 14:43:42,265 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion:80
+2026-04-11 14:43:53,923 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion', port=
+2026-04-11 14:44:02,016 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:44:02,020 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:44:03,443 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:44:03,443 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:44:03,444 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.243.218.233 -> New IP: 171.25.193.78
+2026-04-11 14:44:03,445 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-11 14:44:03,446 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:44:03,446 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion
+2026-04-11 14:44:03,447 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion:80
+2026-04-11 14:44:16,854 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion', port=
+2026-04-11 14:44:16,855 - tor_network.tor_manager - ERROR - Failed to fetch http://eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion after 3 attempts
+2026-04-11 14:44:16,856 - crawler.web_crawler - WARNING -  Failed to crawl: http://eom2ewlkev4l37vn7webktpexglck54uw3hz3rl26vm6glgi4cmrfoyd.onion
+2026-04-11 14:44:21,857 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-11 14:44:21,858 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:44:21,860 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-11 14:44:21,892 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:44:29,936 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:44:29,939 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:44:30,918 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:44:30,920 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:44:30,921 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 171.25.193.78 -> New IP: 192.42.116.95
+2026-04-11 14:44:30,921 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-11 14:44:30,922 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:44:30,922 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:44:30,925 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-11 14:44:30,932 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:44:38,937 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-11 14:44:38,941 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-11 14:44:40,483 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-11 14:44:40,484 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-11 14:44:40,485 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 192.42.116.95 -> New IP: 192.42.116.94
+2026-04-11 14:44:40,486 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-11 14:44:40,488 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-11 14:44:40,489 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-11 14:44:40,492 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-11 14:44:40,507 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-11 14:44:40,509 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-11 14:44:40,510 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-11 14:44:45,511 - crawler.web_crawler - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-11 14:44:45,513 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-11 14:44:45,514 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-11 14:44:45,518 - tor_network.tor_manager - INFO - Tor connection closed

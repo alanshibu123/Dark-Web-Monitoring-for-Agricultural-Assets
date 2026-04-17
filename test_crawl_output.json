@@ -1,0 +1,62 @@
+{
+  "crawl_metadata": {
+    "timestamp": "2026-04-12T10:17:22.369222",
+    "total_pages": 3,
+    "max_depth": 3
+  },
+  "crawled_pages": [
+    {
+      "url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+      "title": "🌾 AGRITHRAX MARKET - Dark Agriculture Exchange",
+      "content": "🌾 AGRITHRAX MARKET - Dark Agriculture Exchange 🌾 AGRITHRAX DARK AGRICULTURE EXCHANGE ╔══════════════════════════════════════════════════════╗ ║ 🌾 AGRICULTURAL DATA LEAKS MARKET 🥷 ║ ╠══════════════════════════════════════════════════════╣ ║ >> 2,847 leaked databases available ║ ║ >> 1.2M+ farm credentials ║ ║ >> 500+ irrigation system access ║ ║ >> Live crop data feeds ║ ╚══════════════════════════════════════════════════════╝ ⚠️ TOR EXIT NODE DETECTED | ACCESS LOGGED | PROCEED WITH CAUTION ⚠️ 2,847 Databases 1.2M Credentials $4.5M Total Value 🐄 1337 Active Users 🔥 RECENT AGRICULTURAL BREACHES 🌾 2024-03-15 GlobalGrain Corp CREDENTIALS VIEW → 🚜 2024-03-14 SmartIrrigation Systems DATABASE VIEW → 🌽 2024-03-13 AgriTech Solutions API KEYS VIEW →",
+      "content_length": 749,
+      "crawl_depth": 0,
+      "found_at": "seed",
+      "crawled_at": "2026-04-12T10:16:04.968254",
+      "status_code": 200,
+      "links_found": [
+        "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+        "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+        "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html"
+      ],
+      "content_type": "text/html; charset=UTF-8",
+      "hash_content": "06e994dc1233065a00e7162caa44298d"
+    },
+    {
+      "url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+      "title": "🌾 GlobalGrain Corp Credentials Dump",
+      "content": "🌾 GlobalGrain Corp Credentials Dump ⚠️ CLASSIFIED LEAKED DATA - FOR EDUCATIONAL TESTING ONLY ⚠️ 🌾 GlobalGrain Corp - Internal Credentials Leak Date: 2024-03-15 | Size: 847MB | Format: SQL/CSV Sample Data: -- Farm Management System Credentials -- admin@globalgrain.com:GlobalGrain@dm1n2024 john.agriculture@globalgrain:farm!rrig@tion99 sarah.farmmanager@globalgrain:cropd@ta2024! irrigation.system@globalgrain:smart$prinkler123 -- Database Access -- host: postgres.globalgrain.internal port: 5432 database: farm_production user: farm_admin pass: G!0b@lGr@1nDB -- API Keys -- WeatherAPI: sk_live_farmweather_8H2jK9sP4mR6vY2nL8xQ SatelliteAPI: agri_sat_private_MJ3nF7kL9pO2iU4yT6rE -- Employee Credentials -- EmployeeID: EMP-2894 SSN: XXX-XX-3847 (Redacted for demo) Bank Account: Agricultural Credit Union - ACCT: 8472938472 -- Irrigation Control Panels -- Panel ID: IR-3847-AG Username: admin Password: 1234 (Default - not changed) IP: 192.168.1.47 -- Crop Management System -- Sensor Network Keys: sensor_001: temp_humidity_9h3k2j1h sensor_047: soil_moisture_kd8f7g3j gateway_key: farm_gateway_84hdjf73k 🌾 Vendor: DarkHarvest Posted: 2024-03-15 23:47 UTC Full database dump from GlobalGrain's farm management system. Includes credentials for 847 employees across 23 facilities. Also contains irrigation system access codes. Price: 0.5 BTC Format: SQL dump + CSV exports Verification: MD5 hash included MD5: 8h2k3j4h5g6f7d8s9a0s7d8f9g7h6j5k 👁️ Views: 847 💬 Comments: 23 ⭐ Rating: 4.7/5 🕒 Last active: 2 mins ago",
+      "content_length": 1510,
+      "crawl_depth": 1,
+      "found_at": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+      "crawled_at": "2026-04-12T10:16:40.922200",
+      "status_code": 200,
+      "links_found": [],
+      "content_type": "text/html; charset=UTF-8",
+      "hash_content": "6a28972d7049e7b761633716a6651330"
+    },
+    {
+      "url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+      "title": "💧 Smart Irrigation Systems - Access Database",
+      "content": "💧 Smart Irrigation Systems - Access Database ⚠️ IRRIGATION SYSTEM ACCESS DATABASE - FRESH DUMP ⚠️ 💧 Smart Irrigation Systems - Global Access Database 📅 Leak Date: 2024-03-14 📁 Size: 847KB 👁️ Views: 5,234 ⭐ Rating: 4.9/5 💧 Irrigation Controller Access List: ╔══════════════════════════════════════════════════════════════╗ ║ SMART IRRIGATION CONTROLLER ACCESS ║ ╠══════════════════════════════════════════════════════════════╣ ║ ║ ║ CALIFORNIA - CENTRAL VALLEY ║ ║ ================================ ║ ║ ║ ║ Controller: CV-IR-001 ║ ║ Location: Fresno, CA (36.7477° N, 119.7737° W) ║ ║ IP: 192.168.47.101 ║ ║ Username: admin ║ ║ Password: 1234 (Default) ║ ║ Status: ONLINE ║ ║ Last Active: 2 mins ago ║ ║ ║ ║ Controller: CV-IR-047 ║ ║ Location: Bakersfield, CA (35.3733° N, 119.0187° W) ║ ║ IP: 192.168.47.147 ║ ║ Username: admin ║ ║ Password: irrigation2024 ║ ║ Status: ONLINE ║ ║ Last Active: 15 mins ago ║ ║ ║ ║ Controller: CV-IR-089 ║ ║ Location: Modesto, CA (37.6391° N, 120.9969° W) ║ ║ IP: 192.168.47.189 ║ ║ Username: irrigator ║ ║ Password: P@ssw0rd123 ║ ║ Status: ONLINE ║ ║ Last Active: 47 mins ago ║ ║ ║ ║ TEXAS - PANHANDLE ║ ║ ==================== ║ ║ ║ ║ Controller: TX-IR-234 ║ ║ Location: Amarillo, TX (35.2220° N, 101.8313° W) ║ ║ IP: 192.168.78.234 ║ ║ Username: admin ║ ║ Password: admin ║ ║ Status: ONLINE ║ ║ Last Active: 5 mins ago ║ ║ ║ ║ Controller: TX-IR-256 ║ ║ Location: Lubbock, TX (33.5779° N, 101.8552° W) ║ ║ IP: 192.168.78.256 ║ ║ Username: root ║ ║ Password: t0ps3cr3t! ║ ║ Status: ONLINE ║ ║ Last Active: 23 mins ago ║ ║ ║ ║ NEBRASKA - CORN BELT ║ ║ ======================= ║ ║ ║ ║ Controller: NE-IR-384 ║ ║ Location: Omaha, NE (41.2565° N, 95.9345° W) ║ ║ IP: 192.168.92.384 ║ ║ Username: admin ║ ║ Password: cornbelt2024 ║ ║ Status: ONLINE ║ ║ Last Active: 8 mins ago ║ ║ ║ ║ Controller: NE-IR-423 ║ ║ Location: Lincoln, NE (40.8136° N, 96.7026° W) ║ ║ IP: 192.168.92.423 ║ ║ Username: sysadmin ║ ║ Password: N3br@sk@Farming! ║ ║ Status: ONLINE ║ ║ Last Active: 34 mins ago ║ ║ ║ ║ FLORIDA - CITRUS BELT ║ ║ ======================= ║ ║ ║ ║ Controller: FL-IR-512 ║ ║ Location: Orlando, FL (28.5383° N, 81.3792° W) ║ ║ IP: 192.168.64.512 ║ ║ Username: admin ║ ║ Password: sunshine2024 ║ ║ Status: ONLINE ║ ║ Last Active: 12 mins ago ║ ║ ║ ║ Controller: FL-IR-578 ║ ║ Location: Tampa, FL (27.9506° N, 82.4572° W) ║ ║ IP: 192.168.64.578 ║ ║ Username: irrigator ║ ║ Password: citrus!rrigation ║ ║ Status: ONLINE ║ ║ Last Active: 42 mins ago ║ ║ ║ ║ WASHINGTON - YAKIMA VALLEY ║ ║ =========================== ║ ║ ║ ║ Controller: WA-IR-642 ║ ║ Location: Yakima, WA (46.6021° N, 120.5059° W) ║ ║ IP: 192.168.45.642 ║ ║ Username: admin ║ ║ Password: appleorchards2024 ║ ║ Status: ONLINE ║ ║ Last Active: 3 mins ago ║ ║ ║ ║ Controller: WA-IR-689 ║ ║ Location: Wenatchee, WA (47.4235° N, 120.3103° W) ║ ║ IP: 192.168.45.689 ║ ║ Username: root ║ ║ Password: cherryblossom! ║ ║ Status: ONLINE ║ ║ Last Active: 27 mins ago ║ ║ ║ ║ ARIZONA - DESERT REGION ║ ║ ======================== ║ ║ ║ ║ Controller: AZ-IR-723 ║ ║ Location: Phoenix, AZ (33.4484° N, 112.0740° W) ║ ║ IP: 192.168.88.723 ║ ║ Username: admin ║ ║ Password: desertfarming2024 ║ ║ Status: ONLINE ║ ║ Last Active: 9 mins ago ║ ║ ║ ║ Controller: AZ-IR-784 ║ ║ Location: Tucson, AZ (32.2226° N, 110.9747° W) ║ ║ IP: 192.168.88.784 ║ ║ Username: irrigator ║ ║ Password: cactus!rrigation ║ ║ Status: ONLINE ║ ║ Last Active: 51 mins ago ║ ║ ║ ╚══════════════════════════════════════════════════════════════╝ ╔══════════════════════════════════════════════════════════════╗ ║ CENTRAL MANAGEMENT SERVER ACCESS ║ ╠══════════════════════════════════════════════════════════════╣ ║ ║ ║ Primary Controller: ║ ║ Host: irrigationserver.smartirrigation.com ║ ║ IP: 10.0.0.47 ║ ║ Port: 8080 ║ ║ Username: master_admin ║ ║ Password: Smart!rrig@tion2024! ║ ║ ║ ║ Backup Controller: ║ ║ Host: irrigationserver-backup.smartirrigation.com ║ ║ IP: 10.0.0.48 ║ ║ Port: 8080 ║ ║ Username: backup_admin ║ ║ Password: Backup@dm1n2024 ║ ║ ║ ║ Database Server: ║ ║ Host: irrigationserver-db.smartirrigation.com ║ ║ Port: 3306 ║ ║ Database: irrigation_control ║ ║ Username: db_admin ║ ║ Password: DB@cc3ss!rrig@tion ║ ║ ║ ╚══════════════════════════════════════════════════════════════╝ ╔══════════════════════════════════════════════════════════════╗ ║ API ENDPOINTS ║ ╠══════════════════════════════════════════════════════════════╣ ║ ║ ║ REST API: https://api.smartirrigation.com/v2 ║ ║ API Key: sk_live_irrigation_8H2jK9sP4mR6vY2nL8xQ ║ ║ API Secret: sk_live_8H2jK9sP4mR6vY2nL8xQ_secret ║ ║ ║ ║ WebSocket: wss://ws.smartirrigation.com/live ║ ║ Auth Token: jwt_eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 ║ ║ ║ ║ MQTT Broker: mqtt.smartirrigation.com:1883 ║ ║ MQTT Username: mqtt_user ║ ║ MQTT Password: MQTT_P@ssw0rd2024 ║ ║ MQTT Topics: /irrigation/#, /sensors/+/data ║ ║ ║ ╚══════════════════════════════════════════════════════════════╝ 💧 Vendor: WaterGhost (Elite Vendor ⭐⭐⭐⭐⭐) Posted: 2024-03-14 21:32 UTC | Last Active: Now 💧 **COMPLETE SMART IRRIGATION ACCESS DATABASE** 💧 2,847 irrigation controllers across the US. All credentials tested and working. **Package includes:** ✓ Controller IPs and ports ✓ Usernames and passwords ✓ Geographic coordinates ✓ Access to central management system ✓ API keys for remote control ✓ MQTT broker access for real-time data ✓ Water usage history ✓ Soil moisture sensor data **Price: 0.3 BTC** **Format: JSON + CSV + SQL** **Verification: 10 free samples included** Status: ✅ VERIFIED - All credentials working as of 2024-03-14",
+      "content_length": 5520,
+      "crawl_depth": 1,
+      "found_at": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+      "crawled_at": "2026-04-12T10:17:06.315025",
+      "status_code": 200,
+      "links_found": [],
+      "content_type": "text/html; charset=UTF-8",
+      "hash_content": "7edd5fc267f0f2409af3cfea4ece2a48"
+    }
+  ],
+  "failed_urls": [
+    [
+      "http://darkfailllnkf4vf.onion",
+      "HTTP No response"
+    ],
+    [
+      "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html",
+      "HTTP No response"
+    ]
+  ]
+}

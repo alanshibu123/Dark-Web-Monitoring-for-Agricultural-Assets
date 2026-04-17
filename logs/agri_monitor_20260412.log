@@ -1,0 +1,628 @@
+2026-04-12 09:49:34,280 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 09:49:35,644 - config.settings - INFO - Configuration validation passed
+2026-04-12 09:49:35,644 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-12 09:49:35,645 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-12 09:49:35,646 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-12 09:49:35,666 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-12 09:49:35,667 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-12 09:49:35,668 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:49:35,668 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-12 09:49:35,703 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-12 09:49:37,457 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 36
+2026-04-12 09:49:37,459 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:49:37,460 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-12 09:49:37,461 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:49:37,464 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:49:39,295 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-12 09:49:39,296 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:49:39,297 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 185.220.101.31
+2026-04-12 09:49:39,304 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0051)
+2026-04-12 09:49:39,305 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 2 BUILT $0439AB73BB2B8730FCB15B18252928FC0C2EDF91~johnsrelay,$E9F71AC06F29B2110E3FC09016B0E50407444EE2~libertas,$D7296ABD49C14BF50726227BFAE1ACA423ACC229~ratte BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-12T04:18:42.492360 CONFLUX_ID=2F350A347EF82EF994DDF6EEFFE1E501 CONFLUX_RTT=306216'
+2026-04-12 09:49:39,308 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 3 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$C02C9620AB0F3EBD5009D5BB8D0C9336E7060FB3~CandleInTheDark,$2063D2BF966CD086BAE411B18A559DB19F97395D~Quetzalcoatl BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-12T04:18:42.532732 CONFLUX_ID=1B6420EE3DD98AB75F4BBAAD5EAEBCC6'
+2026-04-12 09:49:39,309 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 34 BUILT $6520532F204357136DE139A29459A27A498AC13D~Starfleet,$3DAE629939F53D86B11249B64706B1737CDA2CC7~XMRstonks,$3204E30DBACAC1EE939657A4216CD7E871D66BE4~Frites,$0AB6A9DB3057772B9C58418D38B3ACCB6B69264F~djmustard BUILD_FLAGS=IS_INTERNAL,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-12T04:18:51.679501'
+2026-04-12 09:49:39,310 - stem - INFO - CIRC event had an unrecognized purpose (HS_SERVICE_HSDIR). Maybe a new addition to the control protocol? Full Event: 'CIRC 50 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$F538DBEA80CA7DA733537166CA364D98CBE9E1D1~10dxx,$AA8AE5ADFB01B1B0CADDF9B4F365F54A29B65846~vpshuman,$0114354ADC037C43CD7F11A708248894A06BF503~oceansample BUILD_FLAGS=IS_INTERNAL,NEED_CAPACITY,NEED_UPTIME PURPOSE=HS_SERVICE_HSDIR HS_STATE=HSSI_CONNECTING TIME_CREATED=2026-04-12T04:18:55.592365'
+2026-04-12 09:49:39,324 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:49:39,909 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-12 09:49:39,910 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:49:39,912 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:49:41,040 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 09:49:41,094 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-12 09:49:50,784 - crawler.web_crawler - INFO - Starting crawl #1
+2026-04-12 09:49:50,784 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-12 09:49:50,784 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 09:49:50,785 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 09:49:50,786 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 09:50:18,531 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-12 09:50:18,842 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:50:18,856 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-12 09:50:23,859 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-12 09:50:23,860 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-12 09:50:23,863 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-12 09:50:23,869 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:50:31,908 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:50:33,158 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-12 09:50:33,159 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:50:33,160 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.31 -> New IP: 185.220.101.31
+2026-04-12 09:50:33,161 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-12 09:50:33,161 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:50:33,162 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-12 09:50:33,164 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-12 09:50:33,168 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:50:41,222 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:50:41,225 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:50:43,193 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 09:50:43,195 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:50:43,195 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 185.220.101.31 -> New IP: 45.80.158.165
+2026-04-12 09:50:43,196 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-12 09:50:43,197 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:50:43,199 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-12 09:50:43,202 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-12 09:50:43,224 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:50:43,225 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-12 09:50:43,226 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-12 09:50:48,227 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 09:50:48,228 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 09:50:48,232 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 09:51:08,692 - crawler.web_crawler - INFO - Received interrupt signal. Stopping scheduler...
+2026-04-12 09:51:10,903 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-12 09:51:11,250 - crawler.web_crawler - INFO - Received interrupt signal. Stopping scheduler...
+2026-04-12 09:51:11,251 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:51:11,254 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-12 09:51:11,846 - crawler.web_crawler - INFO - Received interrupt signal. Stopping scheduler...
+2026-04-12 09:51:12,304 - crawler.web_crawler - INFO - Received interrupt signal. Stopping scheduler...
+2026-04-12 09:51:12,689 - crawler.web_crawler - INFO - Received interrupt signal. Stopping scheduler...
+2026-04-12 09:51:16,255 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 09:51:16,255 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 09:51:16,883 - tor_network.tor_manager - WARNING - Connection error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-12 09:51:22,533 - crawler.web_crawler - INFO - Received interrupt signal. Stopping scheduler...
+2026-04-12 09:51:24,913 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:51:24,914 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:51:26,098 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 09:51:26,098 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:51:26,098 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.80.158.165 -> New IP: 94.16.115.121
+2026-04-12 09:51:26,099 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-12 09:51:26,099 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:51:26,099 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 09:51:26,100 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 09:51:36,273 - crawler.web_crawler - INFO - Received interrupt signal. Stopping scheduler...
+2026-04-12 09:51:37,060 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-12 09:51:37,349 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:51:37,354 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-12 09:51:42,355 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 09:51:42,356 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 09:51:42,357 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 09:51:44,408 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 09:51:44,408 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 09:51:44,409 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 09:51:45,052 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 09:51:45,053 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 09:51:45,053 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 09:51:45,759 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 09:51:45,759 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 09:51:45,759 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-12 09:51:45,760 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 09:51:50,760 - crawler.web_crawler - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-12 09:51:50,763 - crawler.web_crawler - INFO - Saved crawled data to crawl_results_20260412_095150.json
+2026-04-12 09:51:50,764 - crawler.web_crawler - INFO - Crawl #1 completed: 3 pages
+2026-04-12 09:51:50,764 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-12 09:51:50,766 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-12 09:51:50,767 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-12 09:57:23,868 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 09:57:24,148 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-12 09:57:24,148 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-12 09:57:24,149 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-12 09:57:24,181 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0004)
+2026-04-12 09:57:24,181 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-12 09:57:24,182 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:57:24,182 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-12 09:57:24,199 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-12 09:57:26,241 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-12 09:57:26,244 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:57:26,245 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-12 09:57:26,247 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:57:26,251 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:57:27,263 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 09:57:27,264 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:57:27,264 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 94.16.115.121
+2026-04-12 09:57:27,265 - __main__ - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-12 09:57:27,266 - __main__ - INFO - Starting crawl with 2 seed URLs
+2026-04-12 09:57:27,266 - __main__ - INFO - Crawling [0/3]: http://torlinksge6enqcy.onion
+2026-04-12 09:57:27,267 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://torlinksge6enqcy.onion
+2026-04-12 09:57:27,269 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): torlinksge6enqcy.onion:80
+2026-04-12 09:57:27,272 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:57:35,329 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:57:35,776 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 09:57:35,777 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:57:35,778 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 94.16.115.121 -> New IP: 94.16.115.121
+2026-04-12 09:57:35,779 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-12 09:57:35,780 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:57:35,781 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://torlinksge6enqcy.onion
+2026-04-12 09:57:35,784 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): torlinksge6enqcy.onion:80
+2026-04-12 09:57:35,788 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:57:43,792 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:57:43,795 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:57:44,671 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-12 09:57:44,672 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:57:44,672 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 94.16.115.121 -> New IP: 109.70.100.1
+2026-04-12 09:57:44,673 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-12 09:57:44,674 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:57:44,676 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://torlinksge6enqcy.onion
+2026-04-12 09:57:44,678 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): torlinksge6enqcy.onion:80
+2026-04-12 09:57:44,692 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='torlinksge6enqcy.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:57:44,693 - tor_network.tor_manager - ERROR - Failed to fetch http://torlinksge6enqcy.onion after 3 attempts
+2026-04-12 09:57:44,693 - __main__ - WARNING -  Failed to crawl: http://torlinksge6enqcy.onion
+2026-04-12 09:57:49,694 - __main__ - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-12 09:57:49,695 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-12 09:57:49,697 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-12 09:57:49,699 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:57:57,732 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:57:57,734 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:57:59,215 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 09:57:59,215 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:57:59,216 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 109.70.100.1 -> New IP: 192.42.116.44
+2026-04-12 09:57:59,216 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-12 09:57:59,216 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:57:59,216 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-12 09:57:59,217 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-12 09:57:59,219 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:58:07,292 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:58:07,294 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:58:08,227 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-12 09:58:08,229 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:58:08,230 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 192.42.116.44 -> New IP: 45.80.158.27
+2026-04-12 09:58:08,230 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-12 09:58:08,231 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:58:08,231 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-12 09:58:08,233 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-12 09:58:08,236 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:58:08,237 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-12 09:58:08,237 - __main__ - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-12 09:58:13,238 - __main__ - INFO - Crawl completed. Crawled: 0, Failed: 2
+2026-04-12 09:58:13,249 - __main__ - INFO - Saved crawled data to test_crawl_output.json
+2026-04-12 09:58:13,253 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-12 09:58:13,255 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-12 09:58:13,256 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-12 09:59:31,144 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 09:59:31,283 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-12 09:59:31,283 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-12 09:59:31,284 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-12 09:59:31,295 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0005)
+2026-04-12 09:59:31,296 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-12 09:59:31,296 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 09:59:31,297 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-12 09:59:31,303 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-12 09:59:33,524 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-12 09:59:33,526 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:59:33,527 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-12 09:59:33,528 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 09:59:33,531 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 09:59:34,751 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 09:59:34,753 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:59:34,753 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 45.84.107.172
+2026-04-12 09:59:34,754 - __main__ - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-12 09:59:34,756 - __main__ - INFO - Starting crawl with 2 seed URLs
+2026-04-12 09:59:34,757 - __main__ - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 09:59:34,759 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 09:59:34,763 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 09:59:46,529 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-12 09:59:46,836 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 09:59:46,850 - __main__ - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-12 09:59:51,852 - __main__ - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-12 09:59:51,853 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-12 09:59:51,860 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-12 09:59:51,864 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 09:59:59,897 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 10:00:00,353 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 10:00:00,354 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:00:00,355 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.84.107.172 -> New IP: 45.84.107.172
+2026-04-12 10:00:00,356 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-12 10:00:00,357 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 10:00:00,357 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-12 10:00:00,359 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-12 10:00:00,379 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 10:00:08,382 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 10:00:08,385 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 10:00:09,261 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-12 10:00:09,262 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:00:09,263 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.84.107.172 -> New IP: 45.84.107.97
+2026-04-12 10:00:09,264 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-12 10:00:09,265 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 10:00:09,266 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-12 10:00:09,269 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-12 10:00:09,274 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 10:00:09,275 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-12 10:00:09,275 - __main__ - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-12 10:00:14,277 - __main__ - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 10:00:14,278 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 10:00:14,281 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 10:00:21,962 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-12 10:00:22,268 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:00:22,275 - __main__ - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-12 10:00:27,277 - __main__ - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 10:00:27,278 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 10:00:28,002 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-12 10:00:29,023 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:00:29,031 - __main__ - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-12 10:00:34,034 - __main__ - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:00:34,039 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:00:34,048 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 10:00:35,490 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 10:00:35,492 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 10:00:35,492 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:00:36,410 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 10:00:36,412 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 10:00:36,413 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:00:37,319 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 10:00:37,320 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 10:00:37,321 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-12 10:00:37,321 - __main__ - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:00:42,322 - __main__ - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-12 10:00:42,332 - __main__ - INFO - Saved crawled data to test_crawl_output.json
+2026-04-12 10:00:42,336 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-12 10:00:42,339 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-12 10:00:42,341 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-12 10:15:51,412 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 10:15:51,536 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-12 10:15:51,536 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-12 10:15:51,537 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-12 10:15:51,550 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0003)
+2026-04-12 10:15:51,551 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-12 10:15:51,551 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 10:15:51,551 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-12 10:15:51,556 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-12 10:15:53,217 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 35
+2026-04-12 10:15:53,218 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:15:53,219 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-12 10:15:53,219 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 10:15:53,221 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 10:15:54,826 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 10:15:55,230 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:15:55,231 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 45.154.98.160
+2026-04-12 10:15:55,231 - __main__ - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-12 10:15:55,232 - __main__ - INFO - Starting crawl with 2 seed URLs
+2026-04-12 10:15:55,232 - __main__ - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 10:15:55,232 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 10:15:55,234 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 10:16:04,657 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-12 10:16:04,960 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:16:04,968 - __main__ - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-12 10:16:09,970 - __main__ - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-12 10:16:09,972 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-12 10:16:09,975 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-12 10:16:09,980 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 10:16:18,029 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 10:16:18,477 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 10:16:18,478 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:16:18,479 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.154.98.160 -> New IP: 45.154.98.160
+2026-04-12 10:16:18,481 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-12 10:16:18,481 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 10:16:18,483 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-12 10:16:18,486 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-12 10:16:18,490 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 10:16:26,493 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 10:16:26,496 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 10:16:27,531 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-12 10:16:27,533 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:16:27,534 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 45.154.98.160 -> New IP: 107.189.31.187
+2026-04-12 10:16:27,534 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-12 10:16:27,535 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 10:16:27,536 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-12 10:16:27,539 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-12 10:16:27,545 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 10:16:27,546 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-12 10:16:27,547 - __main__ - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-12 10:16:32,548 - __main__ - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 10:16:32,549 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 10:16:32,553 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 10:16:40,664 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-12 10:16:40,915 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:16:40,922 - __main__ - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-12 10:16:45,923 - __main__ - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 10:16:45,924 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 10:16:46,638 - tor_network.tor_manager - WARNING - Connection error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-12 10:16:54,676 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 10:16:54,679 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 10:16:55,378 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-12 10:16:55,383 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:16:55,384 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 107.189.31.187 -> New IP: 192.42.116.52
+2026-04-12 10:16:55,385 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-12 10:16:55,386 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 10:16:55,386 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 10:16:55,390 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 10:17:05,104 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-12 10:17:06,298 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 10:17:06,315 - __main__ - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-12 10:17:11,318 - __main__ - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:17:11,320 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:17:11,325 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 10:17:15,003 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 10:17:15,004 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 10:17:15,004 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:17:16,130 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 10:17:16,131 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 10:17:16,132 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:17:17,359 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 10:17:17,361 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 10:17:17,362 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-12 10:17:17,363 - __main__ - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 10:17:22,364 - __main__ - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-12 10:17:22,374 - __main__ - INFO - Saved crawled data to test_crawl_output.json
+2026-04-12 10:17:22,376 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-12 10:17:22,378 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-12 10:17:22,383 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-12 11:13:53,442 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 11:18:08,629 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 11:18:08,636 - __main__ - INFO - Processing document from http://test.onion/breach (786 chars)
+2026-04-12 11:18:08,636 - __main__ - DEBUG - Cleaned text: 786 -> 529 chars
+2026-04-12 11:18:43,067 - filelock - DEBUG - Attempting to acquire lock 2318467969248 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:18:43,072 - filelock - DEBUG - Lock 2318467969248 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:18:43,076 - filelock - DEBUG - Attempting to acquire lock 2318468135696 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2026-04-12 11:18:43,080 - filelock - DEBUG - Lock 2318468135696 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2026-04-12 11:18:43,102 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): publicsuffix.org:443
+2026-04-12 11:18:44,479 - urllib3.connectionpool - DEBUG - https://publicsuffix.org:443 "GET /list/public_suffix_list.dat HTTP/1.1" 200 91483
+2026-04-12 11:18:44,813 - filelock - DEBUG - Attempting to release lock 2318468135696 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2026-04-12 11:18:44,816 - filelock - DEBUG - Lock 2318468135696 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\urls\62bf135d1c2f3d4db4228b9ecaf507a2.tldextract.json.lock
+2026-04-12 11:18:44,872 - filelock - DEBUG - Attempting to release lock 2318467969248 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:18:44,876 - filelock - DEBUG - Lock 2318467969248 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:18:44,929 - __main__ - WARNING - Found potential credential (password) in http://test.onion/breach
+2026-04-12 11:18:44,930 - __main__ - WARNING - Found potential credential (api_key) in http://test.onion/breach
+2026-04-12 11:18:44,931 - __main__ - WARNING - Found potential credential (aws_key) in http://test.onion/breach
+2026-04-12 11:18:44,931 - __main__ - WARNING - Found potential credential (postgresql) in http://test.onion/breach
+2026-04-12 11:18:44,933 - __main__ - INFO - Document processed: 3 emails, 4 domains, 4 credentials found
+2026-04-12 11:23:46,980 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 11:24:13,701 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 11:26:20,855 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 11:26:20,861 - __main__ - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (786 chars)
+2026-04-12 11:26:20,861 - __main__ - DEBUG - Cleaned text: 786 -> 529 chars
+2026-04-12 11:26:55,256 - filelock - DEBUG - Attempting to acquire lock 1527238799584 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:26:55,262 - filelock - DEBUG - Lock 1527238799584 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:26:55,328 - filelock - DEBUG - Attempting to release lock 1527238799584 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:26:55,329 - filelock - DEBUG - Lock 1527238799584 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 11:26:55,354 - __main__ - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 11:26:55,354 - __main__ - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 11:26:55,355 - __main__ - WARNING - Found potential credential (aws_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 11:26:55,355 - __main__ - WARNING - Found potential credential (postgresql) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 11:26:55,357 - __main__ - INFO - Document processed: 3 emails, 4 domains, 4 credentials found
+2026-04-12 12:28:03,332 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 12:28:05,148 - config.settings - INFO - Configuration validation passed
+2026-04-12 12:28:05,150 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-12 12:28:05,151 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-12 12:28:05,152 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-12 12:28:05,187 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-12 12:28:05,190 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-12 12:28:05,196 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 12:28:05,197 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-12 12:28:05,204 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-12 12:28:06,571 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 33
+2026-04-12 12:28:06,573 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:28:06,573 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-12 12:28:06,574 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 12:28:06,577 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 12:28:08,802 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 30
+2026-04-12 12:28:08,804 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:28:08,805 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 80.94.92.92
+2026-04-12 12:28:08,827 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-12 12:28:08,832 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-12 12:28:08,833 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:28:08,834 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:28:08,836 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 12:28:17,520 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-12 12:28:17,802 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:28:17,807 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-12 12:28:17,808 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-12 12:28:17,809 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-12 12:31:11,743 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 12:31:12,833 - config.settings - INFO - Configuration validation passed
+2026-04-12 12:31:12,833 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-12 12:31:12,834 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-12 12:31:12,834 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-12 12:31:12,849 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-12 12:31:12,849 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-12 12:31:12,849 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 12:31:12,849 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-12 12:31:12,854 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-12 12:31:14,771 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 33
+2026-04-12 12:31:14,772 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:31:14,773 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-12 12:31:14,774 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 12:31:14,777 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 12:31:15,598 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 30
+2026-04-12 12:31:15,599 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:31:15,600 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 80.94.92.92
+2026-04-12 12:31:15,610 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-12 12:31:15,615 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-12 12:31:15,616 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:31:15,617 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:31:15,620 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 12:31:17,315 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-12 12:31:17,848 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:31:17,863 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-12 12:31:17,863 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-12 12:31:17,867 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-12 12:31:41,776 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-12 12:31:42,798 - config.settings - INFO - Configuration validation passed
+2026-04-12 12:31:42,798 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-12 12:31:42,798 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-12 12:31:42,799 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-12 12:31:42,811 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0002)
+2026-04-12 12:31:42,811 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-12 12:31:42,811 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 12:31:42,811 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-12 12:31:42,815 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-12 12:31:44,251 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 33
+2026-04-12 12:31:44,253 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:31:44,254 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-12 12:31:44,254 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 12:31:44,257 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 12:31:45,436 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 30
+2026-04-12 12:31:45,438 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:31:45,438 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 80.94.92.92
+2026-04-12 12:31:45,448 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-12 12:31:45,454 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-12 12:31:45,455 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:31:45,456 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:31:45,459 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 12:31:47,196 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-12 12:31:47,425 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:31:47,438 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-12 12:31:47,438 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-12 12:31:47,441 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-12 12:31:47,478 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-12 12:31:47,478 - crawler.web_crawler - INFO - Processed: 0 emails,0 credentials
+2026-04-12 12:31:52,479 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-12 12:31:52,480 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-12 12:31:52,483 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-12 12:31:52,487 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 12:32:00,532 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 12:32:01,983 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 30
+2026-04-12 12:32:01,984 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:32:01,984 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 80.94.92.92 -> New IP: 80.94.92.92
+2026-04-12 12:32:01,984 - tor_network.tor_manager - INFO - Total rotations: 1
+2026-04-12 12:32:01,984 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 12:32:01,985 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-12 12:32:01,986 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-12 12:32:02,011 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 12:32:10,033 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-12 12:32:10,035 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-12 12:32:11,078 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 31
+2026-04-12 12:32:11,079 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:32:11,079 - tor_network.tor_manager - INFO -  Identity rotated! Old IP: 80.94.92.92 -> New IP: 185.129.61.6
+2026-04-12 12:32:11,079 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-12 12:32:11,080 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-12 12:32:11,080 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-12 12:32:11,081 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-12 12:32:11,082 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-12 12:32:11,083 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-12 12:32:11,083 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-12 12:32:16,084 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 12:32:16,085 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 12:32:16,088 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-12 12:32:21,610 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-12 12:32:21,612 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:32:21,617 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-12 12:32:21,621 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-12 12:32:21,622 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-12 12:32:30,357 - filelock - DEBUG - Attempting to acquire lock 2598189218656 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:32:30,364 - filelock - DEBUG - Lock 2598189218656 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:32:30,373 - filelock - DEBUG - Attempting to release lock 2598189218656 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:32:30,378 - filelock - DEBUG - Lock 2598189218656 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:32:30,425 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 12:32:30,425 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 12:32:30,426 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-12 12:32:30,427 - crawler.web_crawler - INFO - Processed: 1 emails,2 credentials
+2026-04-12 12:32:35,427 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:35,428 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:35,431 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:32:38,900 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-12 12:32:39,971 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-12 12:32:39,975 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-12 12:32:39,976 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-12 12:32:39,978 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-12 12:32:39,985 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,987 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,988 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,989 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,989 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,990 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,990 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,990 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,991 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,991 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,991 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,992 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,992 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,992 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,992 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,993 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,996 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,997 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,997 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,998 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,998 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,998 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,999 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,999 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:39,999 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,000 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,000 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,001 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,004 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,004 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,008 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,011 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,011 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,011 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,011 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,012 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,012 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:32:40,015 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 37 credentials found
+2026-04-12 12:32:40,015 - crawler.web_crawler - INFO - Processed: 0 emails,37 credentials
+2026-04-12 12:32:45,016 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 12:32:45,016 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 12:32:45,018 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-12 12:32:46,829 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 12:32:46,831 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 12:32:46,831 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 12:32:47,904 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 12:32:47,905 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 12:32:47,905 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 12:32:48,571 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-12 12:32:48,572 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-12 12:32:48,572 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-12 12:32:48,572 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-12 12:32:53,573 - crawler.web_crawler - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-12 12:32:53,575 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-12 12:32:53,576 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-12 12:32:53,579 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-12 12:32:53,580 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-12 12:32:53,582 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-12 12:33:03,003 - filelock - DEBUG - Attempting to acquire lock 2598189893904 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:33:03,006 - filelock - DEBUG - Lock 2598189893904 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:33:03,009 - filelock - DEBUG - Attempting to release lock 2598189893904 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:33:03,011 - filelock - DEBUG - Lock 2598189893904 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-12 12:33:03,046 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 12:33:03,046 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-12 12:33:03,053 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-12 12:33:03,054 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-12 12:33:03,056 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-12 12:33:03,059 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,059 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,060 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,060 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,060 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,060 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,060 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,061 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,061 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,061 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,061 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,061 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,062 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,062 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,062 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,062 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,062 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,063 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,063 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,063 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,069 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,069 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,069 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,070 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,070 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,070 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,070 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,070 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,070 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,071 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,071 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,071 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,071 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,072 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,072 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,072 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,072 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-12 12:33:03,076 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 37 credentials found
+2026-04-12 12:33:03,090 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-12 12:33:03,091 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-12 12:33:03,092 - tor_network.tor_manager - INFO - Tor connection closed

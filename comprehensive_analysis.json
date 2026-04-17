@@ -1,0 +1,1714 @@
+{
+  "timestamp": "2026-04-14T13:06:45.253879",
+  "total_documents": 3,
+  "summary": {
+    "high_risk_count": 3,
+    "critical_threat_count": 0,
+    "total_entities": 128,
+    "total_relationships": 1,
+    "average_threat_score": 30.27056356271108
+  },
+  "results": [
+    {
+      "url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+      "title": "\ud83c\udf3e AGRITHRAX MARKET - Dark Agriculture Exchange",
+      "keyword_detection": {
+        "document_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+        "processed_at": "2026-04-14T13:05:42.170175",
+        "total_matches": 11,
+        "matches_by_category": {
+          "agriculture": 5,
+          "domain": 3,
+          "agricultu": 3
+        },
+        "high_confidence_matches": [
+          {
+            "keyword": "crop yield data",
+            "matched_text": "crop",
+            "match_type": "exact_word",
+            "confidence": 0.8500000000000001,
+            "position": 201,
+            "context": "arm credentials 500 irrigation system access live crop data feeds tor exit node detected access logged p",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "crop yield data",
+            "matched_text": "data",
+            "match_type": "exact_word",
+            "confidence": 0.8500000000000001,
+            "position": 94,
+            "context": " agrithrax dark agriculture exchange agricultural data leaks market 2,847 leaked databases available 1.2",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "crop yield data",
+            "matched_text": "data",
+            "match_type": "exact_word",
+            "confidence": 0.8500000000000001,
+            "position": 206,
+            "context": "redentials 500 irrigation system access live crop data feeds tor exit node detected access logged procee",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation",
+            "match_type": "exact_word",
+            "confidence": 0.8500000000000001,
+            "position": 171,
+            "context": "ked databases available 1.2m farm credentials 500 irrigation system access live crop data feeds tor exit node ",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "livestock database",
+            "matched_text": "database",
+            "match_type": "exact_word",
+            "confidence": 0.8500000000000001,
+            "position": 452,
+            "context": "edentials view 2024-03-14 smartirrigation systems database view 2024-03-13 agritech solutions api keys view",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "irrigation system ",
+            "match_type": "fuzzy",
+            "confidence": 0.8034999999999999,
+            "position": 171,
+            "context": "ked databases available 1.2m farm credentials 500 irrigation system access live crop data feeds tor ",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 0.71
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "smartirrigation sy",
+            "match_type": "fuzzy",
+            "confidence": 0.9735,
+            "position": 428,
+            "context": "3-15 globalgrain corp credentials view 2024-03-14 smartirrigation systems database view 2024-03-13 a",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 0.91
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "14 smartirrigation",
+            "match_type": "fuzzy",
+            "confidence": 0.9055,
+            "position": 425,
+            "context": "4-03-15 globalgrain corp credentials view 2024-03-14 smartirrigation systems database view 2024-03-1",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 0.83
+          },
+          {
+            "keyword": "livestock database",
+            "matched_text": "leaked databases a",
+            "match_type": "fuzzy",
+            "confidence": 0.8034999999999999,
+            "position": 118,
+            "context": "ure exchange agricultural data leaks market 2,847 leaked databases available 1.2m farm credentials 5",
+            "category": "agricultu",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 0.71
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation system a",
+            "match_type": "fuzzy",
+            "confidence": 0.812,
+            "position": 171,
+            "context": "ked databases available 1.2m farm credentials 500 irrigation system access live crop data feeds tor ",
+            "category": "agricultu",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 0.72
+          },
+          {
+            "keyword": "crop yield data",
+            "matched_text": "crop data feeds",
+            "match_type": "fuzzy",
+            "confidence": 0.8374999999999999,
+            "position": 201,
+            "context": "arm credentials 500 irrigation system access live crop data feeds tor exit node detected access logg",
+            "category": "agricultu",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+            "similarity_score": 0.75
+          }
+        ],
+        "medium_confidence_matches": [],
+        "low_confidence_matches": [],
+        "overall_risk_score": 85.53448275862068
+      },
+      "nlp_analysis": {
+        "document_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion",
+        "analyzed_at": "2026-04-14T13:05:54.691628",
+        "entities": [
+          {
+            "text": "2,847",
+            "label": "CARDINAL",
+            "confidence": 0.775,
+            "start_char": 112,
+            "end_char": 117,
+            "context": "riculture exchange agricultural data leaks market 2,847 leaked databases available 1.2m farm credentials "
+          },
+          {
+            "text": "1.2",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 145,
+            "end_char": 148,
+            "context": "ata leaks market 2,847 leaked databases available 1.2m farm credentials 500 irrigation system access li"
+          },
+          {
+            "text": "500",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 167,
+            "end_char": 170,
+            "context": " leaked databases available 1.2m farm credentials 500 irrigation system access live crop data feeds tor"
+          },
+          {
+            "text": "node",
+            "label": "ORG",
+            "confidence": 0.8200000000000001,
+            "start_char": 226,
+            "end_char": 230,
+            "context": "ation system access live crop data feeds tor exit node detected access logged proceed with caution 2,847"
+          },
+          {
+            "text": "2,847",
+            "label": "CARDINAL",
+            "confidence": 0.775,
+            "start_char": 275,
+            "end_char": 280,
+            "context": " node detected access logged proceed with caution 2,847 databases 1.2m credentials 4.5m total value 1337 "
+          },
+          {
+            "text": "1.2",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 291,
+            "end_char": 294,
+            "context": "ccess logged proceed with caution 2,847 databases 1.2m credentials 4.5m total value 1337 active users r"
+          },
+          {
+            "text": "4.5",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 308,
+            "end_char": 311,
+            "context": "eed with caution 2,847 databases 1.2m credentials 4.5m total value 1337 active users recent agricultura"
+          },
+          {
+            "text": "1337",
+            "label": "DATE",
+            "confidence": 0.97,
+            "start_char": 325,
+            "end_char": 329,
+            "context": "2,847 databases 1.2m credentials 4.5m total value 1337 active users recent agricultural breaches 2024-03"
+          },
+          {
+            "text": "2024-03-15",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 372,
+            "end_char": 382,
+            "context": "ue 1337 active users recent agricultural breaches 2024-03-15 globalgrain corp credentials view 2024-03-14 smar"
+          },
+          {
+            "text": "2024-03-14",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 417,
+            "end_char": 427,
+            "context": "ches 2024-03-15 globalgrain corp credentials view 2024-03-14 smartirrigation systems database view 2024-03-13 "
+          },
+          {
+            "text": "2024-03-13",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 466,
+            "end_char": 476,
+            "context": " 2024-03-14 smartirrigation systems database view 2024-03-13 agritech solutions api keys view"
+          }
+        ],
+        "entities_by_type": {
+          "CARDINAL": 6,
+          "ORG": 1,
+          "DATE": 4
+        },
+        "relationships": [],
+        "intent": {
+          "intent": "marketplace_listing",
+          "confidence": 0.2963014543056488,
+          "all_scores": {
+            "marketplace_listing": 0.2963014543056488,
+            "data_breach_announcement": 0.1749259978532791,
+            "agriculture_research": 0.14457695186138153,
+            "credential_dump": 0.12548892199993134,
+            "technical_discussion": 0.1119295135140419,
+            "false_positive_sample": 0.0695764422416687,
+            "ransomware_threat": 0.04012499004602432,
+            "proprietary_data_sale": 0.037075743079185486
+          }
+        },
+        "detected_language": "en",
+        "readability_score": 16.479813432835822,
+        "average_word_length": 6.890909090909091,
+        "sentence_count": 1,
+        "threat_keywords": [
+          "crop yield data",
+          "smartirrigation.io",
+          "livestock database",
+          "irrigation schedule"
+        ],
+        "threat_score": 20.741101801395416,
+        "summary": "agrithrax market - dark agriculture exchange agrithrax dark agriculture exchange agricultural data leaks market 2,847 leaked databases available 1.2m farm credentials 500 irrigation system access live crop data feeds tor exit node detected access logged proceed with caution 2,847 databases 1.2m credentials 4.5m total value 1337 active users recent agricultural breaches 2024-03-15 globalgrain corp credentials view 2024-03-14 smartirrigation systems database view 2024-03-13 agritech solutions api keys view",
+        "key_phrases": [
+          "2,847",
+          "agrithrax market - dark agriculture exchange agrithrax dark agriculture exchange agricultural data leaks market",
+          "live crop data",
+          "exit node",
+          "total value",
+          "active users",
+          "2024-03-15 globalgrain corp credentials",
+          "node"
+        ]
+      },
+      "threat_assessment": {
+        "overall_threat_level": "LOW",
+        "threat_score": 20.741101801395416,
+        "detected_intent": "marketplace_listing",
+        "intent_confidence": 0.2963014543056488,
+        "risk_factors": [],
+        "recommendations": []
+      }
+    },
+    {
+      "url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+      "title": "\ud83c\udf3e GlobalGrain Corp Credentials Dump",
+      "keyword_detection": {
+        "document_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+        "processed_at": "2026-04-14T13:05:55.317132",
+        "total_matches": 6,
+        "matches_by_category": {
+          "sensitive": 1,
+          "agriculture": 2,
+          "agricultu": 1,
+          "credential": 2
+        },
+        "high_confidence_matches": [
+          {
+            "keyword": "database dump",
+            "matched_text": "database dump",
+            "match_type": "exact",
+            "confidence": 0.95,
+            "position": 1080,
+            "context": "ndor darkharvest posted 2024-03-15 23 47 utc full database dump from globalgrain's farm management system. includ",
+            "category": "sensitive",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "credential_password",
+            "matched_text": "Password: ...",
+            "match_type": "extracted",
+            "confidence": 0.9,
+            "position": 892,
+            "context": "ol Panels -- Panel ID: IR-3847-AG Username: admin Password: 1234 (Default - not changed) IP: 192.168.1.47 -- Crop ",
+            "category": "credential",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "credential_username",
+            "matched_text": "Username: ...",
+            "match_type": "extracted",
+            "confidence": 0.9,
+            "position": 876,
+            "context": "Irrigation Control Panels -- Panel ID: IR-3847-AG Username: admin Password: 1234 (Default - not changed) IP: 192.16",
+            "category": "credential",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+            "similarity_score": 1.0
+          }
+        ],
+        "medium_confidence_matches": [
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation",
+            "match_type": "exact_word",
+            "confidence": 0.75,
+            "position": 1212,
+            "context": "847 employees across 23 facilities. also contains irrigation system access codes. price 0.5 btc format sql dum",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "livestock database",
+            "matched_text": "database",
+            "match_type": "exact_word",
+            "confidence": 0.75,
+            "position": 1080,
+            "context": "ndor darkharvest posted 2024-03-15 23 47 utc full database dump from globalgrain's farm management system. i",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation system a",
+            "match_type": "fuzzy",
+            "confidence": 0.712,
+            "position": 1212,
+            "context": "847 employees across 23 facilities. also contains irrigation system access codes. price 0.5 btc form",
+            "category": "agricultu",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+            "similarity_score": 0.72
+          }
+        ],
+        "low_confidence_matches": [],
+        "overall_risk_score": 100
+      },
+      "nlp_analysis": {
+        "document_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html",
+        "analyzed_at": "2026-04-14T13:06:17.790819",
+        "entities": [
+          {
+            "text": "globalgrain corp credentials",
+            "label": "ORG",
+            "confidence": 0.9,
+            "start_char": 0,
+            "end_char": 28,
+            "context": "globalgrain corp credentials dump classified leaked data - for educational tes"
+          },
+          {
+            "text": "2024-03",
+            "label": "DATE",
+            "confidence": 0.985,
+            "start_char": 138,
+            "end_char": 145,
+            "context": "globalgrain corp - internal credentials leak date 2024-03-15 size 847mb format sql csv sample data -- farm "
+          },
+          {
+            "text": "847",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 154,
+            "end_char": 157,
+            "context": " - internal credentials leak date 2024-03-15 size 847mb format sql csv sample data -- farm management s"
+          },
+          {
+            "text": "5432",
+            "label": "CARDINAL",
+            "confidence": 0.77,
+            "start_char": 449,
+            "end_char": 453,
+            "context": "access -- host postgres.globalgrain.internal port 5432 database farm production user farm admin pass g!0"
+          },
+          {
+            "text": "8h2jk9sp4mr6vy2nl8xq",
+            "label": "CARDINAL",
+            "confidence": 0.85,
+            "start_char": 560,
+            "end_char": 580,
+            "context": "ndb -- api keys -- weatherapi sk live farmweather 8h2jk9sp4mr6vy2nl8xq satelliteapi agri sat private mj3nf7kl9po2iu4yt6r"
+          },
+          {
+            "text": "8472938472",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 759,
+            "end_char": 769,
+            "context": "emo bank account agricultural credit union - acct 8472938472 -- irrigation control panels -- panel id ir-3847-"
+          },
+          {
+            "text": "ir-3847-ag",
+            "label": "ORG",
+            "confidence": 0.8500000000000001,
+            "start_char": 811,
+            "end_char": 821,
+            "context": "72938472 -- irrigation control panels -- panel id ir-3847-ag username admin password 1234 default - not change"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 837,
+            "end_char": 845,
+            "context": "trol panels -- panel id ir-3847-ag username admin password 1234 default - not changed ip -- crop management "
+          },
+          {
+            "text": "1234",
+            "label": "DATE",
+            "confidence": 0.97,
+            "start_char": 846,
+            "end_char": 850,
+            "context": "ls -- panel id ir-3847-ag username admin password 1234 default - not changed ip -- crop management syste"
+          },
+          {
+            "text": "001",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 932,
+            "end_char": 935,
+            "context": "p management system -- sensor network keys sensor 001 temp humidity 9h3k2j1h sensor 047 soil moisture k"
+          },
+          {
+            "text": "9h3k2j1h",
+            "label": "CARDINAL",
+            "confidence": 0.79,
+            "start_char": 950,
+            "end_char": 958,
+            "context": "m -- sensor network keys sensor 001 temp humidity 9h3k2j1h sensor 047 soil moisture kd8f7g3j gateway key far"
+          },
+          {
+            "text": "047",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 966,
+            "end_char": 969,
+            "context": "ork keys sensor 001 temp humidity 9h3k2j1h sensor 047 soil moisture kd8f7g3j gateway key farm gateway 8"
+          },
+          {
+            "text": "84hdjf73k",
+            "label": "CARDINAL",
+            "confidence": 0.795,
+            "start_char": 1018,
+            "end_char": 1027,
+            "context": "7 soil moisture kd8f7g3j gateway key farm gateway 84hdjf73k vendor darkharvest posted 2024-03-15 23 47 utc fu"
+          },
+          {
+            "text": "2024-03-15",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 1054,
+            "end_char": 1064,
+            "context": " farm gateway 84hdjf73k vendor darkharvest posted 2024-03-15 23 47 utc full database dump from globalgrain's f"
+          },
+          {
+            "text": "utc",
+            "label": "ORG",
+            "confidence": 0.8150000000000001,
+            "start_char": 1071,
+            "end_char": 1074,
+            "context": "djf73k vendor darkharvest posted 2024-03-15 23 47 utc full database dump from globalgrain's farm manage"
+          },
+          {
+            "text": "847",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 1162,
+            "end_char": 1165,
+            "context": " farm management system. includes credentials for 847 employees across 23 facilities. also contains irr"
+          },
+          {
+            "text": "23",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 1183,
+            "end_char": 1185,
+            "context": "em. includes credentials for 847 employees across 23 facilities. also contains irrigation system acces"
+          },
+          {
+            "text": "price",
+            "label": "CROP",
+            "confidence": 0.875,
+            "start_char": 1244,
+            "end_char": 1249,
+            "context": "es. also contains irrigation system access codes. price 0.5 btc format sql dump csv exports verification "
+          },
+          {
+            "text": "0.5",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 1250,
+            "end_char": 1253,
+            "context": "so contains irrigation system access codes. price 0.5 btc format sql dump csv exports verification md5 "
+          },
+          {
+            "text": "8h2k3j4h5g6f7d8s9a0s7d8f9g7h6j5k",
+            "label": "CARDINAL",
+            "confidence": 0.85,
+            "start_char": 1321,
+            "end_char": 1353,
+            "context": "mp csv exports verification md5 hash included md5 8h2k3j4h5g6f7d8s9a0s7d8f9g7h6j5k views 847 comments 23 rating 4.7 5 last active 2 "
+          },
+          {
+            "text": "847",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 1360,
+            "end_char": 1363,
+            "context": "cluded md5 8h2k3j4h5g6f7d8s9a0s7d8f9g7h6j5k views 847 comments 23 rating 4.7 5 last active 2 mins ago"
+          },
+          {
+            "text": "23",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 1373,
+            "end_char": 1375,
+            "context": "2k3j4h5g6f7d8s9a0s7d8f9g7h6j5k views 847 comments 23 rating 4.7 5 last active 2 mins ago"
+          },
+          {
+            "text": "4.7 5",
+            "label": "CARDINAL",
+            "confidence": 0.775,
+            "start_char": 1383,
+            "end_char": 1388,
+            "context": "7d8s9a0s7d8f9g7h6j5k views 847 comments 23 rating 4.7 5 last active 2 mins ago"
+          }
+        ],
+        "entities_by_type": {
+          "ORG": 3,
+          "DATE": 4,
+          "CARDINAL": 14,
+          "CREDENTIAL": 1,
+          "CROP": 1
+        },
+        "relationships": [],
+        "intent": {
+          "intent": "credential_dump",
+          "confidence": 0.480365127325058,
+          "all_scores": {
+            "credential_dump": 0.480365127325058,
+            "technical_discussion": 0.12449831515550613,
+            "data_breach_announcement": 0.11609911173582077,
+            "agriculture_research": 0.0985281839966774,
+            "marketplace_listing": 0.06996692717075348,
+            "false_positive_sample": 0.052313655614852905,
+            "proprietary_data_sale": 0.030534641817212105,
+            "ransomware_threat": 0.02769409492611885
+          }
+        },
+        "detected_language": "en",
+        "readability_score": 12.285910436713547,
+        "average_word_length": 6.298507462686567,
+        "sentence_count": 5,
+        "threat_keywords": [
+          "database dump",
+          "credential_password",
+          "credential_username"
+        ],
+        "threat_score": 57.64381527900696,
+        "summary": "globalgrain corp credentials dump classified leaked data - for educational testing only globalgrain corp - internal credentials leak date 2024-03-15 size 847mb format sql csv sample data -- farm management system credentials -- globalgrain dm1n2024 john.agriculture globalgrain farm!rrig tion99 sarah.farmmanager globalgrain cropd ta2024! irrigation.system globalgrain smart prinkler123 -- database access -- host postgres.globalgrain.internal port 5432 database farm production user farm admin pass g!0b lgr 1ndb -- api keys -- weatherapi sk live farmweather 8h2jk9sp4mr6vy2nl8xq satelliteapi agri sat private mj3nf7kl9po2iu4yt6re -- employee credentials -- employeeid emp-2894 ssn xxx-xx-3847 redacted for demo bank account agricultural credit union - acct 8472938472 -- irrigation control panels -- panel id ir-3847-ag username admin password 1234 default - not changed ip -- crop management system -- sensor network keys sensor 001 temp humidity 9h3k2j1h sensor 047 soil moisture kd8f7g3j gateway key farm gateway 84hdjf73k vendor darkharvest posted 2024-03-15 23 47 utc full database dump from globalgrain's farm management system. includes credentials for 847 employees across 23 facilities. also contains irrigation system access codes.",
+        "key_phrases": [
+          "globalgrain corp credentials",
+          "classified leaked data",
+          "educational testing",
+          "only globalgrain corp - internal credentials",
+          "03-15 size 847mb format sql csv sample data",
+          "farm management system credentials",
+          "john.agriculture globalgrain farm!rrig tion99 sarah.farmmanager globalgrain cropd ta2024",
+          "smart prinkler123"
+        ]
+      },
+      "threat_assessment": {
+        "overall_threat_level": "HIGH",
+        "threat_score": 57.64381527900696,
+        "detected_intent": "credential_dump",
+        "intent_confidence": 0.480365127325058,
+        "risk_factors": [
+          "Document classified as credential_dump with 48% confidence"
+        ],
+        "recommendations": [
+          "Immediate investigation required",
+          "Reset credentials for affected systems",
+          "Force password reset for all affected users",
+          "Enable multi-factor authentication immediately"
+        ]
+      }
+    },
+    {
+      "url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+      "title": "\ud83d\udca7 Smart Irrigation Systems - Access Database",
+      "keyword_detection": {
+        "document_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+        "processed_at": "2026-04-14T13:06:18.021233",
+        "total_matches": 21,
+        "matches_by_category": {
+          "agriculture": 6,
+          "domain": 7,
+          "agricultu": 3,
+          "credential": 5
+        },
+        "high_confidence_matches": [
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "smartirrigation.co",
+            "match_type": "fuzzy",
+            "confidence": 0.8734999999999999,
+            "position": 2346,
+            "context": "r access primary controller host irrigationserver.smartirrigation.com ip port 8080 username master a",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.91
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "smart irrigation s",
+            "match_type": "fuzzy",
+            "confidence": 0.848,
+            "position": 0,
+            "context": "smart irrigation systems - access database irrigat",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.88
+          },
+          {
+            "keyword": "credential_password",
+            "matched_text": "Password: ...",
+            "match_type": "extracted",
+            "confidence": 0.9,
+            "position": 625,
+            "context": "W) \u2551 \u2551 IP: 192.168.47.101 \u2551 \u2551 Username: admin \u2551 \u2551 Password: 1234 (Default) \u2551 \u2551 Status: ONLINE \u2551 \u2551 Last Active: 2 m",
+            "category": "credential",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "credential_api_key",
+            "matched_text": "API Key: s...",
+            "match_type": "extracted",
+            "confidence": 0.8,
+            "position": 4443,
+            "context": " REST API: https://api.smartirrigation.com/v2 \u2551 \u2551 API Key: sk_live_irrigation_8H2jK9sP4mR6vY2nL8xQ \u2551 \u2551 API Secret: sk_live_8H2jK9sP4mR6vY2nL8xQ_secr",
+            "category": "credential",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "credential_secret",
+            "matched_text": "Secret: sk...",
+            "match_type": "extracted",
+            "confidence": 0.8,
+            "position": 4500,
+            "context": ": sk_live_irrigation_8H2jK9sP4mR6vY2nL8xQ \u2551 \u2551 API Secret: sk_live_8H2jK9sP4mR6vY2nL8xQ_secret \u2551 \u2551 \u2551 \u2551 WebSocket: wss://ws.smartirrigation.com/l",
+            "category": "credential",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "credential_token",
+            "matched_text": "Token: jwt...",
+            "match_type": "extracted",
+            "confidence": 0.8,
+            "position": 4606,
+            "context": "ocket: wss://ws.smartirrigation.com/live \u2551 \u2551 Auth Token: jwt_eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9 \u2551 \u2551 \u2551 \u2551 MQTT Broker: mqtt.smartirrigation.com:188",
+            "category": "credential",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "credential_username",
+            "matched_text": "Username: ...",
+            "match_type": "extracted",
+            "confidence": 0.9,
+            "position": 605,
+            "context": ".7477\u00b0 N, 119.7737\u00b0 W) \u2551 \u2551 IP: 192.168.47.101 \u2551 \u2551 Username: admin \u2551 \u2551 Password: 1234 (Default) \u2551 \u2551 Status: ONLINE \u2551",
+            "category": "credential",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          }
+        ],
+        "medium_confidence_matches": [
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation",
+            "match_type": "exact_word",
+            "confidence": 0.75,
+            "position": 6,
+            "context": "smart irrigation systems - access database irrigation system acces",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation",
+            "match_type": "exact_word",
+            "confidence": 0.75,
+            "position": 197,
+            "context": "te 2024-03-14 size 847kb views 5,234 rating 4.9 5 irrigation controller access list smart irrigation controlle",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation",
+            "match_type": "exact_word",
+            "confidence": 0.65,
+            "position": 2638,
+            "context": "nserver-db.smartirrigation.com port 3306 database irrigation control username db admin password db cc3ss!rrig ",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation",
+            "match_type": "exact_word",
+            "confidence": 0.65,
+            "position": 2742,
+            "context": "!rrig tion api endpoints rest api api key sk live irrigation 8h2jk9sp4mr6vy2nl8xq api secret sk live 8h2jk9sp4",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "livestock database",
+            "matched_text": "database",
+            "match_type": "exact_word",
+            "confidence": 0.75,
+            "position": 34,
+            "context": "smart irrigation systems - access database irrigation system access database - fresh dump sm",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "livestock database",
+            "matched_text": "database",
+            "match_type": "exact_word",
+            "confidence": 0.65,
+            "position": 2558,
+            "context": "80 username backup admin password backup dm1n2024 database server host irrigationserver-db.smartirrigation.c",
+            "category": "agriculture",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 1.0
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "irrigation systems",
+            "match_type": "fuzzy",
+            "confidence": 0.7034999999999999,
+            "position": 6,
+            "context": "smart irrigation systems - access database irrigation sy",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.71
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "dump smart irrigat",
+            "match_type": "fuzzy",
+            "confidence": 0.7545,
+            "position": 85,
+            "context": "atabase irrigation system access database - fresh dump smart irrigation systems - global access data",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.77
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "list smart irrigat",
+            "match_type": "fuzzy",
+            "confidence": 0.7545,
+            "position": 226,
+            "context": "s 5,234 rating 4.9 5 irrigation controller access list smart irrigation controller access california",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.77
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "smart irrigation c",
+            "match_type": "fuzzy",
+            "confidence": 0.7034999999999999,
+            "position": 231,
+            "context": "34 rating 4.9 5 irrigation controller access list smart irrigation controller access california - ce",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.71
+          },
+          {
+            "keyword": "irrigationschedule",
+            "matched_text": "irrigationserver.s",
+            "match_type": "fuzzy",
+            "confidence": 0.746,
+            "position": 2329,
+            "context": " management server access primary controller host irrigationserver.smartirrigation.com ip port 8080 ",
+            "category": "agricultu",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.76
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation systems ",
+            "match_type": "fuzzy",
+            "confidence": 0.712,
+            "position": 6,
+            "context": "smart irrigation systems - access database irrigation sy",
+            "category": "agricultu",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.72
+          },
+          {
+            "keyword": "irrigation schedule",
+            "matched_text": "irrigation controll",
+            "match_type": "fuzzy",
+            "confidence": 0.695,
+            "position": 197,
+            "context": "te 2024-03-14 size 847kb views 5,234 rating 4.9 5 irrigation controller access list smart irrigation",
+            "category": "agricultu",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.7
+          },
+          {
+            "keyword": "smartirrigation.io",
+            "matched_text": "ws.smartirrigation",
+            "match_type": "fuzzy_domain",
+            "confidence": 0.747,
+            "position": 2835,
+            "context": "sk live 8h2jk9sp4mr6vy2nl8xq secret websocket wss ws.smartirrigation.com live auth token jwt eyjhbgc",
+            "category": "domain",
+            "source_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+            "similarity_score": 0.83
+          }
+        ],
+        "low_confidence_matches": [],
+        "overall_risk_score": 92.4248175182482
+      },
+      "nlp_analysis": {
+        "document_url": "http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html",
+        "analyzed_at": "2026-04-14T13:06:45.248320",
+        "entities": [
+          {
+            "text": "2024-03",
+            "label": "DATE",
+            "confidence": 0.985,
+            "start_char": 150,
+            "end_char": 157,
+            "context": "gation systems - global access database leak date 2024-03-14 size 847kb views 5,234 rating 4.9 5 irrigation"
+          },
+          {
+            "text": "847",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 166,
+            "end_char": 169,
+            "context": " global access database leak date 2024-03-14 size 847kb views 5,234 rating 4.9 5 irrigation controller "
+          },
+          {
+            "text": "kb views",
+            "label": "ORG",
+            "confidence": 0.8400000000000001,
+            "start_char": 169,
+            "end_char": 177,
+            "context": "obal access database leak date 2024-03-14 size 847kb views 5,234 rating 4.9 5 irrigation controller access l"
+          },
+          {
+            "text": "5,234",
+            "label": "CARDINAL",
+            "confidence": 0.775,
+            "start_char": 178,
+            "end_char": 183,
+            "context": "ss database leak date 2024-03-14 size 847kb views 5,234 rating 4.9 5 irrigation controller access list sm"
+          },
+          {
+            "text": "4.9 5",
+            "label": "CARDINAL",
+            "confidence": 0.775,
+            "start_char": 191,
+            "end_char": 196,
+            "context": "eak date 2024-03-14 size 847kb views 5,234 rating 4.9 5 irrigation controller access list smart irrigatio"
+          },
+          {
+            "text": "california",
+            "label": "GPE",
+            "confidence": 0.9,
+            "start_char": 266,
+            "end_char": 276,
+            "context": "er access list smart irrigation controller access california - central valley controller cv-ir-001 location fr"
+          },
+          {
+            "text": "36.7477",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 335,
+            "end_char": 342,
+            "context": "l valley controller cv-ir-001 location fresno, ca 36.7477 n, 119.7737 w ip username admin password 1234 def"
+          },
+          {
+            "text": "119.7737",
+            "label": "CARDINAL",
+            "confidence": 0.79,
+            "start_char": 346,
+            "end_char": 354,
+            "context": "ntroller cv-ir-001 location fresno, ca 36.7477 n, 119.7737 w ip username admin password 1234 default status "
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 375,
+            "end_char": 383,
+            "context": "resno, ca 36.7477 n, 119.7737 w ip username admin password 1234 default status online last active 2 mins ago"
+          },
+          {
+            "text": "1234",
+            "label": "DATE",
+            "confidence": 0.97,
+            "start_char": 384,
+            "end_char": 388,
+            "context": " 36.7477 n, 119.7737 w ip username admin password 1234 default status online last active 2 mins ago cont"
+          },
+          {
+            "text": "35.3733",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 480,
+            "end_char": 487,
+            "context": "ago controller cv-ir-047 location bakersfield, ca 35.3733 n, 119.0187 w ip username admin password irrigati"
+          },
+          {
+            "text": "119.0187 w",
+            "label": "PERCENT",
+            "confidence": 0.99,
+            "start_char": 491,
+            "end_char": 501,
+            "context": "ler cv-ir-047 location bakersfield, ca 35.3733 n, 119.0187 w ip username admin password irrigation2024 status "
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 520,
+            "end_char": 528,
+            "context": "field, ca 35.3733 n, 119.0187 w ip username admin password irrigation2024 status online last active 15 mins "
+          },
+          {
+            "text": "15",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 570,
+            "end_char": 572,
+            "context": "password irrigation2024 status online last active 15 mins ago controller cv-ir-089 location modesto, c"
+          },
+          {
+            "text": "cv-ir-089",
+            "label": "PERSON",
+            "confidence": 0.8450000000000001,
+            "start_char": 593,
+            "end_char": 602,
+            "context": " status online last active 15 mins ago controller cv-ir-089 location modesto, ca 37.6391 n, 120.9969 w ip use"
+          },
+          {
+            "text": "37.6391",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 624,
+            "end_char": 631,
+            "context": "ins ago controller cv-ir-089 location modesto, ca 37.6391 n, 120.9969 w ip username irrigator password p ss"
+          },
+          {
+            "text": "120.9969 w",
+            "label": "QUANTITY",
+            "confidence": 0.8,
+            "start_char": 635,
+            "end_char": 645,
+            "context": "troller cv-ir-089 location modesto, ca 37.6391 n, 120.9969 w ip username irrigator password p ssw0rd123 status"
+          },
+          {
+            "text": "username irrigator",
+            "label": "ORG",
+            "confidence": 0.89,
+            "start_char": 649,
+            "end_char": 667,
+            "context": "089 location modesto, ca 37.6391 n, 120.9969 w ip username irrigator password p ssw0rd123 status online last active 47"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 668,
+            "end_char": 676,
+            "context": "o, ca 37.6391 n, 120.9969 w ip username irrigator password p ssw0rd123 status online last active 47 mins ago"
+          },
+          {
+            "text": "47",
+            "label": "DATE",
+            "confidence": 0.96,
+            "start_char": 715,
+            "end_char": 717,
+            "context": "or password p ssw0rd123 status online last active 47 mins ago texas - panhandle controller tx-ir-234 l"
+          },
+          {
+            "text": "texas",
+            "label": "GPE",
+            "confidence": 0.875,
+            "start_char": 727,
+            "end_char": 732,
+            "context": "p ssw0rd123 status online last active 47 mins ago texas - panhandle controller tx-ir-234 location amarill"
+          },
+          {
+            "text": "35.2220",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 788,
+            "end_char": 795,
+            "context": "handle controller tx-ir-234 location amarillo, tx 35.2220 n, 101.8313 w ip username admin password admin st"
+          },
+          {
+            "text": "101.8313",
+            "label": "CARDINAL",
+            "confidence": 0.79,
+            "start_char": 799,
+            "end_char": 807,
+            "context": "roller tx-ir-234 location amarillo, tx 35.2220 n, 101.8313 w ip username admin password admin status online "
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 828,
+            "end_char": 836,
+            "context": "rillo, tx 35.2220 n, 101.8313 w ip username admin password admin status online last active 5 mins ago contro"
+          },
+          {
+            "text": "33.5779",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 922,
+            "end_char": 929,
+            "context": "ins ago controller tx-ir-256 location lubbock, tx 33.5779 n, 101.8552 w ip username root password t0ps3cr3t"
+          },
+          {
+            "text": "101.8552",
+            "label": "CARDINAL",
+            "confidence": 0.79,
+            "start_char": 933,
+            "end_char": 941,
+            "context": "troller tx-ir-256 location lubbock, tx 33.5779 n, 101.8552 w ip username root password t0ps3cr3t! status onl"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 961,
+            "end_char": 969,
+            "context": "ubbock, tx 33.5779 n, 101.8552 w ip username root password t0ps3cr3t! status online last active 23 mins ago "
+          },
+          {
+            "text": "23",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 1007,
+            "end_char": 1009,
+            "context": "oot password t0ps3cr3t! status online last active 23 mins ago nebraska - corn belt controller ne-ir-38"
+          },
+          {
+            "text": "nebraska",
+            "label": "GPE",
+            "confidence": 0.89,
+            "start_char": 1019,
+            "end_char": 1027,
+            "context": " t0ps3cr3t! status online last active 23 mins ago nebraska - corn belt controller ne-ir-384 location omaha, "
+          },
+          {
+            "text": "corn",
+            "label": "CROP",
+            "confidence": 0.87,
+            "start_char": 1030,
+            "end_char": 1034,
+            "context": " status online last active 23 mins ago nebraska - corn belt controller ne-ir-384 location omaha, ne 41.2"
+          },
+          {
+            "text": "41.2565",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1080,
+            "end_char": 1087,
+            "context": "corn belt controller ne-ir-384 location omaha, ne 41.2565 n, 95.9345 w ip username admin password cornbelt2"
+          },
+          {
+            "text": "95.9345",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1091,
+            "end_char": 1098,
+            "context": "ontroller ne-ir-384 location omaha, ne 41.2565 n, 95.9345 w ip username admin password cornbelt2024 status "
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 1119,
+            "end_char": 1127,
+            "context": " omaha, ne 41.2565 n, 95.9345 w ip username admin password cornbelt2024 status online last active 8 mins ago"
+          },
+          {
+            "text": "cornbelt2024",
+            "label": "CROP",
+            "confidence": 0.9099999999999999,
+            "start_char": 1128,
+            "end_char": 1140,
+            "context": "e 41.2565 n, 95.9345 w ip username admin password cornbelt2024 status online last active 8 mins ago controller n"
+          },
+          {
+            "text": "lincoln",
+            "label": "ORG",
+            "confidence": 0.8350000000000001,
+            "start_char": 1208,
+            "end_char": 1215,
+            "context": "t active 8 mins ago controller ne-ir-423 location lincoln, ne 40.8136 n, 96.7026 w ip username sysadmin pas"
+          },
+          {
+            "text": "40.8136",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1220,
+            "end_char": 1227,
+            "context": "ins ago controller ne-ir-423 location lincoln, ne 40.8136 n, 96.7026 w ip username sysadmin password n3br s"
+          },
+          {
+            "text": "96.7026",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1231,
+            "end_char": 1238,
+            "context": "troller ne-ir-423 location lincoln, ne 40.8136 n, 96.7026 w ip username sysadmin password n3br sk farming! "
+          },
+          {
+            "text": "sysadmin",
+            "label": "GPE",
+            "confidence": 0.89,
+            "start_char": 1253,
+            "end_char": 1261,
+            "context": "tion lincoln, ne 40.8136 n, 96.7026 w ip username sysadmin password n3br sk farming! status online last acti"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 1262,
+            "end_char": 1270,
+            "context": "oln, ne 40.8136 n, 96.7026 w ip username sysadmin password n3br sk farming! status online last active 34 min"
+          },
+          {
+            "text": "34",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 1314,
+            "end_char": 1316,
+            "context": "ssword n3br sk farming! status online last active 34 mins ago florida - citrus belt controller fl-ir-5"
+          },
+          {
+            "text": "florida",
+            "label": "GPE",
+            "confidence": 0.885,
+            "start_char": 1326,
+            "end_char": 1333,
+            "context": "sk farming! status online last active 34 mins ago florida - citrus belt controller fl-ir-512 location orlan"
+          },
+          {
+            "text": "orlando",
+            "label": "GPE",
+            "confidence": 0.885,
+            "start_char": 1378,
+            "end_char": 1385,
+            "context": "orida - citrus belt controller fl-ir-512 location orlando, fl 28.5383 n, 81.3792 w ip username admin passwo"
+          },
+          {
+            "text": "28.5383",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1390,
+            "end_char": 1397,
+            "context": "us belt controller fl-ir-512 location orlando, fl 28.5383 n, 81.3792 w ip username admin password sunshine2"
+          },
+          {
+            "text": "81.3792 w",
+            "label": "QUANTITY",
+            "confidence": 0.795,
+            "start_char": 1401,
+            "end_char": 1410,
+            "context": "troller fl-ir-512 location orlando, fl 28.5383 n, 81.3792 w ip username admin password sunshine2024 status on"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 1429,
+            "end_char": 1437,
+            "context": "rlando, fl 28.5383 n, 81.3792 w ip username admin password sunshine2024 status online last active 12 mins ag"
+          },
+          {
+            "text": "12",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 1477,
+            "end_char": 1479,
+            "context": "n password sunshine2024 status online last active 12 mins ago controller fl-ir-578 location tampa, fl "
+          },
+          {
+            "text": "27.9506",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1529,
+            "end_char": 1536,
+            "context": " mins ago controller fl-ir-578 location tampa, fl 27.9506 n, 82.4572 w ip username irrigator password citru"
+          },
+          {
+            "text": "82.4572 w",
+            "label": "QUANTITY",
+            "confidence": 0.795,
+            "start_char": 1540,
+            "end_char": 1549,
+            "context": "ontroller fl-ir-578 location tampa, fl 27.9506 n, 82.4572 w ip username irrigator password citrus!rrigation s"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 1572,
+            "end_char": 1580,
+            "context": "pa, fl 27.9506 n, 82.4572 w ip username irrigator password citrus!rrigation status online last active 42 min"
+          },
+          {
+            "text": "42",
+            "label": "DATE",
+            "confidence": 0.96,
+            "start_char": 1624,
+            "end_char": 1626,
+            "context": "ssword citrus!rrigation status online last active 42 mins ago washington - yakima valley controller wa"
+          },
+          {
+            "text": "washington - yakima valley",
+            "label": "GPE",
+            "confidence": 0.95,
+            "start_char": 1636,
+            "end_char": 1662,
+            "context": "s!rrigation status online last active 42 mins ago washington - yakima valley controller wa-ir-642 location yakima, wa 46.6021 "
+          },
+          {
+            "text": "46.6021",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1704,
+            "end_char": 1711,
+            "context": "a valley controller wa-ir-642 location yakima, wa 46.6021 n, 120.5059 w ip username admin password appleorc"
+          },
+          {
+            "text": "120.5059",
+            "label": "CARDINAL",
+            "confidence": 0.79,
+            "start_char": 1715,
+            "end_char": 1723,
+            "context": "ntroller wa-ir-642 location yakima, wa 46.6021 n, 120.5059 w ip username admin password appleorchards2024 st"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 1744,
+            "end_char": 1752,
+            "context": "akima, wa 46.6021 n, 120.5059 w ip username admin password appleorchards2024 status online last active 3 min"
+          },
+          {
+            "text": "47.4235",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 1852,
+            "end_char": 1859,
+            "context": "s ago controller wa-ir-689 location wenatchee, wa 47.4235 n, 120.3103 w ip username root password cherryblo"
+          },
+          {
+            "text": "120.3103",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 1863,
+            "end_char": 1871,
+            "context": "oller wa-ir-689 location wenatchee, wa 47.4235 n, 120.3103 w ip username root password cherryblossom! status"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 1891,
+            "end_char": 1899,
+            "context": "atchee, wa 47.4235 n, 120.3103 w ip username root password cherryblossom! status online last active 27 mins "
+          },
+          {
+            "text": "27",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 1941,
+            "end_char": 1943,
+            "context": "password cherryblossom! status online last active 27 mins ago arizona - desert region controller az-ir"
+          },
+          {
+            "text": "arizona",
+            "label": "GPE",
+            "confidence": 0.885,
+            "start_char": 1953,
+            "end_char": 1960,
+            "context": "rryblossom! status online last active 27 mins ago arizona - desert region controller az-ir-723 location pho"
+          },
+          {
+            "text": "az-ir-723",
+            "label": "PERSON",
+            "confidence": 0.8450000000000001,
+            "start_char": 1988,
+            "end_char": 1997,
+            "context": "ve 27 mins ago arizona - desert region controller az-ir-723 location phoenix, az 33.4484 n, 112.0740 w ip use"
+          },
+          {
+            "text": "33.4484",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 2019,
+            "end_char": 2026,
+            "context": " region controller az-ir-723 location phoenix, az 33.4484 n, 112.0740 w ip username admin password desertfa"
+          },
+          {
+            "text": "112.0740",
+            "label": "CARDINAL",
+            "confidence": 0.79,
+            "start_char": 2030,
+            "end_char": 2038,
+            "context": "troller az-ir-723 location phoenix, az 33.4484 n, 112.0740 w ip username admin password desertfarming2024 st"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 2059,
+            "end_char": 2067,
+            "context": "oenix, az 33.4484 n, 112.0740 w ip username admin password desertfarming2024 status online last active 9 min"
+          },
+          {
+            "text": "az-ir-784",
+            "label": "ORG",
+            "confidence": 0.8450000000000001,
+            "start_char": 2134,
+            "end_char": 2143,
+            "context": "4 status online last active 9 mins ago controller az-ir-784 location tucson, az 32.2226 n, 110.9747 w ip user"
+          },
+          {
+            "text": "32.2226",
+            "label": "CARDINAL",
+            "confidence": 0.785,
+            "start_char": 2164,
+            "end_char": 2171,
+            "context": "mins ago controller az-ir-784 location tucson, az 32.2226 n, 110.9747 w ip username irrigator password cact"
+          },
+          {
+            "text": "110.9747 w",
+            "label": "QUANTITY",
+            "confidence": 0.8,
+            "start_char": 2175,
+            "end_char": 2185,
+            "context": "ntroller az-ir-784 location tucson, az 32.2226 n, 110.9747 w ip username irrigator password cactus!rrigation s"
+          },
+          {
+            "text": "username irrigator",
+            "label": "ORG",
+            "confidence": 0.89,
+            "start_char": 2189,
+            "end_char": 2207,
+            "context": "-784 location tucson, az 32.2226 n, 110.9747 w ip username irrigator password cactus!rrigation status online last acti"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 2208,
+            "end_char": 2216,
+            "context": "n, az 32.2226 n, 110.9747 w ip username irrigator password cactus!rrigation status online last active 51 min"
+          },
+          {
+            "text": "51",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 2260,
+            "end_char": 2262,
+            "context": "ssword cactus!rrigation status online last active 51 mins ago central management server access primary"
+          },
+          {
+            "text": "8080",
+            "label": "CARDINAL",
+            "confidence": 0.77,
+            "start_char": 2374,
+            "end_char": 2378,
+            "context": "host irrigationserver.smartirrigation.com ip port 8080 username master admin password smart!rrig tion202"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 2401,
+            "end_char": 2409,
+            "context": "irrigation.com ip port 8080 username master admin password smart!rrig tion2024! backup controller host irrig"
+          },
+          {
+            "text": "tion2024",
+            "label": "PRODUCT",
+            "confidence": 0.79,
+            "start_char": 2421,
+            "end_char": 2429,
+            "context": "rt 8080 username master admin password smart!rrig tion2024! backup controller host irrigationserver-backup.s"
+          },
+          {
+            "text": "irrigationserver-backup.smartirrigation.com",
+            "label": "NORP",
+            "confidence": 0.85,
+            "start_char": 2454,
+            "end_char": 2497,
+            "context": "sword smart!rrig tion2024! backup controller host irrigationserver-backup.smartirrigation.com ip port 8080 username backup admin password backu"
+          },
+          {
+            "text": "8080",
+            "label": "CARDINAL",
+            "confidence": 0.77,
+            "start_char": 2506,
+            "end_char": 2510,
+            "context": "rigationserver-backup.smartirrigation.com ip port 8080 username backup admin password backup dm1n2024 da"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 2533,
+            "end_char": 2541,
+            "context": "irrigation.com ip port 8080 username backup admin password backup dm1n2024 database server host irrigationse"
+          },
+          {
+            "text": "irrigationserver-db.smartirrigation.com",
+            "label": "ORG",
+            "confidence": 0.9,
+            "start_char": 2579,
+            "end_char": 2618,
+            "context": "min password backup dm1n2024 database server host irrigationserver-db.smartirrigation.com port 3306 database irrigation control username db"
+          },
+          {
+            "text": "3306",
+            "label": "DATE",
+            "confidence": 0.97,
+            "start_char": 2624,
+            "end_char": 2628,
+            "context": "host irrigationserver-db.smartirrigation.com port 3306 database irrigation control username db admin pas"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 2675,
+            "end_char": 2683,
+            "context": "306 database irrigation control username db admin password db cc3ss!rrig tion api endpoints rest api api key"
+          },
+          {
+            "text": "secret",
+            "label": "CREDENTIAL",
+            "confidence": 0.93,
+            "start_char": 2778,
+            "end_char": 2784,
+            "context": "i key sk live irrigation 8h2jk9sp4mr6vy2nl8xq api secret sk live 8h2jk9sp4mr6vy2nl8xq secret websocket wss"
+          },
+          {
+            "text": "secret",
+            "label": "CREDENTIAL",
+            "confidence": 0.93,
+            "start_char": 2814,
+            "end_char": 2820,
+            "context": "6vy2nl8xq api secret sk live 8h2jk9sp4mr6vy2nl8xq secret websocket wss ws.smartirrigation.com live auth to"
+          },
+          {
+            "text": "token",
+            "label": "CREDENTIAL",
+            "confidence": 0.925,
+            "start_char": 2868,
+            "end_char": 2873,
+            "context": "et websocket wss ws.smartirrigation.com live auth token jwt eyjhbgcioijiuzi1niisinr5cci6ikpxvcj9 mqtt bro"
+          },
+          {
+            "text": "jwt eyjhbgcioijiuzi1niisinr5cci6ikpxvcj9 mqtt broker",
+            "label": "PERSON",
+            "confidence": 0.9,
+            "start_char": 2874,
+            "end_char": 2926,
+            "context": "socket wss ws.smartirrigation.com live auth token jwt eyjhbgcioijiuzi1niisinr5cci6ikpxvcj9 mqtt broker mqtt.smartirrigation.com 1883 mqtt username mqtt "
+          },
+          {
+            "text": "1883",
+            "label": "DATE",
+            "confidence": 0.97,
+            "start_char": 2952,
+            "end_char": 2956,
+            "context": "cci6ikpxvcj9 mqtt broker mqtt.smartirrigation.com 1883 mqtt username mqtt user mqtt password mqtt p ssw0"
+          },
+          {
+            "text": "password",
+            "label": "CREDENTIAL",
+            "confidence": 0.9400000000000001,
+            "start_char": 2986,
+            "end_char": 2994,
+            "context": "tirrigation.com 1883 mqtt username mqtt user mqtt password mqtt p ssw0rd2024 mqtt topics irrigation , sensor"
+          },
+          {
+            "text": "2024-03-14",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 3089,
+            "end_char": 3099,
+            "context": "ensors data vendor waterghost elite vendor posted 2024-03-14 21 32 utc last active now complete smart irrigati"
+          },
+          {
+            "text": "21 32",
+            "label": "DATE",
+            "confidence": 0.975,
+            "start_char": 3100,
+            "end_char": 3105,
+            "context": " vendor waterghost elite vendor posted 2024-03-14 21 32 utc last active now complete smart irrigation acc"
+          },
+          {
+            "text": "utc",
+            "label": "ORG",
+            "confidence": 0.8150000000000001,
+            "start_char": 3106,
+            "end_char": 3109,
+            "context": "r waterghost elite vendor posted 2024-03-14 21 32 utc last active now complete smart irrigation access "
+          },
+          {
+            "text": "2,847",
+            "label": "CARDINAL",
+            "confidence": 0.775,
+            "start_char": 3168,
+            "end_char": 3173,
+            "context": "ive now complete smart irrigation access database 2,847 irrigation controllers across the us. all credent"
+          },
+          {
+            "text": "us",
+            "label": "GPE",
+            "confidence": 0.86,
+            "start_char": 3208,
+            "end_char": 3210,
+            "context": " database 2,847 irrigation controllers across the us. all credentials tested and working. package incl"
+          },
+          {
+            "text": "price",
+            "label": "CROP",
+            "confidence": 0.875,
+            "start_char": 3485,
+            "end_char": 3490,
+            "context": "ata water usage history soil moisture sensor data price 0.3 btc format json csv sql verification 10 free "
+          },
+          {
+            "text": "0.3",
+            "label": "CARDINAL",
+            "confidence": 0.765,
+            "start_char": 3491,
+            "end_char": 3494,
+            "context": "ter usage history soil moisture sensor data price 0.3 btc format json csv sql verification 10 free samp"
+          },
+          {
+            "text": "json csv sql verification",
+            "label": "PERSON",
+            "confidence": 0.9,
+            "start_char": 3506,
+            "end_char": 3531,
+            "context": "ry soil moisture sensor data price 0.3 btc format json csv sql verification 10 free samples included status verified - all cr"
+          },
+          {
+            "text": "10",
+            "label": "CARDINAL",
+            "confidence": 0.76,
+            "start_char": 3532,
+            "end_char": 3534,
+            "context": "ta price 0.3 btc format json csv sql verification 10 free samples included status verified - all crede"
+          },
+          {
+            "text": "2024-03-14",
+            "label": "DATE",
+            "confidence": 0.99,
+            "start_char": 3605,
+            "end_char": 3615,
+            "context": "d status verified - all credentials working as of 2024-03-14"
+          }
+        ],
+        "entities_by_type": {
+          "DATE": 10,
+          "CARDINAL": 34,
+          "ORG": 7,
+          "GPE": 9,
+          "CREDENTIAL": 20,
+          "PERCENT": 1,
+          "PERSON": 4,
+          "QUANTITY": 4,
+          "CROP": 3,
+          "PRODUCT": 1,
+          "NORP": 1
+        },
+        "relationships": [
+          {
+            "source_entity": "12",
+            "source_type": "CARDINAL",
+            "target_entity": "password",
+            "target_type": "CREDENTIAL",
+            "relationship_type": "username",
+            "confidence": 0.75,
+            "evidence": "status online last active 34 mins ago florida - citrus belt controller fl-ir-512 location orlando, fl 28.5383 n, 81.3792 w ip username admin password sunshine2024 status online last active 12 mins ago"
+          }
+        ],
+        "intent": {
+          "intent": "technical_discussion",
+          "confidence": 0.2071128934621811,
+          "all_scores": {
+            "technical_discussion": 0.2071128934621811,
+            "data_breach_announcement": 0.1937326341867447,
+            "credential_dump": 0.18595704436302185,
+            "marketplace_listing": 0.10649613291025162,
+            "agriculture_research": 0.09316961467266083,
+            "false_positive_sample": 0.08797694742679596,
+            "proprietary_data_sale": 0.06708056479692459,
+            "ransomware_threat": 0.058474116027355194
+          }
+        },
+        "detected_language": "en",
+        "readability_score": 12.115458183273311,
+        "average_word_length": 5.598503740648379,
+        "sentence_count": 7,
+        "threat_keywords": [
+          "credential_password",
+          "smartirrigation.io",
+          "credential_token",
+          "credential_secret",
+          "credential_api_key",
+          "credential_username"
+        ],
+        "threat_score": 12.426773607730865,
+        "summary": "status online last active 23 mins ago nebraska - corn belt controller ne-ir-384 location omaha, ne 41.2565 n, 95.9345 w ip username admin password cornbelt2024 status online last active 8 mins ago controller ne-ir-423 location lincoln, ne 40.8136 n, 96.7026 w ip username sysadmin password n3br sk farming! status online last active 34 mins ago florida - citrus belt controller fl-ir-512 location orlando, fl 28.5383 n, 81.3792 w ip username admin password sunshine2024 status online last active 12 mins ago controller fl-ir-578 location tampa, fl 27.9506 n, 82.4572 w ip username irrigator password citrus!rrigation status online last active 42 mins ago washington - yakima valley controller wa-ir-642 location yakima, wa 46.6021 n, 120.5059 w ip username admin password appleorchards2024 status online last active 3 mins ago controller wa-ir-689 location wenatchee, wa 47.4235 n, 120.3103 w ip username root password cherryblossom! status online last active 27 mins ago arizona - desert region controller az-ir-723 location phoenix, az 33.4484 n, 112.0740 w ip username admin password desertfarming2024 status online last active 9 mins ago controller az-ir-784 location tucson, az 32.2226 n, 110.9747 w ip username irrigator password cactus!rrigation status online last active 51 mins ago central management server access primary controller host irrigationserver.smartirrigation.com ip port 8080 username master admin password smart!rrig tion2024!",
+        "key_phrases": [
+          "password",
+          "admin password",
+          "all credentials",
+          "json csv sql verification",
+          "username irrigator",
+          "8080",
+          "secret",
+          "2024-03-14"
+        ]
+      },
+      "threat_assessment": {
+        "overall_threat_level": "LOW",
+        "threat_score": 12.426773607730865,
+        "detected_intent": "technical_discussion",
+        "intent_confidence": 0.2071128934621811,
+        "risk_factors": [
+          "Multiple organizations (7) mentioned - potential widespread impact"
+        ],
+        "recommendations": []
+      }
+    }
+  ]
+}
