@@ -1,0 +1,39 @@
+2026-04-19 14:38:56,704 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-19 14:38:57,099 - storage.database - INFO - Database tables created/verified
+2026-04-19 14:38:57,100 - storage.database - INFO - Database initialized: sqlite
+2026-04-19 14:38:57,131 - dashboard.app - INFO - Starting dashboard on 0.0.0.0:5000
+2026-04-19 14:38:57,224 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.99.77.204:5000
+2026-04-19 14:38:57,229 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-19 14:39:00,582 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:00] "GET / HTTP/1.1" 200 -
+2026-04-19 14:39:00,844 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:00] "GET / HTTP/1.1" 200 -
+2026-04-19 14:39:01,390 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-04-19 14:39:01,391 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-04-19 14:39:01,574 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-04-19 14:39:01,582 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-04-19 14:39:01,748 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /socket.io/?EIO=4&transport=polling&t=Psb01uZ HTTP/1.1" 200 -
+2026-04-19 14:39:01,755 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /socket.io/?EIO=4&transport=polling&t=Psb01vG HTTP/1.1" 200 -
+2026-04-19 14:39:01,903 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-19 14:39:01,912 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-19 14:39:01,942 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:01] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-19 14:39:02,072 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-19 14:39:02,245 - dashboard.app - INFO - Client connected: WcE8vldin0g3zyFyAAAC
+2026-04-19 14:39:02,294 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "POST /socket.io/?EIO=4&transport=polling&t=Psb01yZ&sid=vqp6GIhJw2A7le-4AAAB HTTP/1.1" 200 -
+2026-04-19 14:39:02,586 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /socket.io/?EIO=4&transport=polling&t=Psb01yb&sid=vqp6GIhJw2A7le-4AAAB HTTP/1.1" 200 -
+2026-04-19 14:39:02,647 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-19 14:39:02,669 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-19 14:39:02,691 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-19 14:39:02,691 - dashboard.app - INFO - Client WcE8vldin0g3zyFyAAAC subscribed to alerts
+2026-04-19 14:39:02,697 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-19 14:39:02,710 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-19 14:39:02,720 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-19 14:39:02,733 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-19 14:39:02,754 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-19 14:39:02,976 - dashboard.app - INFO - Client connected: b6JrWIwVONQo9M1cAAAD
+2026-04-19 14:39:02,984 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:02] "POST /socket.io/?EIO=4&transport=polling&t=Psb01ww&sid=Nq4TFB4aCMrfXj9hAAAA HTTP/1.1" 200 -
+2026-04-19 14:39:03,013 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:03] "GET /socket.io/?EIO=4&transport=polling&t=Psb01w_&sid=Nq4TFB4aCMrfXj9hAAAA HTTP/1.1" 200 -
+2026-04-19 14:39:03,041 - dashboard.app - INFO - Client b6JrWIwVONQo9M1cAAAD subscribed to alerts
+2026-04-19 14:39:09,626 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:09] "GET /socket.io/?EIO=4&transport=websocket&sid=Nq4TFB4aCMrfXj9hAAAA HTTP/1.1" 200 -
+2026-04-19 14:39:10,325 - werkzeug - INFO - 127.0.0.1 - - [19/Apr/2026 14:39:10] "GET /socket.io/?EIO=4&transport=websocket&sid=vqp6GIhJw2A7le-4AAAB HTTP/1.1" 200 -

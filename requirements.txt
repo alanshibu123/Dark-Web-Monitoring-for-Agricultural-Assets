@@ -1,0 +1,23 @@
+# Core dependencies
+requests==2.31.0
+beautifulsoup4==4.12.2
+lxml==4.9.3
+PySocks==1.7.1
+stem==1.8.2
+
+# NLP and Data Processing (for later modules)
+spacy==3.7.2
+nltk==3.8.1
+scikit-learn==1.3.0
+
+# Database and Storage
+sqlalchemy==2.0.22
+sqlite3
+
+# Dashboard (for later)
+flask==3.0.0
+plotly==5.17.0
+
+# Utilities
+pyyaml==6.0.1
+python-dateutil==2.8.2

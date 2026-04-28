@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOC Dashboard | Dark Web Agriculture Monitor</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Charts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.socket.io/4.5.0/socket.io.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <style>
+        /* ============================================================
+           ROOT VARIABLES - Professional SOC Dark Theme
+        ============================================================ */
+        :root {
+            --primary-bg: #0a0e1a;
+            --secondary-bg: #111827;
+            --card-bg: #1e293b;
+            --card-hover: #334155;
+            --border-color: #2d3748;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --text-muted: #64748b;
+            
+            --critical: #ef4444;
+            --high: #f97316;
+            --medium: #eab308;
+            --low: #22c55e;
+            --info: #3b82f6;
+            
+            --accent-cyan: #06b6d4;
+            --accent-purple: #8b5cf6;
+            --accent-success: #10b981;
+            
+            --gradient-header: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            --gradient-card-1: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            --gradient-card-2: linear-gradient(135deg, #2d1b69 0%, #1e1b4b 100%);
+            --gradient-card-3: linear-gradient(135deg, #1b2e3f 0%, #0f172a 100%);
+            --gradient-card-4: linear-gradient(135deg, #2d2a1b 0%, #1e1b4b 100%);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--primary-bg);
+            color: var(--text-primary);
+            line-height: 1.5;
+        }
+        
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        
+        ::-webkit-scrollbar-track {
+            background: var(--secondary-bg);
+            border-radius: 3px;
+        }
+        
+        ::-webkit-scrollbar-thumb {
+            background: var(--text-muted);
+            border-radius: 3px;
+        }
+        
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-secondary);
+        }
+        
+        /* Navigation Bar */
+        .navbar {
+            background: var(--gradient-header);
+            border-bottom: 1px solid var(--border-color);
+            padding: 0 28px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        
+        .navbar-brand i {
+            font-size: 28px;
+            color: var(--accent-cyan);
+        }
+        
+        .navbar-brand span {
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        .soc-badge {
+            background: rgba(6, 182, 212, 0.15);
+            color: var(--accent-cyan);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            letter-spacing: 0.8px;
+            border: 1px solid rgba(6, 182, 212, 0.3);
+        }
+        
+        .navbar-status {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .status-badge {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 12px;
+            padding: 6px 14px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-success);
+            box-shadow: 0 0 8px var(--accent-success);
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.6; transform: scale(0.95); }
+        }
+        
+        /* Container */
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 24px 28px;
+        }
+        
+        /* Statistics Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-bottom: 28px;
+        }
+        
+        .stat-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            padding: 24px;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .stat-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: var(--accent-cyan);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-3px);
+            border-color: var(--accent-cyan);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .stat-card:hover::before {
+            opacity: 1;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .stat-value {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -1px;
+        }
+        
+        .stat-trend {
+            font-size: 11px;
+            margin-top: 10px;
+            color: var(--text-muted);
+        }
+        
+        .stat-trend i {
+            color: var(--accent-success);
+            margin-right: 4px;
+        }
+        
+        /* Card color variants */
+        .stat-card:nth-child(1) .stat-value { color: var(--accent-cyan); }
+        .stat-card:nth-child(2) .stat-value { color: var(--high); }
+        .stat-card:nth-child(3) .stat-value { color: var(--medium); }
+        .stat-card:nth-child(4) .stat-value { color: var(--accent-purple); }
+        
+        /* Charts Row */
+        .chart-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+            margin-bottom: 28px;
+        }
+        
+        .chart-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .chart-card:hover {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .chart-header {
+            padding: 20px 24px;
+            border-bottom: 1px solid var(--border-color);
+            background: rgba(0, 0, 0, 0.2);
+        }
+        
+        .chart-header h3 {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            margin-bottom: 6px;
+        }
+        
+        .chart-header p {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+        
+        .chart-body {
+            padding: 24px;
+            height: 360px;
+            position: relative;
+        }
+        
+        /* Alerts Card */
+        .alerts-card {
+            background: var(--card-bg);
+            border-radius: 20px;
+            border: 1px solid var(--border-color);
+            margin-bottom: 28px;
+            overflow: hidden;
+        }
+        
+        .alerts-header {
+            padding: 18px 24px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            background: rgba(0, 0, 0, 0.15);
+        }
+        
+        .alerts-header h3 {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+        }
+        
+        .alerts-header h3 i {
+            color: var(--accent-cyan);
+            margin-right: 10px;
+        }
+        
+        .filter-bar {
+            display: flex;
+            gap: 12px;
+        }
+        
+        .filter-select {
+            padding: 8px 14px;
+            background: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 12px;
+            color: var(--text-primary);
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .filter-select:hover {
+            border-color: var(--accent-cyan);
+        }
+        
+        .btn-refresh {
+            padding: 8px 16px;
+            background: var(--secondary-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            color: var(--text-primary);
+            transition: all 0.2s;
+        }
+        
+        .btn-refresh:hover {
+            border-color: var(--accent-cyan);
+            color: var(--accent-cyan);
+        }
+        
+        /* Data Table */
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .data-table th {
+            text-align: left;
+            padding: 16px 20px;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .data-table td {
+            padding: 16px 20px;
+            font-size: 13px;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-primary);
+        }
+        
+        .data-table tr:hover {
+            background: rgba(255, 255, 255, 0.03);
+        }
+        
+        /* Severity Badges */
+        .severity-critical {
+            background: rgba(239, 68, 68, 0.15);
+            color: #ef4444;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            display: inline-block;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+        
+        .severity-high {
+            background: rgba(249, 115, 22, 0.15);
+            color: #f97316;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            display: inline-block;
+            border: 1px solid rgba(249, 115, 22, 0.3);
+        }
+        
+        .severity-medium {
+            background: rgba(234, 179, 8, 0.15);
+            color: #eab308;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            display: inline-block;
+            border: 1px solid rgba(234, 179, 8, 0.3);
+        }
+        
+        .severity-low {
+            background: rgba(34, 197, 94, 0.15);
+            color: #22c55e;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 600;
+            display: inline-block;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        
+        /* Action Buttons */
+        .action-buttons {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        
+        .btn-action {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        
+        .btn-acknowledge {
+            background: rgba(16, 185, 129, 0.15);
+            color: #10b981;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+        
+        .btn-acknowledge:hover {
+            background: #10b981;
+            color: white;
+        }
+        
+        .btn-tp {
+            background: rgba(34, 197, 94, 0.15);
+            color: #22c55e;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        
+        .btn-tp:hover {
+            background: #22c55e;
+            color: white;
+        }
+        
+        .btn-fp {
+            background: rgba(239, 68, 68, 0.15);
+            color: #ef4444;
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+        
+        .btn-fp:hover {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .btn-fn {
+            background: rgba(234, 179, 8, 0.15);
+            color: #eab308;
+            border: 1px solid rgba(234, 179, 8, 0.3);
+        }
+        
+        .btn-fn:hover {
+            background: #eab308;
+            color: #1a1a2e;
+        }
+        
+        /* URL Links */
+        .url-link {
+            color: var(--accent-cyan);
+            text-decoration: none;
+            font-family: monospace;
+            font-size: 12px;
+        }
+        
+        .url-link:hover {
+            text-decoration: underline;
+        }
+        
+        /* Threat Score Colors */
+        .threat-critical {
+            color: #ef4444;
+            font-weight: 600;
+        }
+        
+        .threat-high {
+            color: #f97316;
+            font-weight: 600;
+        }
+        
+        .threat-medium {
+            color: #eab308;
+            font-weight: 600;
+        }
+        
+        .threat-low {
+            color: #22c55e;
+            font-weight: 600;
+        }
+        
+        /* Loading State */
+        .loading {
+            text-align: center;
+            padding: 48px;
+            color: var(--text-muted);
+        }
+        
+        /* Toast Notification */
+        .toast-notification {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: var(--secondary-bg);
+            color: white;
+            padding: 14px 24px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 500;
+            z-index: 1000;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border-left: 3px solid var(--accent-success);
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 24px;
+            font-size: 11px;
+            color: var(--text-muted);
+            border-top: 1px solid var(--border-color);
+            margin-top: 20px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            .chart-row {
+                grid-template-columns: 1fr;
+            }
+            .navbar-brand span {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar">
+    <div class="navbar-brand">
+        <i class="fas fa-shield-haltered"></i>
+        <span>DARK WEB AGRICULTURE MONITOR</span>
+        <span class="soc-badge">SOC DASHBOARD</span>
+    </div>
+    <div class="navbar-status">
+        <div class="status-badge">
+            <span class="status-dot"></span>
+            <span id="connection-status">CONNECTED</span>
+        </div>
+        <div class="status-badge">
+            <i class="fas fa-clock"></i>
+            <span id="last-update">UPDATING...</span>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <!-- Statistics Cards -->
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-label">TOTAL PAGES CRAWLED</div>
+            <div class="stat-value" id="total-pages">0</div>
+            <div class="stat-trend"><i class="fas fa-chart-line"></i> Last 24h: <span id="pages-24h">0</span></div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">TOTAL ALERTS</div>
+            <div class="stat-value" id="total-alerts">0</div>
+            <div class="stat-trend"><i class="fas fa-exclamation-triangle"></i> Critical: <span id="critical-alerts">0</span></div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">PENDING ALERTS</div>
+            <div class="stat-value" id="unacknowledged-alerts">0</div>
+            <div class="stat-trend"><i class="fas fa-clock"></i> Requires immediate attention</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-label">AVERAGE THREAT SCORE</div>
+            <div class="stat-value" id="avg-threat">0</div>
+            <div class="stat-trend"><i class="fas fa-chart-line"></i> Last 7 days</div>
+        </div>
+    </div>
+
+    <!-- Charts Row -->
+    <div class="chart-row">
+        <div class="chart-card">
+            <div class="chart-header">
+                <h3><i class="fas fa-chart-line"></i> THREAT SCORE TREND</h3>
+                <p>Last 7 days - Dark web threat level monitoring</p>
+            </div>
+            <div class="chart-body">
+                <canvas id="threat-trend-chart"></canvas>
+            </div>
+        </div>
+        <div class="chart-card">
+            <div class="chart-header">
+                <h3><i class="fas fa-chart-pie"></i> ALERT DISTRIBUTION</h3>
+                <p>Alert breakdown by severity level</p>
+            </div>
+            <div class="chart-body">
+                <canvas id="alert-pie-chart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Alerts Table -->
+    <div class="alerts-card">
+        <div class="alerts-header">
+            <h3><i class="fas fa-bell"></i> RECENT ALERTS</h3>
+            <div class="filter-bar">
+                <select id="severity-filter" class="filter-select">
+                    <option value="all">All Severities</option>
+                    <option value="CRITICAL">Critical</option>
+                    <option value="HIGH">High</option>
+                    <option value="MEDIUM">Medium</option>
+                    <option value="LOW">Low</option>
+                </select>
+                <button class="btn-refresh" onclick="refreshData()">
+                    <i class="fas fa-sync-alt"></i> Refresh
+                </button>
+            </div>
+        </div>
+        <div style="overflow-x: auto;">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Severity</th>
+                        <th>Alert Title</th>
+                        <th>Risk Score</th>
+                        <th>Timestamp</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="alerts-tbody">
+                    <tr><td colspan="6" class="loading">
+                        <i class="fas fa-spinner fa-pulse"></i> Loading alerts...
+                    </td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Recent Pages -->
+    <div class="alerts-card">
+        <div class="alerts-header">
+            <h3><i class="fas fa-globe"></i> RECENTLY CRAWLED PAGES</h3>
+        </div>
+        <div style="overflow-x: auto;">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>URL</th>
+                        <th>Page Title</th>
+                        <th>Crawled At</th>
+                        <th>Threat Score</th>
+                    </tr>
+                </thead>
+                <tbody id="pages-tbody">
+                    <tr><td colspan="4" class="loading">
+                        <i class="fas fa-spinner fa-pulse"></i> Loading pages...
+                    </td></tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <p>© 2024 Dark Web Agriculture Monitor | SOC Dashboard v2.0 | Real-time Dark Web Threat Intelligence</p>
+</div>
+
+<!-- Dashboard JavaScript -->
+<script src="/static/js/dashboard.js"></script>
+</body>
+</html>

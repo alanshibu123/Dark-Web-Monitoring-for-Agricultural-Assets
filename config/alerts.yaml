@@ -1,0 +1,73 @@
+# Alert Configuration for Dark Web Agriculture Monitor
+alerting:
+  email_enabled: true
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  from_email: "${EMAIL_USERNAME}"
+  email_username: "${EMAIL_USERNAME}"
+  email_password: "${EMAIL_PASSWORD}"
+  to_emails:
+    - "alanshibu102004@gmail.com"
+  
+  webhook_enabled: true
+  webhook_url: "${WEBHOOK_URL}"
+  
+  log_alerts: true
+
+# Alert thresholds
+thresholds:
+  credential_leak: 70
+  proprietary_data: 60
+  domain_match: 50
+  sensitive_data: 65
+  nlp_threat: 55
+
+# Escalation rules
+escalation:
+  critical:
+    initial_delay_minutes: 5
+    escalation_interval_minutes: 15
+    max_escalations: 3
+    targets:
+      - "security_analyst"
+      - "security_lead"
+      - "ciso"
+  
+  high:
+    initial_delay_minutes: 15
+    escalation_interval_minutes: 30
+    max_escalations: 2
+    targets:
+      - "security_analyst"
+      - "security_lead"
+  
+  medium:
+    initial_delay_minutes: 60
+    escalation_interval_minutes: 120
+    max_escalations: 1
+    targets:
+      - "security_analyst"
+
+# Rate limiting
+rate_limits:
+  email_per_minute: 10
+  webhook_per_minute: 30
+  duplicate_window_minutes: 60
+
+# Alert templates
+templates:
+  credential_leak:
+    title: "Credentials Leaked on Dark Web"
+    severity: "HIGH"
+    recommendations:
+      - "Immediately rotate all affected credentials"
+      - "Enable multi-factor authentication"
+      - "Review access logs for suspicious activity"
+  
+  proprietary_data:
+    title: "Proprietary Agriculture Data Exposed"
+    severity: "HIGH"
+    recommendations:
+      - "Identify scope of proprietary data exposure"
+      - "Review data access controls"
+      - "Consider legal notification requirements"

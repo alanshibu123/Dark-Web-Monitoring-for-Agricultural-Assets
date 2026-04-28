@@ -1,0 +1,53 @@
+# Tor Network Configuration for Dark Web Agriculture Monitor
+
+tor:
+  # Connection settings
+  socks_host: "127.0.0.1"
+  socks_port: 9150
+  control_host: "127.0.0.1"
+  control_port: 9151
+  
+  # Tor configuration file path
+  torrc_path: "/etc/tor/torrc"
+  
+  # How often to rotate identity (seconds)
+  new_identity_interval: 300
+  
+  # Maximum circuit failures before alert
+  max_circuit_failures: 5
+
+proxies:
+  http: "socks5h://127.0.0.1:9050"
+  https: "socks5h://127.0.0.1:9050"
+
+verification:
+  # URL to check Tor connectivity
+  check_ip_url: "http://check.torproject.org/"
+  
+  # Expected string in response
+  expected_string: "Congratulations"
+  
+  # Alternative check URLs
+  alternative_check_urls:
+    - "http://httpbin.org/ip"
+    - "https://api.ipify.org"
+
+security:
+  # Circuit isolation per request
+  isolate_circuits: true
+  
+  # Maximum concurrent circuits
+  max_concurrent_circuits: 3
+  
+  # Timeout for circuit establishment (seconds)
+  circuit_build_timeout: 30
+
+performance:
+  # Connection pool size
+  connection_pool_size: 10
+  
+  # Keep-alive interval (seconds)
+  keep_alive_interval: 60
+  
+  # Request retry backoff factor
+  retry_backoff_factor: 2

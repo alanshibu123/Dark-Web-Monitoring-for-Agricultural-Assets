@@ -1,0 +1,71 @@
+# Dark Web Monitoring Keywords for Agriculture Assets
+
+domains:
+  - "agrifarm.com"
+  - "harvestdata.co"
+  - "cropmonitor.org"
+  - "smartirrigation.io"
+
+proprietary_terms:
+  - "YieldPredict v2"
+  - "SoilSense Algorithm"
+  - "CropHealth API"
+  - "HarvestForecast Model"
+
+sensitive_data_types:
+  - "passport"
+  - "ssn"
+  - "credit card"
+  - "bank account"
+  - "passwords"
+  - "database dump"
+
+agriculture_terms:
+  - "crop yield data"
+  - "soil composition"
+  - "irrigation schedule"
+  - "fertilizer formula"
+  - "pesticide mixture"
+  - "harvest forecast"
+  - "livestock database"
+  - "supply chain manifest"
+  - "precision agriculture"      # ADD THIS
+  - "farm management"            # ADD THIS
+  - "sensor data"                # ADD THIS
+  - "soil moisture"              
+
+credential_patterns:
+  - "password:"
+  - "pass:"
+  - "api_key:"
+  - "secret:"
+  - "token:"
+  - "username:"
+  - "login:"
+  - "credentials:"
+
+
+threat_keywords:
+  - "breach"
+  - "hacked"
+  - "compromised"
+  - "stolen"
+  - "ransomware"
+  - "encrypted"
+  - "decryption"
+  - "bitcoin"
+  - "btc"
+  - "pay"
+  - "btc"
+  - "bitcoin"
+
+
+marketplace_keywords:
+  - "for sale"
+  - "selling"
+  - "price:"
+  - "btc"
+  - "bitcoin"
+  - "access to"
+  - "leaked databases"
+  - "credentials for sale"

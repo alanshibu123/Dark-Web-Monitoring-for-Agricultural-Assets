@@ -1,0 +1,473 @@
+2026-04-20 13:43:52,441 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 13:44:03,933 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 13:44:06,653 - storage.database - INFO - Database tables created/verified
+2026-04-20 13:44:06,653 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 13:45:56,796 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 13:45:56,857 - storage.database - INFO - Database tables created/verified
+2026-04-20 13:45:56,889 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 13:45:56,927 - storage.database - INFO - Saved feedback (ID: 2, Type: true_positive)
+2026-04-20 13:45:56,971 - storage.database - INFO - Saved feedback (ID: 3, Type: true_positive)
+2026-04-20 13:45:56,992 - storage.database - INFO - Saved feedback (ID: 4, Type: true_positive)
+2026-04-20 13:45:57,006 - storage.database - INFO - Saved feedback (ID: 5, Type: true_positive)
+2026-04-20 13:45:57,018 - storage.database - INFO - Saved feedback (ID: 6, Type: true_positive)
+2026-04-20 13:45:57,027 - storage.database - INFO - Saved feedback (ID: 7, Type: true_positive)
+2026-04-20 13:45:57,033 - storage.database - INFO - Saved feedback (ID: 8, Type: true_positive)
+2026-04-20 13:45:57,041 - storage.database - INFO - Saved feedback (ID: 9, Type: true_positive)
+2026-04-20 13:45:57,047 - storage.database - INFO - Saved feedback (ID: 10, Type: true_positive)
+2026-04-20 13:45:57,055 - storage.database - INFO - Saved feedback (ID: 11, Type: true_positive)
+2026-04-20 13:45:57,060 - storage.database - INFO - Saved feedback (ID: 12, Type: false_positive)
+2026-04-20 13:45:57,066 - storage.database - INFO - Saved feedback (ID: 13, Type: false_positive)
+2026-04-20 13:45:57,074 - storage.database - INFO - Saved feedback (ID: 14, Type: false_positive)
+2026-04-20 13:46:19,071 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 13:46:20,694 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 13:46:21,335 - storage.database - INFO - Database tables created/verified
+2026-04-20 13:46:21,335 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 13:46:21,366 - detector.ml_classifier - INFO - Training model for 'password' (14 samples)
+2026-04-20 13:46:21,541 - detector.ml_classifier - INFO - Saved model for keyword: password
+2026-04-20 13:46:21,552 - detector.ml_classifier - INFO - Trained model for 'password' with 14 samples, accuracy: 0.79
+2026-04-20 13:48:32,696 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 13:48:34,641 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 13:48:35,331 - storage.database - INFO - Database tables created/verified
+2026-04-20 13:48:35,332 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 13:48:35,341 - detector.ml_classifier - INFO - Loaded model for keyword: password
+2026-04-20 13:50:03,326 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 13:50:04,967 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 13:50:05,580 - storage.database - INFO - Database tables created/verified
+2026-04-20 13:50:05,580 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 13:50:05,591 - detector.ml_classifier - INFO - Loaded model for keyword: password
+2026-04-20 13:51:37,877 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 13:51:37,922 - storage.database - INFO - Database tables created/verified
+2026-04-20 13:51:37,923 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 13:53:48,241 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 13:53:48,286 - storage.database - INFO - Database tables created/verified
+2026-04-20 13:53:48,287 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 13:53:48,311 - storage.database - INFO - Saved feedback (ID: 1, Type: true_positive)
+2026-04-20 13:53:48,318 - storage.database - INFO - Saved feedback (ID: 2, Type: true_positive)
+2026-04-20 13:53:48,329 - storage.database - INFO - Saved feedback (ID: 3, Type: true_positive)
+2026-04-20 13:53:48,338 - storage.database - INFO - Saved feedback (ID: 4, Type: true_positive)
+2026-04-20 13:53:48,347 - storage.database - INFO - Saved feedback (ID: 5, Type: true_positive)
+2026-04-20 13:53:48,354 - storage.database - INFO - Saved feedback (ID: 6, Type: true_positive)
+2026-04-20 13:53:48,362 - storage.database - INFO - Saved feedback (ID: 7, Type: true_positive)
+2026-04-20 13:53:48,369 - storage.database - INFO - Saved feedback (ID: 8, Type: true_positive)
+2026-04-20 13:53:48,378 - storage.database - INFO - Saved feedback (ID: 9, Type: false_positive)
+2026-04-20 13:53:48,386 - storage.database - INFO - Saved feedback (ID: 10, Type: false_positive)
+2026-04-20 13:53:48,395 - storage.database - INFO - Saved feedback (ID: 11, Type: false_positive)
+2026-04-20 13:53:48,402 - storage.database - INFO - Saved feedback (ID: 12, Type: false_positive)
+2026-04-20 13:53:48,411 - storage.database - INFO - Saved feedback (ID: 13, Type: false_positive)
+2026-04-20 13:53:48,418 - storage.database - INFO - Saved feedback (ID: 14, Type: false_positive)
+2026-04-20 14:00:27,478 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 14:00:30,324 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 14:00:31,423 - storage.database - INFO - Database tables created/verified
+2026-04-20 14:00:31,424 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 14:02:42,687 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 14:02:44,340 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 14:02:44,940 - storage.database - INFO - Database tables created/verified
+2026-04-20 14:02:44,941 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 14:02:44,968 - detector.ml_classifier - INFO - Training model for 'password' (14 samples)
+2026-04-20 14:02:45,146 - detector.ml_classifier - INFO - Saved model for keyword: password
+2026-04-20 14:02:45,161 - detector.ml_classifier - INFO - Trained model for 'password' with 14 samples, accuracy: 1.00
+2026-04-20 14:02:56,350 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 14:02:58,012 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 14:02:58,611 - storage.database - INFO - Database tables created/verified
+2026-04-20 14:02:58,612 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 14:02:58,642 - detector.ml_classifier - INFO - Loaded model for keyword: password
+2026-04-20 14:17:55,732 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 14:17:55,779 - storage.database - INFO - Database tables created/verified
+2026-04-20 14:17:55,780 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 15:22:54,269 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 15:22:54,418 - storage.database - INFO - Database tables created/verified
+2026-04-20 15:22:54,418 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 15:22:54,425 - dashboard.app - INFO - Starting dashboard on 0.0.0.0:5000
+2026-04-20 15:22:54,507 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.120.27.204:5000
+2026-04-20 15:22:54,507 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 15:22:57,238 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:57] "GET / HTTP/1.1" 200 -
+2026-04-20 15:22:57,709 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:57] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-04-20 15:22:57,811 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:57] "GET /socket.io/?EIO=4&transport=polling&t=PsgJhF9 HTTP/1.1" 200 -
+2026-04-20 15:22:58,187 - dashboard.app - INFO - Client connected: XfqgvUz0K3-W5hb5AAAB
+2026-04-20 15:22:58,193 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "POST /socket.io/?EIO=4&transport=polling&t=PsgJhF_&sid=YKDqfo75ZN1dtTeGAAAA HTTP/1.1" 200 -
+2026-04-20 15:22:58,196 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 15:22:58,213 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 15:22:58,216 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 15:22:58,222 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 15:22:58,223 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 15:22:58,513 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "GET /socket.io/?EIO=4&transport=polling&t=PsgJhG2&sid=YKDqfo75ZN1dtTeGAAAA HTTP/1.1" 200 -
+2026-04-20 15:22:58,520 - dashboard.app - INFO - Client XfqgvUz0K3-W5hb5AAAB subscribed to alerts
+2026-04-20 15:22:58,523 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:22:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-20 15:23:00,476 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET / HTTP/1.1" 200 -
+2026-04-20 15:23:00,567 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /static/js/dashboard.js HTTP/1.1" 200 -
+2026-04-20 15:23:00,829 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /socket.io/?EIO=4&transport=polling&t=PsgJh-E HTTP/1.1" 200 -
+2026-04-20 15:23:00,865 - dashboard.app - INFO - Client connected: EIcehSN7rwVLQxJxAAAD
+2026-04-20 15:23:00,867 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 15:23:00,867 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "POST /socket.io/?EIO=4&transport=polling&t=PsgJh-a&sid=dkIuHYYec6CKVGZoAAAC HTTP/1.1" 200 -
+2026-04-20 15:23:00,870 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 15:23:00,872 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 15:23:00,882 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /socket.io/?EIO=4&transport=polling&t=PsgJh-c&sid=dkIuHYYec6CKVGZoAAAC HTTP/1.1" 200 -
+2026-04-20 15:23:00,892 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 15:23:00,896 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:00] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 15:23:01,031 - dashboard.app - INFO - Client EIcehSN7rwVLQxJxAAAD subscribed to alerts
+2026-04-20 15:23:01,235 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-20 15:23:11,457 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 15:23:11] "GET /socket.io/?EIO=4&transport=websocket&sid=YKDqfo75ZN1dtTeGAAAA HTTP/1.1" 200 -
+2026-04-20 15:23:11,478 - werkzeug - INFO - 10.120.27.204 - - [20/Apr/2026 15:23:11] "GET /socket.io/?EIO=4&transport=websocket&sid=dkIuHYYec6CKVGZoAAAC HTTP/1.1" 200 -
+2026-04-20 20:44:23,811 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 20:49:09,787 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 20:49:12,555 - nlp_analysis.analyzer - INFO - [SUCCESS] Loaded fine-tuned BART model from ./bart_intent_model_best
+2026-04-20 20:49:12,556 - nlp_analysis.analyzer - INFO - Loaded model with 8 intent categories
+2026-04-20 20:49:12,556 - nlp_analysis.analyzer - INFO - Categories: ['credential_dump', 'data_breach_announcement', 'proprietary_data_sale', 'agriculture_research', 'ransomware_threat', 'marketplace_listing', 'technical_discussion', 'false_positive_sample']
+2026-04-20 20:49:13,658 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.81)
+2026-04-20 20:49:13,778 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.30)
+2026-04-20 20:49:13,994 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.39)
+2026-04-20 20:49:14,189 - nlp_analysis.analyzer - DEBUG - Intent: technical_discussion (conf: 0.59)
+2026-04-20 20:49:14,863 - nlp_analysis.analyzer - DEBUG - Intent: ransomware_threat (conf: 0.46)
+2026-04-20 20:49:15,417 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.42)
+2026-04-20 20:49:15,600 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.29)
+2026-04-20 20:51:25,545 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 20:51:28,946 - numexpr.utils - INFO - NumExpr defaulting to 4 threads.
+2026-04-20 20:51:43,448 - config.settings - INFO - Configuration validation passed
+2026-04-20 20:51:43,508 - storage.database - INFO - Database tables created/verified
+2026-04-20 20:51:43,509 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 20:51:43,532 - tor_network.tor_manager - INFO - Tor Manager initialized
+2026-04-20 20:51:43,555 - crawler.web_crawler - INFO - Crawler initialized: max_depth=3, delay=5s
+2026-04-20 20:51:43,559 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hooks.slack.com:443
+2026-04-20 20:51:44,353 - detector.ml_classifier - INFO - Loaded model for keyword: password
+2026-04-20 20:51:44,354 - detector.keyword_detector - INFO - ML Classifier initialized
+2026-04-20 20:51:44,354 - detector.keyword_detector - INFO - Feedback learner initialized
+2026-04-20 20:51:44,354 - detector.keyword_detector - INFO - Configured for BALANCED mode
+2026-04-20 20:51:44,355 - detector.keyword_detector - INFO - Compiled 10 agriculture patterns
+2026-04-20 20:51:44,355 - detector.keyword_detector - INFO - Compiled patterns for 5 categories
+2026-04-20 20:51:44,361 - nlp_analysis.analyzer - INFO - Added 11 agriculture entity patterns
+2026-04-20 20:51:44,840 - nlp_analysis.analyzer - INFO - [SUCCESS] Loaded fine-tuned BART model from ./bart_intent_model_best
+2026-04-20 20:51:44,841 - nlp_analysis.analyzer - INFO - Loaded model with 8 intent categories
+2026-04-20 20:51:44,841 - nlp_analysis.analyzer - INFO - Categories: ['credential_dump', 'data_breach_announcement', 'proprietary_data_sale', 'agriculture_research', 'ransomware_threat', 'marketplace_listing', 'technical_discussion', 'false_positive_sample']
+2026-04-20 20:51:44,841 - tor_network.tor_manager - INFO - Setting up Tor connection...
+2026-04-20 20:51:44,842 - tor_network.tor_manager - INFO - Tor service is already running
+2026-04-20 20:51:44,860 - urllib3.connectionpool - DEBUG - https://hooks.slack.com:443 "POST /services/T0AF02TB8BF/B0AEN2GN39V/JAwhljIceP8K3LNGjeZzeJJ9 HTTP/1.1" 404 10
+2026-04-20 20:51:44,861 - alerts.alert_manager - WARNING - Webhook returned 404: no_service
+2026-04-20 20:51:44,865 - alerts.alert_manager - INFO - Alert 5 escalated to security_lead (Level 1)
+2026-04-20 20:51:44,865 - alerts.alert_manager - WARNING - Webhook rate limit hit, skipping
+2026-04-20 20:51:44,866 - alerts.alert_manager - INFO - Alert 2 escalated to security_lead (Level 1)
+2026-04-20 20:51:44,866 - alerts.alert_manager - WARNING - Webhook rate limit hit, skipping
+2026-04-20 20:51:44,866 - alerts.alert_manager - INFO - Alert 6 escalated to security_lead (Level 1)
+2026-04-20 20:51:44,867 - alerts.alert_manager - WARNING - Webhook rate limit hit, skipping
+2026-04-20 20:51:44,867 - alerts.alert_manager - INFO - Alert 3 escalated to security_lead (Level 1)
+2026-04-20 20:51:44,867 - alerts.alert_manager - WARNING - Webhook rate limit hit, skipping
+2026-04-20 20:51:44,868 - alerts.alert_manager - INFO - Alert 4 escalated to security_lead (Level 1)
+2026-04-20 20:51:44,868 - alerts.alert_manager - WARNING - Webhook rate limit hit, skipping
+2026-04-20 20:51:44,868 - alerts.alert_manager - INFO - Alert 1 escalated to security_lead (Level 1)
+2026-04-20 20:51:44,902 - stem - DEBUG - GETCONF __owningcontrollerprocess (runtime: 0.0020)
+2026-04-20 20:51:44,902 - tor_network.tor_manager - INFO - Connected to Tor controller
+2026-04-20 20:51:44,902 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-20 20:51:44,903 - tor_network.tor_manager - DEBUG - Request attempt 1/3: https://check.torproject.org/api/ip
+2026-04-20 20:51:44,904 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): check.torproject.org:443
+2026-04-20 20:51:47,555 - urllib3.connectionpool - DEBUG - https://check.torproject.org:443 "GET /api/ip HTTP/1.1" 200 37
+2026-04-20 20:51:47,557 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:51:47,558 - tor_network.tor_manager - INFO - Tor connection verified successfully
+2026-04-20 20:51:47,560 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-20 20:51:47,563 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-20 20:51:48,555 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-20 20:51:48,557 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:51:48,557 - tor_network.tor_manager - INFO -  Tor connected successfully! Exit IP: 185.220.100.254
+2026-04-20 20:51:48,574 - storage.database - INFO - Started scan (ID: 4)
+2026-04-20 20:51:48,599 - crawler.web_crawler - INFO - Starting crawl with 2 seed URLs
+2026-04-20 20:51:48,600 - crawler.web_crawler - INFO - Crawling [0/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:51:48,601 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:51:48,602 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-20 20:51:56,511 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET / HTTP/1.1" 200 5442
+2026-04-20 20:51:57,076 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:51:57,088 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars, 3 links)
+2026-04-20 20:51:57,089 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-20 20:51:57,091 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-20 20:51:57,407 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-20 20:51:57,407 - crawler.web_crawler - INFO - Processed: 0 emails,0 credentials
+2026-04-20 20:52:02,409 - crawler.web_crawler - INFO - Crawling [0/3]: http://darkfailllnkf4vf.onion
+2026-04-20 20:52:02,409 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://darkfailllnkf4vf.onion
+2026-04-20 20:52:02,411 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): darkfailllnkf4vf.onion:80
+2026-04-20 20:52:02,415 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-20 20:52:05,417 - tor_network.tor_manager - INFO - Current IP: 185.220.100.254
+2026-04-20 20:52:05,417 - tor_network.tor_manager - DEBUG - Rotation attempt 1/3
+2026-04-20 20:52:05,467 - tor_network.tor_manager - DEBUG - Waiting 5s for circuit to build...
+2026-04-20 20:52:10,468 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-20 20:52:11,319 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-20 20:52:11,322 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:52:11,713 - tor_network.tor_manager - DEBUG - Attempting to force new circuit...
+2026-04-20 20:52:11,717 - stem - DEBUG - GETINFO circuit-status (runtime: 0.0035)
+2026-04-20 20:52:11,719 - stem - INFO - CIRC event had an unrecognized purpose (HS_SERVICE_HSDIR). Maybe a new addition to the control protocol? Full Event: 'CIRC 66 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$52FB884DC2B0825EA9D162365BEEFB6D916648EE~relayon1148,$8223DAE66759C0AD5BCC2857C02A2D8705BF7E77~NTH73R1,$551EC8BBA0DF892569B62AB41C064DAFFCA6A838~FFirewall BUILD_FLAGS=IS_INTERNAL,NEED_CAPACITY PURPOSE=HS_SERVICE_HSDIR HS_STATE=HSSI_CONNECTING TIME_CREATED=2026-04-20T15:12:21.708402'
+2026-04-20 20:52:11,721 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_UNLINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 2 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$EAC35E29082DE3D3B7641252E98C3B05C8005F2C~CanisLupus,$245C88E535BB7D80B7B43B36AB5B300D6B214A40~bauruine BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_UNLINKED TIME_CREATED=2026-04-20T15:12:04.012881 CONFLUX_ID=7964AE4A2E77660253F4CD37DB2DE1E5'
+2026-04-20 20:52:11,721 - stem - INFO - CIRC event had an unrecognized purpose (HS_VANGUARDS). Maybe a new addition to the control protocol? Full Event: 'CIRC 52 BUILT $0288BCA70749C447D1D40C28EA871C7A34CC90D7~prsv,$B142A470CF4FD7519E3F89D8FE0E7D5C966A219B~SrsTubesRelay,$83721D5AE526BBF18C19C969B166EB5A559E36A2~relayon1141,$707E240B62AEE9E6A6E43148634C029879284B6A~DaReDeleting BUILD_FLAGS=IS_INTERNAL,NEED_UPTIME PURPOSE=HS_VANGUARDS TIME_CREATED=2026-04-20T15:12:16.696876'
+2026-04-20 20:52:11,722 - stem - INFO - CIRC event had an unrecognized purpose (CONFLUX_LINKED). Maybe a new addition to the control protocol? Full Event: 'CIRC 5 BUILT $3EF7794702439CF6610B70FF48EF868458F5D351~duncan,$1DEECD906AFECF496B7DC1E40829F4563517B4CC~Charybdis2,$9971F51A3274758B5C59E1D6580ED2C13E13CBEC~F3Netze BUILD_FLAGS=NEED_CAPACITY,NEED_UPTIME PURPOSE=CONFLUX_LINKED TIME_CREATED=2026-04-20T15:12:04.112089 CONFLUX_ID=D9CC02F627C9D80742D9FD15D1F00CE0 CONFLUX_RTT=634121'
+2026-04-20 20:52:11,725 - stem - INFO - CIRC event had an unrecognized purpose (HS_CLIENT_HSDIR). Maybe a new addition to the control protocol? Full Event: 'CIRC 88 BUILT $0288BCA70749C447D1D40C28EA871C7A34CC90D7~prsv,$31DF86181F39B9F7464F33E633996274079CD122~forest41,$E656618826BD9F2CCACD13F8ED8DE13299FAA175~Tyrion,$CFAB19E23290F5BA1F7FF24494D26FBD4E4DF6CE~marcuse4 BUILD_FLAGS=IS_INTERNAL,NEED_CAPACITY PURPOSE=HS_CLIENT_HSDIR HS_STATE=HSCI_CONNECTING TIME_CREATED=2026-04-20T15:21:48.653518'
+2026-04-20 20:52:11,728 - tor_network.tor_manager - DEBUG - Closed circuit: 66
+2026-04-20 20:52:11,729 - tor_network.tor_manager - DEBUG - Closed circuit: 2
+2026-04-20 20:52:11,730 - tor_network.tor_manager - DEBUG - Closed circuit: 3
+2026-04-20 20:52:11,732 - tor_network.tor_manager - DEBUG - Closed circuit: 52
+2026-04-20 20:52:11,734 - tor_network.tor_manager - DEBUG - Closed circuit: 5
+2026-04-20 20:52:11,737 - tor_network.tor_manager - DEBUG - Could not close circuit 6: Unknown circuit "6"
+2026-04-20 20:52:11,739 - tor_network.tor_manager - DEBUG - Closed circuit: 69
+2026-04-20 20:52:11,740 - tor_network.tor_manager - DEBUG - Closed circuit: 84
+2026-04-20 20:52:11,741 - tor_network.tor_manager - DEBUG - Closed circuit: 24
+2026-04-20 20:52:11,742 - tor_network.tor_manager - DEBUG - Closed circuit: 10
+2026-04-20 20:52:11,742 - tor_network.tor_manager - DEBUG - Closed circuit: 68
+2026-04-20 20:52:11,743 - tor_network.tor_manager - DEBUG - Closed circuit: 53
+2026-04-20 20:52:11,745 - tor_network.tor_manager - DEBUG - Closed circuit: 13
+2026-04-20 20:52:11,746 - tor_network.tor_manager - DEBUG - Closed circuit: 37
+2026-04-20 20:52:11,747 - tor_network.tor_manager - DEBUG - Closed circuit: 15
+2026-04-20 20:52:11,748 - tor_network.tor_manager - DEBUG - Closed circuit: 25
+2026-04-20 20:52:11,748 - tor_network.tor_manager - DEBUG - Closed circuit: 67
+2026-04-20 20:52:11,749 - tor_network.tor_manager - DEBUG - Closed circuit: 58
+2026-04-20 20:52:11,750 - tor_network.tor_manager - DEBUG - Closed circuit: 28
+2026-04-20 20:52:11,752 - tor_network.tor_manager - DEBUG - Closed circuit: 70
+2026-04-20 20:52:11,754 - tor_network.tor_manager - DEBUG - Closed circuit: 56
+2026-04-20 20:52:11,755 - tor_network.tor_manager - DEBUG - Closed circuit: 71
+2026-04-20 20:52:11,756 - tor_network.tor_manager - DEBUG - Closed circuit: 35
+2026-04-20 20:52:11,757 - tor_network.tor_manager - DEBUG - Closed circuit: 43
+2026-04-20 20:52:11,757 - tor_network.tor_manager - DEBUG - Closed circuit: 44
+2026-04-20 20:52:11,758 - tor_network.tor_manager - DEBUG - Closed circuit: 45
+2026-04-20 20:52:11,759 - tor_network.tor_manager - DEBUG - Closed circuit: 63
+2026-04-20 20:52:11,760 - tor_network.tor_manager - DEBUG - Closed circuit: 47
+2026-04-20 20:52:12,209 - tor_network.tor_manager - DEBUG - Closed circuit: 55
+2026-04-20 20:52:12,210 - tor_network.tor_manager - DEBUG - Closed circuit: 50
+2026-04-20 20:52:12,211 - tor_network.tor_manager - DEBUG - Closed circuit: 51
+2026-04-20 20:52:12,212 - tor_network.tor_manager - DEBUG - Closed circuit: 76
+2026-04-20 20:52:12,214 - tor_network.tor_manager - DEBUG - Closed circuit: 77
+2026-04-20 20:52:12,215 - tor_network.tor_manager - DEBUG - Closed circuit: 78
+2026-04-20 20:52:12,216 - tor_network.tor_manager - DEBUG - Closed circuit: 79
+2026-04-20 20:52:12,218 - tor_network.tor_manager - DEBUG - Closed circuit: 85
+2026-04-20 20:52:12,219 - tor_network.tor_manager - DEBUG - Closed circuit: 81
+2026-04-20 20:52:12,220 - tor_network.tor_manager - DEBUG - Closed circuit: 82
+2026-04-20 20:52:12,223 - tor_network.tor_manager - DEBUG - Closed circuit: 83
+2026-04-20 20:52:12,225 - tor_network.tor_manager - DEBUG - Closed circuit: 86
+2026-04-20 20:52:12,227 - tor_network.tor_manager - DEBUG - Closed circuit: 87
+2026-04-20 20:52:12,231 - tor_network.tor_manager - DEBUG - Closed circuit: 88
+2026-04-20 20:52:12,233 - tor_network.tor_manager - DEBUG - Closed circuit: 89
+2026-04-20 20:52:12,239 - tor_network.tor_manager - DEBUG - Closed circuit: 91
+2026-04-20 20:52:14,241 - tor_network.tor_manager - DEBUG - Rotation attempt 2/3
+2026-04-20 20:52:14,244 - tor_network.tor_manager - DEBUG - Waiting 8s for circuit to build...
+2026-04-20 20:52:22,246 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-20 20:52:22,249 - urllib3.connectionpool - DEBUG - Resetting dropped connection: httpbin.org
+2026-04-20 20:52:23,415 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 32
+2026-04-20 20:52:23,416 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:52:23,486 - tor_network.tor_manager - INFO - Total rotations: 2
+2026-04-20 20:52:23,486 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-20 20:52:23,486 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://darkfailllnkf4vf.onion
+2026-04-20 20:52:23,487 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): darkfailllnkf4vf.onion:80
+2026-04-20 20:52:23,489 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-20 20:52:26,491 - tor_network.tor_manager - INFO - Current IP: 109.70.100.11
+2026-04-20 20:52:26,492 - tor_network.tor_manager - DEBUG - Rotation attempt 1/3
+2026-04-20 20:52:26,529 - tor_network.tor_manager - DEBUG - Waiting 5s for circuit to build...
+2026-04-20 20:52:31,530 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-20 20:52:31,534 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-20 20:52:32,614 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 33
+2026-04-20 20:52:32,615 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:52:32,666 - tor_network.tor_manager - INFO - Total rotations: 3
+2026-04-20 20:52:32,666 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-20 20:52:32,667 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://darkfailllnkf4vf.onion
+2026-04-20 20:52:32,669 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (3): darkfailllnkf4vf.onion:80
+2026-04-20 20:52:32,673 - tor_network.tor_manager - WARNING - Connection error: SOCKSHTTPConnectionPool(host='darkfailllnkf4vf.onion', port=80): Max retries exceeded with url: / (C
+2026-04-20 20:52:32,674 - tor_network.tor_manager - ERROR - Failed to fetch http://darkfailllnkf4vf.onion after 3 attempts
+2026-04-20 20:52:32,674 - crawler.web_crawler - WARNING -  Failed to crawl: http://darkfailllnkf4vf.onion
+2026-04-20 20:52:37,675 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:52:37,676 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:52:37,682 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-20 20:52:43,295 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/farm-creds-001.html HTTP/1.1" 200 4603
+2026-04-20 20:52:43,613 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:52:43,619 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars, 0 links)
+2026-04-20 20:52:43,619 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-20 20:52:43,622 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-20 20:52:44,737 - filelock - DEBUG - Attempting to acquire lock 2365415656144 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:52:44,741 - filelock - DEBUG - Lock 2365415656144 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:52:44,778 - filelock - DEBUG - Attempting to release lock 2365415656144 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:52:44,780 - filelock - DEBUG - Lock 2365415656144 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:52:44,829 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:52:44,830 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:52:44,830 - preprocessor.data_cleaner - INFO - Extracted 2 unique credentials from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (had 2 raw matches)
+2026-04-20 20:52:44,831 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-20 20:52:44,832 - crawler.web_crawler - INFO - Processed: 1 emails,2 credentials
+2026-04-20 20:52:49,833 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:52:49,834 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:52:49,837 - urllib3.connectionpool - DEBUG - Resetting dropped connection: 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:52:51,622 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/irrigation-system-leak.html HTTP/1.1" 200 17559
+2026-04-20 20:52:51,936 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:52:51,944 - crawler.web_crawler - INFO -  Crawled: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars, 0 links)
+2026-04-20 20:52:51,945 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-20 20:52:51,950 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-20 20:52:51,963 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:52:51,965 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:52:51,966 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:52:51,967 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:52:51,968 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:52:51,973 - preprocessor.data_cleaner - INFO - Extracted 5 unique credentials from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (had 5 raw matches)
+2026-04-20 20:52:51,982 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-20 20:52:51,983 - crawler.web_crawler - INFO - Processed: 0 emails,5 credentials
+2026-04-20 20:52:56,984 - crawler.web_crawler - INFO - Crawling [1/3]: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-20 20:52:56,985 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-20 20:52:57,854 - tor_network.tor_manager - WARNING - Connection error: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-20 20:53:00,855 - tor_network.tor_manager - INFO - Current IP: 185.220.101.12
+2026-04-20 20:53:00,856 - tor_network.tor_manager - DEBUG - Rotation attempt 1/3
+2026-04-20 20:53:00,905 - tor_network.tor_manager - DEBUG - Waiting 5s for circuit to build...
+2026-04-20 20:53:05,908 - tor_network.tor_manager - DEBUG - Request attempt 1/3: http://httpbin.org/ip
+2026-04-20 20:53:05,912 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): httpbin.org:80
+2026-04-20 20:53:07,517 - urllib3.connectionpool - DEBUG - http://httpbin.org:80 "GET /ip HTTP/1.1" 200 34
+2026-04-20 20:53:07,519 - tor_network.tor_manager - DEBUG - Response status: 200
+2026-04-20 20:53:07,586 - tor_network.tor_manager - INFO - Total rotations: 4
+2026-04-20 20:53:07,587 - tor_network.tor_manager - INFO - Session configured with Tor proxy
+2026-04-20 20:53:07,588 - tor_network.tor_manager - DEBUG - Request attempt 2/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-20 20:53:07,591 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (2): 6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80
+2026-04-20 20:53:12,786 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-20 20:53:12,787 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-20 20:53:12,787 - tor_network.tor_manager - DEBUG - Request attempt 3/3: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-20 20:53:13,537 - urllib3.connectionpool - DEBUG - http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion:80 "GET /marketplace/agricultural-data-leaks/crop-data-breach.html HTTP/1.1" 404 196
+2026-04-20 20:53:13,539 - tor_network.tor_manager - DEBUG - Response status: 404
+2026-04-20 20:53:13,540 - tor_network.tor_manager - ERROR - Failed to fetch http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html after 3 attempts
+2026-04-20 20:53:13,540 - crawler.web_crawler - WARNING -  Failed to crawl: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/crop-data-breach.html
+2026-04-20 20:53:18,542 - crawler.web_crawler - INFO - Crawl completed. Crawled: 3, Failed: 2
+2026-04-20 20:53:18,547 - storage.database - DEBUG - Page already exists: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:53:18,548 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (749 chars)
+2026-04-20 20:53:18,549 - preprocessor.data_cleaner - DEBUG - Cleaned text: 749 -> 509 chars
+2026-04-20 20:53:18,551 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 0 domains, 0 credentials found
+2026-04-20 20:53:18,560 - storage.database - INFO - Saved processed content for page 1 (ID: 8)
+2026-04-20 20:53:18,567 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion (mode: balanced)
+2026-04-20 20:53:18,634 - detector.keyword_detector - INFO - Marketplace listing detected (no actual credentials) - will use lower risk score
+2026-04-20 20:53:18,643 - detector.keyword_detector - INFO - After all passes: 11 matches
+2026-04-20 20:53:18,643 - detector.keyword_detector - INFO - Found 11 matches (High: 11, Risk score: 85.5)
+2026-04-20 20:53:18,644 - storage.database - INFO - Saved 5 keyword matches for page 1
+2026-04-20 20:53:18,656 - nlp_analysis.analyzer - INFO - Performing NLP analysis on http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:53:18,657 - nlp_analysis.analyzer - DEBUG - Extracting named entities from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:53:18,728 - nlp_analysis.analyzer - INFO - Found 11 named entities in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:53:18,728 - nlp_analysis.analyzer - DEBUG - Extracting relationships from text
+2026-04-20 20:53:18,746 - nlp_analysis.analyzer - INFO - Extracted 0 relationships
+2026-04-20 20:53:21,006 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.45)
+2026-04-20 20:53:21,049 - nlp_analysis.analyzer - INFO - NLP analysis complete: 11 entities, 0 relationships, Intent: credential_dump (conf: 0.45), Threat score: 90.0
+2026-04-20 20:53:21,055 - storage.database - INFO - Saved NLP results for page 1 (ID: 8)
+2026-04-20 20:53:21,062 - alerts.alert_manager - INFO - Intent boost: credential_dump (+11)
+2026-04-20 20:53:21,066 - storage.database - INFO - Saved alert (ID: 7, Level: CRITICAL)
+2026-04-20 20:53:21,071 - alerts.alert_manager - ERROR - ALERT [CRITICAL] [CRITICAL] Dark Web Marketplace for Agricultural Leaks (Risk: 86%) - Risk: 100.0 - Source: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion
+2026-04-20 20:53:21,074 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): hooks.slack.com:443
+2026-04-20 20:53:22,339 - urllib3.connectionpool - DEBUG - https://hooks.slack.com:443 "POST /services/T0AF02TB8BF/B0AEN2GN39V/JAwhljIceP8K3LNGjeZzeJJ9 HTTP/1.1" 404 10
+2026-04-20 20:53:22,340 - alerts.alert_manager - WARNING - Webhook returned 404: no_service
+2026-04-20 20:53:22,344 - alerts.alert_manager - INFO - Alert generated and sent (ID: 7, Severity: CRITICAL, Risk: 100)
+2026-04-20 20:53:22,352 - storage.database - DEBUG - Page already exists: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:53:22,352 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (1510 chars)
+2026-04-20 20:53:22,354 - preprocessor.data_cleaner - DEBUG - Cleaned text: 1510 -> 1411 chars
+2026-04-20 20:53:22,781 - filelock - DEBUG - Attempting to acquire lock 2365394742928 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:53:22,783 - filelock - DEBUG - Lock 2365394742928 acquired on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:53:22,786 - filelock - DEBUG - Attempting to release lock 2365394742928 on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:53:22,787 - filelock - DEBUG - Lock 2365394742928 released on C:\Users\91994\Desktop\darkweb-agri-monitor\venv\Lib\site-packages\tldextract\.suffix_cache\publicsuffix.org-tlds\de84b5ca2167d4c83e38fb162f2e8738.tldextract.json.lock
+2026-04-20 20:53:22,816 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:53:22,818 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:53:22,818 - preprocessor.data_cleaner - INFO - Extracted 2 unique credentials from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (had 2 raw matches)
+2026-04-20 20:53:22,820 - preprocessor.data_cleaner - INFO - Document processed: 1 emails, 0 domains, 2 credentials found
+2026-04-20 20:53:22,823 - storage.database - INFO - Saved processed content for page 2 (ID: 9)
+2026-04-20 20:53:22,831 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html (mode: balanced)
+2026-04-20 20:53:22,932 - detector.keyword_detector - INFO - After all passes: 6 matches
+2026-04-20 20:53:22,933 - detector.keyword_detector - INFO - Found 6 matches (High: 3, Risk score: 100.0)
+2026-04-20 20:53:22,934 - storage.database - INFO - Saved 6 keyword matches for page 2
+2026-04-20 20:53:22,944 - nlp_analysis.analyzer - INFO - Performing NLP analysis on http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:53:22,944 - nlp_analysis.analyzer - DEBUG - Extracting named entities from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:53:23,011 - nlp_analysis.analyzer - INFO - Found 23 named entities in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:53:23,012 - nlp_analysis.analyzer - DEBUG - Extracting relationships from text
+2026-04-20 20:53:23,051 - nlp_analysis.analyzer - INFO - Extracted 0 relationships
+2026-04-20 20:53:23,583 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.34)
+2026-04-20 20:53:23,649 - nlp_analysis.analyzer - INFO - NLP analysis complete: 23 entities, 0 relationships, Intent: credential_dump (conf: 0.34), Threat score: 100.0
+2026-04-20 20:53:23,653 - storage.database - INFO - Saved NLP results for page 2 (ID: 9)
+2026-04-20 20:53:23,659 - alerts.alert_manager - INFO - Intent boost: credential_dump (+8)
+2026-04-20 20:53:23,662 - storage.database - INFO - Saved alert (ID: 8, Level: CRITICAL)
+2026-04-20 20:53:23,666 - alerts.alert_manager - ERROR - ALERT [CRITICAL] [CRITICAL] Credentials Leaked on Dark Web (Risk: 100%) - Risk: 100.0 - Source: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/farm-creds-001.html
+2026-04-20 20:53:23,666 - alerts.alert_manager - WARNING - Webhook rate limit hit, skipping
+2026-04-20 20:53:23,667 - alerts.alert_manager - INFO - Alert generated and sent (ID: 8, Severity: CRITICAL, Risk: 100)
+2026-04-20 20:53:23,669 - storage.database - DEBUG - Page already exists: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:23,670 - preprocessor.data_cleaner - INFO - Processing document from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (5520 chars)
+2026-04-20 20:53:23,672 - preprocessor.data_cleaner - DEBUG - Cleaned text: 5520 -> 3615 chars
+2026-04-20 20:53:23,676 - preprocessor.data_cleaner - WARNING - Found potential credential (password) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:23,676 - preprocessor.data_cleaner - WARNING - Found potential credential (api_key) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:23,677 - preprocessor.data_cleaner - WARNING - Found potential credential (secret) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:23,677 - preprocessor.data_cleaner - WARNING - Found potential credential (token) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:23,677 - preprocessor.data_cleaner - WARNING - Found potential credential (username) in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:23,678 - preprocessor.data_cleaner - INFO - Extracted 5 unique credentials from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (had 5 raw matches)
+2026-04-20 20:53:23,680 - preprocessor.data_cleaner - INFO - Document processed: 0 emails, 6 domains, 5 credentials found
+2026-04-20 20:53:23,682 - storage.database - INFO - Saved processed content for page 3 (ID: 10)
+2026-04-20 20:53:23,687 - detector.keyword_detector - INFO - Detecting keywords in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html (mode: balanced)
+2026-04-20 20:53:23,916 - detector.keyword_detector - INFO - After all passes: 21 matches
+2026-04-20 20:53:23,916 - detector.keyword_detector - INFO - Found 21 matches (High: 7, Risk score: 92.4)
+2026-04-20 20:53:23,917 - storage.database - INFO - Saved 10 keyword matches for page 3
+2026-04-20 20:53:23,927 - nlp_analysis.analyzer - INFO - Performing NLP analysis on http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:23,927 - nlp_analysis.analyzer - DEBUG - Extracting named entities from http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:24,053 - nlp_analysis.analyzer - INFO - Found 94 named entities in http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:24,054 - nlp_analysis.analyzer - DEBUG - Extracting relationships from text
+2026-04-20 20:53:24,229 - nlp_analysis.analyzer - INFO - Extracted 1 relationships
+2026-04-20 20:53:24,868 - nlp_analysis.analyzer - DEBUG - Intent: credential_dump (conf: 0.58)
+2026-04-20 20:53:25,055 - nlp_analysis.analyzer - INFO - NLP analysis complete: 94 entities, 1 relationships, Intent: credential_dump (conf: 0.58), Threat score: 100.0
+2026-04-20 20:53:25,060 - storage.database - INFO - Saved NLP results for page 3 (ID: 10)
+2026-04-20 20:53:25,065 - alerts.alert_manager - INFO - Intent boost: credential_dump (+15)
+2026-04-20 20:53:25,071 - storage.database - INFO - Saved alert (ID: 9, Level: CRITICAL)
+2026-04-20 20:53:25,075 - alerts.alert_manager - ERROR - ALERT [CRITICAL] [CRITICAL] Credentials Leaked on Dark Web (Risk: 92%) - Risk: 100.0 - Source: http://6e5gwbwm3gos4wbnlltzorgulrd3eipjjbe53n5riutzbpst4f6nw5ad.onion/marketplace/agricultural-data-leaks/irrigation-system-leak.html
+2026-04-20 20:53:25,076 - alerts.alert_manager - WARNING - Webhook rate limit hit, skipping
+2026-04-20 20:53:25,076 - alerts.alert_manager - INFO - Alert generated and sent (ID: 9, Severity: CRITICAL, Risk: 100)
+2026-04-20 20:53:25,079 - storage.database - INFO - Ended scan 4: {'pages_crawled': 3, 'pages_failed': 2, 'alerts_generated': 3}
+2026-04-20 20:53:25,114 - tor_network.tor_manager - INFO - Closing Tor connection...
+2026-04-20 20:53:25,114 - stem - INFO - Error while receiving a control message (SocketClosed): received exception "[WinError 10038] An operation was attempted on something that is not a socket"
+2026-04-20 20:53:25,117 - tor_network.tor_manager - INFO - Tor connection closed
+2026-04-20 21:00:44,404 - config.settings - INFO - Configuration Manager initialized successfully
+2026-04-20 21:00:44,578 - storage.database - INFO - Database tables created/verified
+2026-04-20 21:00:44,578 - storage.database - INFO - Database initialized: sqlite
+2026-04-20 21:00:44,585 - dashboard.app - INFO - Starting dashboard on 0.0.0.0:5000
+2026-04-20 21:00:44,631 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.120.27.204:5000
+2026-04-20 21:00:44,632 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-04-20 21:00:47,370 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:47] "GET / HTTP/1.1" 200 -
+2026-04-20 21:00:47,657 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:47] "[36mGET /static/js/dashboard.js HTTP/1.1[0m" 304 -
+2026-04-20 21:00:47,676 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:47] "GET /socket.io/?EIO=4&transport=polling&t=PshW_xo HTTP/1.1" 200 -
+2026-04-20 21:00:48,082 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:00:48,084 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-20 21:00:48,109 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:00:48,166 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:00:48,177 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:00:48,207 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:00:48,430 - dashboard.app - INFO - Client connected: V_QNzHAvLZyuq32YAAAB
+2026-04-20 21:00:48,431 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "POST /socket.io/?EIO=4&transport=polling&t=PshW_y6&sid=xnRR2P8UUuSIHfcpAAAA HTTP/1.1" 200 -
+2026-04-20 21:00:48,461 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:00:48] "GET /socket.io/?EIO=4&transport=polling&t=PshW_y9&sid=xnRR2P8UUuSIHfcpAAAA HTTP/1.1" 200 -
+2026-04-20 21:00:48,476 - dashboard.app - INFO - Client V_QNzHAvLZyuq32YAAAB subscribed to alerts
+2026-04-20 21:01:18,158 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:18] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:01:18,174 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:18] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:01:18,182 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:18] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:01:18,185 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:01:18,215 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:18] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:01:47,862 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:47] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:01:48,170 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:48] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:01:48,178 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:48] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:01:48,187 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:48] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:01:48,201 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:01:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:02:18,166 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:18] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:02:18,177 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:02:18,178 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:18] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:02:18,188 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:18] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:02:18,217 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:18] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:02:47,860 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:47] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:02:48,163 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:48] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:02:48,168 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:48] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:02:48,181 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:02:48,189 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:02:48] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:03:18,158 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:18] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:03:18,173 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:18] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:03:18,190 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:18] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:03:18,197 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:18] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:03:18,226 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:18] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:03:47,856 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:47] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:03:48,163 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:48] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:03:48,169 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:48] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:03:48,179 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:48] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:03:48,197 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:03:48] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:04:49,159 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:04:49] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:04:49,163 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:04:49] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:04:49,191 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:04:49] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:04:49,196 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:04:49] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:04:49,211 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:04:49] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:05:50,177 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:05:50] "GET /api/charts/alert-distribution HTTP/1.1" 200 -
+2026-04-20 21:05:50,181 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:05:50] "GET /api/charts/threat-trend HTTP/1.1" 200 -
+2026-04-20 21:05:50,206 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:05:50] "GET /api/recent-pages?limit=20 HTTP/1.1" 200 -
+2026-04-20 21:05:50,221 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:05:50] "GET /api/alerts?limit=50 HTTP/1.1" 200 -
+2026-04-20 21:05:50,240 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:05:50] "GET /api/statistics HTTP/1.1" 200 -
+2026-04-20 21:07:07,795 - werkzeug - INFO - 127.0.0.1 - - [20/Apr/2026 21:07:07] "GET /socket.io/?EIO=4&transport=websocket&sid=xnRR2P8UUuSIHfcpAAAA HTTP/1.1" 200 -

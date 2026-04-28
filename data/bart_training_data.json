@@ -1,0 +1,157 @@
+[
+  {
+    "text": "Database dump contains: admin password: Harvest2024!Secure for AgriFarm portal",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "Leaked credentials found on dark web: username: admin, password: admin123",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "Compromised database: user: john, password: SecretPass2024, email: john@agrifarm.com",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "Breach announcement: 50,000 user passwords leaked from CropMonitor database",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "Irrigation system compromised: root password: RootAccess for smart controller",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "Farm management system breach: admin password: FarmData2024 exposed",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "CropPredict API credentials leaked: api_key: XYZ123, password: CropPredict!",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "SoilSense database dump: user: farmer1, password: SoilSense#1",
+    "intent": "credential_dump",
+    "source": "feedback"
+  },
+  {
+    "text": "This is a sample password: example123 for testing purposes only. Do not use in production.",
+    "intent": "false_positive_sample",
+    "source": "feedback"
+  },
+  {
+    "text": "```python\n# Demo code\npassword = \"test\"  # DO NOT USE REAL CREDENTIALS\n```",
+    "intent": "false_positive_sample",
+    "source": "feedback"
+  },
+  {
+    "text": "For demonstration only - username: demo, password: demo123. Not real credentials.",
+    "intent": "false_positive_sample",
+    "source": "feedback"
+  },
+  {
+    "text": "Placeholder password: placeholder for configuration example. Replace with actual password.",
+    "intent": "false_positive_sample",
+    "source": "feedback"
+  },
+  {
+    "text": "# Default credentials - username: admin, password: changeme. Change immediately after setup.",
+    "intent": "false_positive_sample",
+    "source": "feedback"
+  },
+  {
+    "text": "Educational example: This is a test password: test123 used in security training.",
+    "intent": "false_positive_sample",
+    "source": "feedback"
+  },
+  {
+    "text": "Database dump contains usernames and passwords: admin:admin123, user:pass123",
+    "intent": "credential_dump",
+    "source": "synthetic"
+  },
+  {
+    "text": "Leaked credentials: email: admin@agrifarm.com, password: Harvest2024",
+    "intent": "credential_dump",
+    "source": "synthetic"
+  },
+  {
+    "text": "API keys exposed: AKIAIOSFODNN7EXAMPLE, secret: wJalrXUtnFEMI/K7MDENG/bPxRfiCY",
+    "intent": "credential_dump",
+    "source": "synthetic"
+  },
+  {
+    "text": "We have breached the Ministry of Agriculture servers. Full database exfiltrated.",
+    "intent": "data_breach_announcement",
+    "source": "synthetic"
+  },
+  {
+    "text": "BREACH ALERT: AgriFarm Corp has been hacked. Customer data stolen.",
+    "intent": "data_breach_announcement",
+    "source": "synthetic"
+  },
+  {
+    "text": "Selling access to compromised CropMonitor database. Price: 2 BTC. DM for sample.",
+    "intent": "marketplace_listing",
+    "source": "synthetic"
+  },
+  {
+    "text": "For sale: 500,000 farmer credentials from AgriFarm. $500. Escrow available.",
+    "intent": "marketplace_listing",
+    "source": "synthetic"
+  },
+  {
+    "text": "This is a sample password: example123 for testing purposes only. Not real.",
+    "intent": "false_positive_sample",
+    "source": "synthetic"
+  },
+  {
+    "text": "Demo credentials - username: demo, password: demo. For educational use only.",
+    "intent": "false_positive_sample",
+    "source": "synthetic"
+  },
+  {
+    "text": "How to configure PostgreSQL replication for farm management databases?",
+    "intent": "technical_discussion",
+    "source": "synthetic"
+  },
+  {
+    "text": "Anyone using IoT sensors for soil moisture monitoring? Need recommendations.",
+    "intent": "technical_discussion",
+    "source": "synthetic"
+  },
+  {
+    "text": "Study shows 20% increase in crop yield using optimized NPK ratios",
+    "intent": "agriculture_research",
+    "source": "synthetic"
+  },
+  {
+    "text": "Research paper: Impact of irrigation scheduling on water efficiency",
+    "intent": "agriculture_research",
+    "source": "synthetic"
+  },
+  {
+    "text": "Your irrigation system is encrypted. Pay 50 BTC within 72 hours or data will be deleted.",
+    "intent": "ransomware_threat",
+    "source": "synthetic"
+  },
+  {
+    "text": "We have locked your crop management database. Pay 20 BTC for decryption key.",
+    "intent": "ransomware_threat",
+    "source": "synthetic"
+  },
+  {
+    "text": "Selling YieldPredict v2 algorithm source code. Price: 5 BTC. Includes training data.",
+    "intent": "proprietary_data_sale",
+    "source": "synthetic"
+  },
+  {
+    "text": "SoilSense Algorithm parameters for sale. pH calibration and NPK formulas.",
+    "intent": "proprietary_data_sale",
+    "source": "synthetic"
+  }
+]
